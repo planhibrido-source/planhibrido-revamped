@@ -10,6 +10,7 @@ export const Plans = () => {
   const plans = [
     {
       name: "Plan Básico",
+      price: "$40",
       ideal: "Ideal para comercios con hasta 100 productos o solo servicios",
       features: [
         "Perfil completo de Google Business",
@@ -24,6 +25,7 @@ export const Plans = () => {
     },
     {
       name: "Plan Especial",
+      price: "$80",
       ideal: "Ideal para comercios complejos con inventario extenso",
       features: [
         "Todo lo del Plan Básico",
@@ -73,6 +75,7 @@ export const Plans = () => {
                 {/* Plan Header */}
                 <div>
                   <h3 className="text-3xl font-bold text-foreground mb-2">{plan.name}</h3>
+                  <div className="text-4xl font-bold text-primary my-3">{plan.price}</div>
                   <p className="text-muted-foreground italic">{plan.ideal}</p>
                 </div>
 
@@ -106,7 +109,7 @@ export const Plans = () => {
                   onClick={handleWhatsAppClick}
                 >
                   <Phone className="w-4 h-4" />
-                  Consultar Plan
+                  Contratar Plan
                 </Button>
               </div>
             </Card>
