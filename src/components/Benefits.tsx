@@ -1,5 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Target, TrendingUp, Users, Shield } from "lucide-react";
+import growthImg from "@/assets/benefit-growth.jpg";
+import visibilityImg from "@/assets/benefit-visibility.jpg";
 
 export const Benefits = () => {
   const benefits = [
@@ -54,6 +56,36 @@ export const Benefits = () => {
               </div>
             </Card>
           ))}
+        </div>
+
+        {/* Visual Impact Section */}
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="relative overflow-hidden rounded-2xl shadow-xl">
+            <img 
+              src={visibilityImg} 
+              alt="Mayor visibilidad local" 
+              className="w-full h-80 object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/50 to-transparent flex items-end p-8">
+              <div className="text-white">
+                <h3 className="text-2xl font-bold mb-2">Más Clientes Te Encuentran</h3>
+                <p className="text-white/90">Aumenta tu visibilidad en Google Maps</p>
+              </div>
+            </div>
+          </div>
+          <div className="relative overflow-hidden rounded-2xl shadow-xl">
+            <img 
+              src={growthImg} 
+              alt="Crecimiento sostenible" 
+              className="w-full h-80 object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 via-secondary/50 to-transparent flex items-end p-8">
+              <div className="text-white">
+                <h3 className="text-2xl font-bold mb-2">Crece Tu Negocio</h3>
+                <p className="text-white/90">Posicionamiento escalable y medible</p>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Value Proposition */}

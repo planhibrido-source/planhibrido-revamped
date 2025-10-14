@@ -1,5 +1,8 @@
 import { Card } from "@/components/ui/card";
 import { MapPinned, Camera, Star, Globe, Link2, Image, Video, Search } from "lucide-react";
+import verificationImg from "@/assets/service-verification.jpg";
+import optimizationImg from "@/assets/service-optimization.jpg";
+import photo360Img from "@/assets/service-360-photo.jpg";
 
 export const Services = () => {
   const basicServices = [
@@ -78,6 +81,40 @@ export const Services = () => {
                 </div>
               </Card>
             ))}
+          </div>
+        </div>
+
+        {/* Visual Showcase */}
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="relative overflow-hidden rounded-2xl shadow-lg group">
+            <img 
+              src={verificationImg} 
+              alt="Verificación de negocio en Google" 
+              className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+              <p className="text-white font-semibold text-lg">Verificación en Google</p>
+            </div>
+          </div>
+          <div className="relative overflow-hidden rounded-2xl shadow-lg group">
+            <img 
+              src={optimizationImg} 
+              alt="Optimización de perfil" 
+              className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+              <p className="text-white font-semibold text-lg">Perfil Optimizado</p>
+            </div>
+          </div>
+          <div className="relative overflow-hidden rounded-2xl shadow-lg group">
+            <img 
+              src={photo360Img} 
+              alt="Fotografía 360 grados" 
+              className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
+              <p className="text-white font-semibold text-lg">Tour Virtual 360°</p>
+            </div>
           </div>
         </div>
 

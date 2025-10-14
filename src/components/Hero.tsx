@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, TrendingUp } from "lucide-react";
+import heroImage from "@/assets/hero-google-maps.jpg";
 
 export const Hero = () => {
   const handleWhatsAppClick = () => {
@@ -8,13 +9,20 @@ export const Hero = () => {
 
   return (
     <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
-      {/* Gradient Background */}
-      <div className="absolute inset-0 bg-[image:var(--gradient-hero)] opacity-95" />
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <img 
+          src={heroImage} 
+          alt="Google Maps para negocios locales" 
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/80 to-secondary/90" />
+      </div>
       
       {/* Animated Background Shapes */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-secondary/20 rounded-full blur-3xl animate-pulse" />
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-accent/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: "1s" }} />
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/10 rounded-full blur-3xl animate-pulse" />
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-white/10 rounded-full blur-3xl animate-pulse" style={{ animationDelay: "1s" }} />
       </div>
 
       <div className="container relative z-10 px-4 sm:px-6 lg:px-8 py-20">
