@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export const FloatingWhatsApp = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/584140770120", "_blank");
+    window.open("https://wa.me/584240770120", "_blank");
   };
 
   return (
@@ -11,7 +11,7 @@ export const FloatingWhatsApp = () => {
       onClick={handleWhatsAppClick}
       size="icon"
       variant="hero"
-      className="fixed bottom-6 right-6 z-50 w-16 h-16 rounded-full shadow-2xl animate-pulse hover:animate-none"
+      className="fixed bottom-6 right-6 z-50 w-16 h-16 rounded-full shadow-2xl"
       aria-label="Contactar por WhatsApp"
     >
       <MessageCircle className="w-8 h-8" />
