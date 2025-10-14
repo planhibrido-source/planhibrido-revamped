@@ -1,0 +1,142 @@
+import { Card } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Check, Phone } from "lucide-react";
+
+export const Plans = () => {
+  const handleWhatsAppClick = () => {
+    window.open("https://wa.me/584140770120", "_blank");
+  };
+
+  const plans = [
+    {
+      name: "Plan Básico",
+      ideal: "Ideal para comercios con hasta 100 productos o solo servicios",
+      features: [
+        "Perfil completo de Google Business",
+        "Catálogo hasta 2,000 productos/servicios",
+        "Página web informativa",
+        "Integración con WhatsApp",
+        "Fotos profesionales del local",
+        "Configuración de horarios y contacto",
+      ],
+      examples: "Panaderías, peluquerías, fruterías, veterinarias, hoteles, profesionales independientes",
+      color: "primary",
+    },
+    {
+      name: "Plan Especial",
+      ideal: "Ideal para comercios complejos con inventario extenso",
+      features: [
+        "Todo lo del Plan Básico",
+        "Sitio web completo con base de datos",
+        "Carrito de compras integrado",
+        "Sistema automatizado de pedidos",
+        "Respaldo en la nube",
+        "Gestión avanzada de inventario",
+        "Actualizaciones automáticas",
+      ],
+      examples: "Tiendas de repuestos, mercerías, comercios de alimentos, centros comerciales, tiendas por departamento",
+      color: "secondary",
+      featured: true,
+    },
+  ];
+
+  return (
+    <section id="planes" className="py-20 px-4 sm:px-6 lg:px-8 bg-background">
+      <div className="container mx-auto max-w-7xl">
+        {/* Header */}
+        <div className="text-center mb-16 space-y-4">
+          <h2 className="text-4xl sm:text-5xl font-bold text-foreground">
+            Planes de Digitalización
+          </h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Diseñados para locales comerciales que no aparecen en Google Maps y quieren aumentar su visibilidad
+          </p>
+        </div>
+
+        {/* Plans Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          {plans.map((plan, idx) => (
+            <Card 
+              key={idx}
+              className={`p-8 relative overflow-hidden transition-all duration-300 hover:shadow-2xl ${
+                plan.featured ? 'border-2 border-secondary shadow-lg scale-105' : 'hover:-translate-y-2'
+              }`}
+            >
+              {/* Featured Badge */}
+              {plan.featured && (
+                <div className="absolute top-0 right-0 bg-secondary text-secondary-foreground px-4 py-1 text-sm font-semibold">
+                  Recomendado
+                </div>
+              )}
+
+              <div className="space-y-6">
+                {/* Plan Header */}
+                <div>
+                  <h3 className="text-3xl font-bold text-foreground mb-2">{plan.name}</h3>
+                  <p className="text-muted-foreground italic">{plan.ideal}</p>
+                </div>
+
+                {/* Features List */}
+                <div className="space-y-3">
+                  {plan.features.map((feature, fIdx) => (
+                    <div key={fIdx} className="flex items-start gap-3">
+                      <div className={`w-5 h-5 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 ${
+                        plan.color === 'primary' ? 'bg-primary/10' : 'bg-secondary/10'
+                      }`}>
+                        <Check className={`w-3 h-3 ${
+                          plan.color === 'primary' ? 'text-primary' : 'text-secondary'
+                        }`} />
+                      </div>
+                      <span className="text-sm text-foreground">{feature}</span>
+                    </div>
+                  ))}
+                </div>
+
+                {/* Examples */}
+                <div className="p-4 bg-muted/50 rounded-lg">
+                  <p className="text-sm font-medium text-foreground mb-2">Ideal para:</p>
+                  <p className="text-sm text-muted-foreground">{plan.examples}</p>
+                </div>
+
+                {/* CTA Button */}
+                <Button 
+                  variant={plan.featured ? "secondary" : "default"}
+                  size="lg"
+                  className="w-full"
+                  onClick={handleWhatsAppClick}
+                >
+                  <Phone className="w-4 h-4" />
+                  Consultar Plan
+                </Button>
+              </div>
+            </Card>
+          ))}
+        </div>
+
+        {/* Process Timeline */}
+        <div className="mt-20 p-8 bg-muted/30 rounded-2xl">
+          <h3 className="text-2xl font-bold text-foreground mb-8 text-center">
+            ¿Cuánto tiempo tarda el proceso?
+          </h3>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div className="text-center p-6">
+              <div className="text-4xl font-bold text-primary mb-2">3-6 semanas</div>
+              <p className="text-sm text-muted-foreground">Verificación del negocio</p>
+            </div>
+            <div className="text-center p-6">
+              <div className="text-4xl font-bold text-secondary mb-2">1-3 días</div>
+              <p className="text-sm text-muted-foreground">Edición del perfil verificado</p>
+            </div>
+            <div className="text-center p-6">
+              <div className="text-4xl font-bold text-accent mb-2">3 semanas</div>
+              <p className="text-sm text-muted-foreground">Administración del perfil</p>
+            </div>
+          </div>
+          <p className="text-center text-sm text-muted-foreground mt-6">
+            *El proceso completo puede tomar de 2 a 8 semanas dependiendo de la validación de Google
+          </p>
+        </div>
+      </div>
+    </section>
+  );
+};

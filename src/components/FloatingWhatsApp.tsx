@@ -1,0 +1,20 @@
+import { MessageCircle } from "lucide-react";
+import { Button } from "@/components/ui/button";
+
+export const FloatingWhatsApp = () => {
+  const handleWhatsAppClick = () => {
+    window.open("https://wa.me/584140770120", "_blank");
+  };
+
+  return (
+    <Button
+      onClick={handleWhatsAppClick}
+      size="icon"
+      variant="hero"
+      className="fixed bottom-6 right-6 z-50 w-16 h-16 rounded-full shadow-2xl animate-pulse hover:animate-none"
+      aria-label="Contactar por WhatsApp"
+    >
+      <MessageCircle className="w-8 h-8" />
+    </Button>
+  );
+};
