@@ -125,16 +125,16 @@ export const Services = () => {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
             <div className="p-4">
-              <p className="font-medium text-foreground">🖥️Desarrollo de Página Web</p>
+              <p className="font-medium text-foreground">🖥️ Desarrollo de Página Web</p>
             </div>
             <div className="p-4">
-              <p className="font-medium text-foreground">🕸️Desarrollo de Sitio Web</p>
+              <p className="font-medium text-foreground">🕸️ Desarrollo de Sitio Web</p>
             </div>
             <div className="p-4">
-              <p className="font-medium text-foreground">📱Desarrollo de App Web</p>
+              <p className="font-medium text-foreground">📱 Desarrollo de App Web</p>
             </div>
             <div className="p-4">
-              <p className="font-medium text-foreground">🛒Catálogo en Mercadolibre</p>
+              <p className="font-medium text-foreground">🛒 Catálogo en Mercadolibre</p>
             </div>
           </div>
         </div>
