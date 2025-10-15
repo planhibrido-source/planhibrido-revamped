@@ -18,7 +18,7 @@ export const Benefits = () => {
     {
       icon: Users,
       title: "Conexión con Clientes",
-      description: "Facilita que clientes interesados encuentren su negocio con precisión y accedan a información útil.",
+      description: "Facilite que clientes interesados encuentren su negocio con precisión y accedan a información útil.",
     },
     {
       icon: Shield,
