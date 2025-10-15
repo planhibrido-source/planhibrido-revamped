@@ -127,7 +127,7 @@ export const Plans = () => {
               <p className="text-sm text-muted-foreground">Verificación del negocio</p>
             </div>
             <div className="text-center p-6">
-              <div className="text-4xl font-bold text-secondary mb-2">1-3   días</div>
+              <div className="text-4xl font-bold text-secondary mb-2">1-3 <br></br>días</div>
               <p className="text-sm text-muted-foreground">Edición del perfil verificado</p>
             </div>
             <div className="text-center p-6">
