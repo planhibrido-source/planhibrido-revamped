@@ -8,7 +8,7 @@ export const Benefits = () => {
     {
       icon: Target,
       title: "Mayor Visibilidad Local",
-      description: "Aparece en las búsquedas de Google Maps cuando los clientes buscan servicios como el tuyo en tu área.",
+      description: "Aparezca en las búsquedas de Google Maps cuando los clientes buscan servicios como el suyo en su área.",
     },
     {
       icon: TrendingUp,
@@ -18,12 +18,12 @@ export const Benefits = () => {
     {
       icon: Users,
       title: "Conexión con Clientes",
-      description: "Facilita que clientes interesados encuentren tu negocio con precisión y accedan a información útil.",
+      description: "Facilita que clientes interesados encuentren su negocio con precisión y accedan a información útil.",
     },
     {
       icon: Shield,
       title: "Seguridad Digital",
-      description: "Transformación digital segura y adaptada a las necesidades de tu negocio con soporte especializado.",
+      description: "Transformación digital segura y adaptada a las necesidades de su negocio con soporte especializado.",
     },
   ];
 
@@ -68,8 +68,8 @@ export const Benefits = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/50 to-transparent flex items-end p-8">
               <div className="text-white">
-                <h3 className="text-2xl font-bold mb-2">Más Clientes Te Encuentran</h3>
-                <p className="text-white/90">Aumenta tu visibilidad en Google Maps</p>
+                <h3 className="text-2xl font-bold mb-2">Más Clientes Lo Encuentran</h3>
+                <p className="text-white/90">Aumente su visibilidad en Google Maps</p>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ export const Benefits = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 via-secondary/50 to-transparent flex items-end p-8">
               <div className="text-white">
-                <h3 className="text-2xl font-bold mb-2">Crece Tu Negocio</h3>
+                <h3 className="text-2xl font-bold mb-2">Haga Crecer Su Negocio</h3>
                 <p className="text-white/90">Posicionamiento escalable y medible</p>
               </div>
             </div>

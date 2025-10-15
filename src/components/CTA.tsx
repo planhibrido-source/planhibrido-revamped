@@ -24,7 +24,7 @@ export const CTA = () => {
             ¿Listo para Aparecer en Google Maps?
           </h2>
           <p className="text-xl text-white/90 max-w-2xl mx-auto">
-            Contáctanos hoy y comienza a generar más visibilidad para tu negocio local
+            Contáctenos hoy y comience a generar más visibilidad para su negocio local
           </p>
 
           {/* CTA Buttons */}
