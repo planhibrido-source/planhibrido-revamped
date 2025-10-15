@@ -103,7 +103,7 @@ export const Services = () => {
               className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
-              <p className="text-white font-semibold text-lg">Optimización del Perfil de Google</p>
+              <p className="text-white font-semibold text-lg">Optimización del Perfil</p>
             </div>
           </div>
           <div className="relative overflow-hidden rounded-2xl shadow-lg group">
@@ -113,7 +113,7 @@ export const Services = () => {
               className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
-              <p className="text-white font-semibold text-lg">Tour Virtual 360°</p>
+              <p className="text-white font-semibold text-lg">Fotos Profesionales</p>
             </div>
           </div>
         </div>
