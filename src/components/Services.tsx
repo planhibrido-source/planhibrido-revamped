@@ -14,7 +14,7 @@ export const Services = () => {
 
   const advancedServices = [
     { icon: Search, title: "Verificación", desc: "Proceso completo de validación" },
-    { icon: Camera, title: "Fotos", desc: "Virtualizamos el ambiente" },
+    { icon: Camera, title: "Fotos", desc: "Digitalizamos el ambiente del local" },
     { icon: Star, title: "Experiencias", desc: "Gestión de reseñas de clientes" },
     { icon: Globe, title: "Optimización SEO", desc: "Mejor posicionamiento en búsquedas" },
     { icon: Video, title: "Video Referencia", desc: "Contenido visual desde puntos clave" },
