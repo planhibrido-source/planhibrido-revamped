@@ -14,7 +14,7 @@ export const Hero = () => {
         <img 
           src={heroImage} 
           alt="Google Maps para negocios locales" 
-          className="w-full h-full object-cover object-center md:object-center scale-125 md:scale-100"
+          className="w-full h-full object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/90 via-primary/80 to-secondary/90" />
       </div>
