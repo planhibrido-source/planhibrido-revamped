@@ -123,7 +123,7 @@ export const Plans = () => {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="text-center p-6">
-              <div className="text-4xl font-bold text-primary mb-2">3-6 semanas</div>
+              <div className="text-4xl font-bold text-primary mb-2">3-6 <br></br>semanas</div>
               <p className="text-sm text-muted-foreground">Verificación del negocio</p>
             </div>
             <div className="text-center p-6">
