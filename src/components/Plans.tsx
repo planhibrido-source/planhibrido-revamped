@@ -15,12 +15,12 @@ export const Plans = () => {
       features: [
         "Perfil completo de Google Business",
         "Catálogo hasta 2,000 productos/servicios",
-        "Página web informativa",
+        "Página impresa informativa",
         "Integración con WhatsApp",
         "Fotos profesionales del local",
         "Configuración de horarios y contacto",
       ],
-      examples: "Panaderías, peluquerías, fruterías, veterinarias, hoteles, profesionales independientes",
+      examples: "Panaderías, peluquerías, fruterías, veterinarias, hoteles, comercios en general",
       color: "primary",
     },
     {
@@ -28,7 +28,7 @@ export const Plans = () => {
       price: "$80",
       ideal: "Ideal para comercios complejos con inventario extenso",
       features: [
-        "Todo lo del Plan Básico",
+        "Todo lo incluido en el Plan Básico",
         "Sitio web completo con base de datos",
         "Carrito de compras integrado",
         "Sistema automatizado de pedidos",
@@ -127,11 +127,11 @@ export const Plans = () => {
               <p className="text-sm text-muted-foreground">Verificación del negocio</p>
             </div>
             <div className="text-center p-6">
-              <div className="text-4xl font-bold text-secondary mb-2">1-3 días</div>
+              <div className="text-4xl font-bold text-secondary mb-2">1-3 días   </div>
               <p className="text-sm text-muted-foreground">Edición del perfil verificado</p>
             </div>
             <div className="text-center p-6">
-              <div className="text-4xl font-bold text-accent mb-2">3 semanas</div>
+              <div className="text-4xl font-bold text-accent mb-2">3 semanas   </div>
               <p className="text-sm text-muted-foreground">Administración del perfil</p>
             </div>
           </div>
