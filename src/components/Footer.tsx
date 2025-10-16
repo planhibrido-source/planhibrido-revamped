@@ -1,6 +1,11 @@
 import { MapPin, Phone, Mail } from "lucide-react";
+import logoPlnImage from "@/assets/logo-pln.png";
 
 export const Footer = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <footer className="bg-foreground text-background py-12 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-7xl">
@@ -54,8 +59,23 @@ export const Footer = () => {
         </div>
 
         {/* Bottom */}
-        <div className="pt-8 border-t border-background/20 text-center text-sm text-background/60">
-          <p>&copy;2023-{new Date().getFullYear()} PLN Mérida Venezuela. Todos los derechos reservados.</p>
+        <div className="pt-8 border-t border-background/20">
+          {/* Back to Top Button */}
+          <div className="flex justify-center mb-6">
+            <button
+              onClick={scrollToTop}
+              className="flex items-center gap-3 px-6 py-3 bg-background text-foreground rounded-lg hover:bg-background/90 transition-all hover:scale-105 shadow-lg"
+              aria-label="Volver arriba"
+            >
+              <img src={logoPlnImage} alt="PLN Logo" className="w-8 h-8" />
+              <span className="font-semibold">Volver arriba</span>
+              <span className="text-xl">⬆️</span>
+            </button>
+          </div>
+          
+          <div className="text-center text-sm text-background/60">
+            <p>&copy;2023-{new Date().getFullYear()} PLN Mérida Venezuela. Todos los derechos reservados.</p>
+          </div>
         </div>
       </div>
     </footer>
