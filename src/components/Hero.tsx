@@ -67,10 +67,10 @@ export const Hero = () => {
               variant="outline" 
               size="xl"
               className="bg-white/10 backdrop-blur-sm text-white border-white/30 hover:bg-white/20"
-              onClick={() => document.getElementById('servicios')?.scrollIntoView({ behavior: 'smooth' })}
+              onClick={() => document.getElementById('planes')?.scrollIntoView({ behavior: 'smooth' })}
             >
               <TrendingUp className="w-5 h-5" />
-              Ver Servicios
+              Ver Planes
             </Button>
           </div>
 
