@@ -33,7 +33,7 @@ export const Plans = () => {
         "Carrito de compras en App",
         "Sistema automatizado de pedidos",
         "Respaldo en la nube",
-        "Inventario de hasta 18.000 items",
+        "Inventario de hasta 18,000 items",
         "Dominio Web por 30 USD Anuales",
       ],
       examples: "Tiendas de repuestos, mercerías, comercios de alimentos, centros comerciales, tiendas por departamento",
