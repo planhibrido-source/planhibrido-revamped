@@ -34,10 +34,13 @@ export const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-lg font-semibold">Servicios</h4>
             <ul className="space-y-2 text-sm text-background/80">
-              <li>Google Business Profile</li>
+              <li>Administración del Perfil de Google</li>
               <li>Verificación de Negocios</li>
               <li>Optimización SEO Local</li>
               <li>Desarrollo Web</li>
+              <li>Fotografía de Lugares</li>
+              <li>Fotografía de Espacios</li>
+              <li>Diseño Gráfico</li>
             </ul>
           </div>
         </div>
