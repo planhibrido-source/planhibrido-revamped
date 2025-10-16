@@ -1,4 +1,4 @@
-import { Card } from "@/components/ui/card";
+ Appimport { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Check, ClipboardList } from "lucide-react";
 
@@ -30,11 +30,11 @@ export const Plans = () => {
       features: [
         "Todo lo incluido en el Plan Básico",
         "Sitio web completo con base de datos",
-        "Carrito de compras integrado",
+        "Carrito de compras en App",
         "Sistema automatizado de pedidos",
         "Respaldo en la nube",
-        "Gestión avanzada de inventario",
-        "Actualizaciones automáticas",
+        "Gestión avanzada de inventario de hasta 18.000 items",
+        "Sitio web con dominio en 6 semanas por 120 USD (30 Anual)",
       ],
       examples: "Tiendas de repuestos, mercerías, comercios de alimentos, centros comerciales, tiendas por departamento",
       color: "secondary",
