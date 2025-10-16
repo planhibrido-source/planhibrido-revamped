@@ -11,7 +11,7 @@ export const Plans = () => {
     {
       name: "Plan Básico",
       price: "$40",
-      ideal: "Ideal para comercios con hasta 100 productos o solo servicios",
+      ideal: "Ideal para comercios con con pocos productos o solo servicios",
       features: [
         "Perfil completo de Google Business",
         "Catálogo hasta 2,000 productos/servicios",
@@ -51,7 +51,7 @@ export const Plans = () => {
             Planes de Digitalización
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Diseñados para locales comerciales que no aparecen en Google Maps y quieren aumentar su visibilidad
+            Diseñados tanto como para locales comerciales que no aparecen en Google Maps, como para los que ya aparecen en Google pero quieren aumentar su visibilidad
           </p>
         </div>
 
