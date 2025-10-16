@@ -1,6 +1,33 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, TrendingUp } from "lucide-react";
 import heroImage from "@/assets/hero-google-maps.jpg";
+import { useState, useEffect } from "react";
+
+const CountUp = ({ end }: { end: number }) => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    const duration = 2000; // 2 seconds
+    const steps = 60;
+    const increment = end / steps;
+    const stepDuration = duration / steps;
+    
+    let current = 0;
+    const timer = setInterval(() => {
+      current += increment;
+      if (current >= end) {
+        setCount(end);
+        clearInterval(timer);
+      } else {
+        setCount(Math.floor(current));
+      }
+    }, stepDuration);
+
+    return () => clearInterval(timer);
+  }, [end]);
+
+  return <>{count}+</>;
+};
 
 export const Hero = () => {
   const handleWhatsAppClick = () => {
@@ -77,7 +104,9 @@ export const Hero = () => {
           {/* Trust Indicators */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-12 animate-fade-in" style={{ animationDelay: "0.5s" }}>
             <div className="text-center">
-              <div className="text-3xl font-bold text-white">100+</div>
+              <div className="text-3xl font-bold text-white">
+                <CountUp end={100} />
+              </div>
               <div className="text-white/80 text-sm">Negocios Registrados</div>
             </div>
             <div className="text-center">
