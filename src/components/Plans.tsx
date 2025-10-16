@@ -51,7 +51,7 @@ export const Plans = () => {
             Planes de Digitalización
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Diseñados para ajustarse a locales comerciales que no aparecen en Google Maps tanto como para los que ya aparecen, pero quieren aumentar su visibilidad
+            Diseñados para ajustarse a locales comerciales que no aparecen en Google Maps, tanto como para los que ya aparecen pero quieren aumentar su visibilidad
           </p>
         </div>
 
