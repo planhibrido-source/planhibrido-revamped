@@ -1,10 +1,10 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Check, Phone } from "lucide-react";
+import { Check, ClipboardList } from "lucide-react";
 
 export const Plans = () => {
-  const handleWhatsAppClick = () => {
-    window.open("https://wa.me/584140770120", "_blank");
+  const handleFormClick = () => {
+    window.open("https://forms.gle/9q8EfPCUETcT8chH6", "_blank");
   };
 
   const plans = [
@@ -106,9 +106,9 @@ export const Plans = () => {
                   variant={plan.featured ? "secondary" : "default"}
                   size="lg"
                   className="w-full"
-                  onClick={handleWhatsAppClick}
+                  onClick={handleFormClick}
                 >
-                  <Phone className="w-4 h-4" />
+                  <ClipboardList className="w-4 h-4" />
                   Contratar Plan
                 </Button>
               </div>
