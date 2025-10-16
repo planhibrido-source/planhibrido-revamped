@@ -25,7 +25,14 @@ export const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
-                <span>Mérida, Venezuela</span>
+                <a 
+                  href="https://www.google.com/maps/place/M%C3%A9rida/@8.5926885,-71.20883,13z/data=!4m6!3m5!1s0x8e648721ba42e8dd:0x5df63fea56d56c66!8m2!3d8.5698244!4d-71.1804988!16s%2Fm%2F02wzm2d?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-secondary transition-colors"
+                >
+                  Mérida, Venezuela
+                </a>
               </div>
             </div>
           </div>
