@@ -40,6 +40,7 @@ export const Footer = () => {
               <li>Desarrollo Web</li>
               <li>Fotografía de Lugares</li>
               <li>Fotografía de Espacios</li>
+              <li>Fotografía de Personal</li>
               <li>Diseño Gráfico</li>
             </ul>
           </div>
@@ -47,7 +48,7 @@ export const Footer = () => {
 
         {/* Bottom */}
         <div className="pt-8 border-t border-background/20 text-center text-sm text-background/60">
-          <p>&copy; {new Date().getFullYear()} PLN Mérida Venezuela. Todos los derechos reservados.</p>
+          <p>&copy;2023-{new Date().getFullYear()} PLN Mérida Venezuela. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
