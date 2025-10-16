@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { MapPinned, Camera, Star, Globe, Link2, Image, Video, Search } from "lucide-react";
-import verificationImg from "@/assets/service-verification.jpg";
+import verificationImg from "@/assets/service-verification.png";
 import optimizationImg from "@/assets/service-optimization.jpg";
 import photo360Img from "@/assets/service-360-photo.jpg";
 
