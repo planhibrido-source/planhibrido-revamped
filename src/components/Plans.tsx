@@ -35,7 +35,7 @@ export const Plans = () => {
         "Respaldo en la nube",
         "Inventario de hasta 18,000 items",
         "Dominio Web por 30 USD Anuales",
-        "200 fotos profesionales de servicios/productos",
+        "100 fotos profesionales de servicios/productos adicionales",
       ],
       examples: "Tiendas de repuestos, mercerías, comercios de alimentos, centros comerciales, tiendas por departamento",
       color: "secondary",
