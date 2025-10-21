@@ -115,7 +115,7 @@ export const Hero = () => {
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-white">2-8 sem</div>
-              <div className="text-white/80 text-sm">Tiempo de Proceso</div>
+              <div className="text-white/80 text-sm">Tiempo del Proceso</div>
             </div>
           </div>
         </div>
