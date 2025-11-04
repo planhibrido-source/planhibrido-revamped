@@ -1,5 +1,8 @@
 import { Card } from "@/components/ui/card";
 import { DollarSign, CreditCard, Repeat } from "lucide-react";
+import paymentCash from "@/assets/payment-cash.jpg";
+import paymentInstallments from "@/assets/payment-installments.jpg";
+import paymentExchange from "@/assets/payment-exchange.jpg";
 
 export const PaymentMethods = () => {
   const methods = [
@@ -8,6 +11,7 @@ export const PaymentMethods = () => {
       title: "De Contado",
       description: "Divisas en efectivo, Zelle o Binance",
       color: "primary",
+      image: paymentCash,
     },
     {
       icon: CreditCard,
@@ -17,12 +21,14 @@ export const PaymentMethods = () => {
         "PLaN Especial en 12 partes de $10 o 6 partes de $20",
       ],
       color: "secondary",
+      image: paymentInstallments,
     },
     {
       icon: Repeat,
       title: "Intercambio P2P",
       description: "Por productos y/o servicios equivalentes a $60 por el PLaN Básico y $120 por el PLaN Especial",
       color: "accent",
+      image: paymentExchange,
     },
   ];
 
@@ -44,24 +50,33 @@ export const PaymentMethods = () => {
             return (
               <Card
                 key={idx}
-                className="p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2"
+                className="p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 overflow-hidden"
               >
-                <div className="flex flex-col items-center text-center space-y-4">
-                  <div className={`w-16 h-16 rounded-full flex items-center justify-center ${
-                    method.color === 'primary' ? 'bg-primary/10' :
-                    method.color === 'secondary' ? 'bg-secondary/10' :
-                    'bg-accent/10'
-                  }`}>
-                    <Icon className={`w-8 h-8 ${
-                      method.color === 'primary' ? 'text-primary' :
-                      method.color === 'secondary' ? 'text-secondary' :
-                      'text-accent'
-                    }`} />
+                <div className="flex flex-col space-y-4">
+                  <div className="relative w-full h-48 mb-4 rounded-lg overflow-hidden">
+                    <img 
+                      src={method.image} 
+                      alt={method.title}
+                      className="w-full h-full object-cover"
+                    />
                   </div>
                   
-                  <h3 className="text-2xl font-bold text-foreground">
-                    {method.title}
-                  </h3>
+                  <div className="flex flex-col items-center text-center space-y-4">
+                    <div className={`w-16 h-16 rounded-full flex items-center justify-center ${
+                      method.color === 'primary' ? 'bg-primary/10' :
+                      method.color === 'secondary' ? 'bg-secondary/10' :
+                      'bg-accent/10'
+                    }`}>
+                      <Icon className={`w-8 h-8 ${
+                        method.color === 'primary' ? 'text-primary' :
+                        method.color === 'secondary' ? 'text-secondary' :
+                        'text-accent'
+                      }`} />
+                    </div>
+                    
+                    <h3 className="text-2xl font-bold text-foreground">
+                      {method.title}
+                    </h3>
                   
                   {method.description && (
                     <p className="text-muted-foreground">
@@ -69,18 +84,19 @@ export const PaymentMethods = () => {
                     </p>
                   )}
                   
-                  {method.options && (
-                    <div className="space-y-2 w-full">
-                      {method.options.map((option, oIdx) => (
-                        <div
-                          key={oIdx}
-                          className="p-3 bg-muted/50 rounded-lg text-sm text-foreground"
-                        >
-                          {option}
-                        </div>
-                      ))}
-                    </div>
-                  )}
+                    {method.options && (
+                      <div className="space-y-2 w-full">
+                        {method.options.map((option, oIdx) => (
+                          <div
+                            key={oIdx}
+                            className="p-3 bg-muted/50 rounded-lg text-sm text-foreground"
+                          >
+                            {option}
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
                 </div>
               </Card>
             );
