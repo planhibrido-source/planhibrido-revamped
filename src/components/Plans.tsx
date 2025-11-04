@@ -10,7 +10,7 @@ export const Plans = () => {
   const plans = [
     {
       name: "Plan Básico",
-      price: "$40",
+      price: "$40(30%+ BCV)",
       ideal: "Ideal para comercios con con pocos productos o solo servicios",
       features: [
         "Perfil completo de Google Business",
@@ -25,7 +25,7 @@ export const Plans = () => {
     },
     {
       name: "Plan Especial",
-      price: "$80",
+      price: "$80(30%+ BCV)",
       ideal: "Ideal para comercios complejos con inventario extenso",
       features: [
         "Todo lo incluido en el Plan Básico",
@@ -137,7 +137,7 @@ export const Plans = () => {
             </div>
           </div>
           <p className="text-center text-sm text-muted-foreground mt-6">
-            *El proceso completo puede tomar de 2 a 8 semanas dependiendo de la validación de Google
+            *El proceso completo puede tomar de 4 a 8 semanas o más dependiendo de la validación de Google
           </p>
         </div>
       </div>
