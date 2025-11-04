@@ -13,15 +13,15 @@ export const PaymentMethods = () => {
       icon: CreditCard,
       title: "Por Partes",
       options: [
-        "3 partes de $20 c/u o 6 partes de $20 c/u",
-        "6 partes de $10 c/u o 12 partes de $10 c/u",
+        "PLaN Básico en 3 partes de $20 o en 6 partes de $10",
+        "PLaN Especial en 12 partes de $10 o 6 partes de $20",
       ],
       color: "secondary",
     },
     {
       icon: Repeat,
-      title: "Intercambio",
-      description: "Productos y/o servicios equivalentes a $60 o $120 según el plan",
+      title: "Intercambio P2P",
+      description: "Por productos y/o servicios equivalentes a $60 por el PLaN Básico y $120 por el PLaN Especial",
       color: "accent",
     },
   ];
