@@ -48,12 +48,13 @@ export const Footer = () => {
             <ul className="space-y-2 text-sm text-background/80">
               <li>Administración del Perfil de Google</li>
               <li>Verificación de Negocios</li>
-              <li>Optimización SEO Local</li>
-              <li>Desarrollo Web</li>
-              <li>Fotografía de Lugares</li>
-              <li>Fotografía de Espacios</li>
-              <li>Fotografía de Personal</li>
+              <li>Optimización de busquedas locales</li>
+              <li>Desarrollo Web: Páginas, sitios y Apps</li>
               <li>Diseño Gráfico</li>
+              <li>Fotografía Comercial:</li>
+              <li>Fotografía de Interiores</li>
+              <li>Fotografía de Exteriores</li>
+              <li>Fotografía de Personal</li>
             </ul>
           </div>
         </div>
