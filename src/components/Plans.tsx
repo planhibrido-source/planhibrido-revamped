@@ -19,7 +19,7 @@ export const Plans = () => {
         "Página informativa del negocio, imprimible, en tamaño carta y en formato .PDF",
         "Integración con redes: WhatsApp, Instagram, FaceBook, TikTok, Youtube y otras",
         "Creación de 100 Productos y/o Servicios en el perfil de negocios",
-        "Dominio Web por 60 USD adicionales",
+        "Dominio Web por 3 años, 60 USD adicionales",
         "Página web de Inicio o Landing Page editable, con toda la información del local y optimizada para busquedas relacionadas a los productos y/o servicios ofrecidos",
       ],
       examples: "Panaderías, profesionales, abastos, fruterías, clinicas, hoteles y comercios en general",
