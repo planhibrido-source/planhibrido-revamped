@@ -1,4 +1,4 @@
- import { Card } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Check, ClipboardList } from "lucide-react";
 
@@ -13,15 +13,16 @@ export const Plans = () => {
       price: "$40(30%+ BCV)",
       ideal: "Ideal para comercios con con pocos productos o solo servicios",
       features: [
-        "Edición completa del Perfil de negocios de Google",
+        "Edición básica del Perfil de negocios de Google",
+        "Fotos del interior y exterior del local comercial",
         "Catálogo web con capacidad de hasta 3,000 productos/servicios",
         "Página informativa del negocio, imprimible, en tamaño carta y en formato .PDF",
-        "Integración con redes: WhatsApp, Instagram, Facebook, TikTok, Youtube y otras",
+        "Integración con redes: WhatsApp, Instagram, FaceBook, TikTok, Youtube y otras",
         "Creación de 100 Productos y/o Servicios en el perfil de negocios",
         "Dominio Web por 60 USD adicionales",
         "Página web de Inicio o Landing Page editable, con toda la información del local y optimizada para busquedas relacionadas a los productos y/o servicios ofrecidos",
       ],
-      examples: "Panaderías, peluquerías, fruterías, veterinarias, hoteles, comercios en general",
+      examples: "Panaderías, profesionales, abastos, fruterías, clinicas, hoteles y comercios en general",
       color: "primary",
     },
     {
@@ -30,14 +31,14 @@ export const Plans = () => {
       ideal: "Ideal para comercios complejos con inventario extenso",
       features: [
         "Todo lo incluido en el Plan Básico",
-        "Sitio web completo con base de datos",
-        "Carrito de compras en App",
-        "Sistema automatizado de pedidos",
+        "2 Videos desde puntos de referencia",
+        "Carrito de compras al WhatsApp",
+        "Creación de actualizaciones, promociones, ofertas y eventos",
         "Respaldo en la nube",
         "Inventario de hasta 18,000 items",
         "100 productos/servicios adicionales para el perfil",
       ],
-      examples: "Tiendas de repuestos, mercerías, comercios de alimentos, centros comerciales, tiendas por departamento",
+      examples: "Tiendas de repuestos, mercerías, zapaterias, comercios de alimentos, centros comerciales, tiendas por departamento y más",
       color: "secondary",
       featured: true,
     },
