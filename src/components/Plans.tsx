@@ -14,7 +14,7 @@ export const Plans = () => {
       ideal: "Ideal para comercios con con pocos productos o solo servicios",
       features: [
         "Edición básica del Perfil de negocios de Google",
-        "Precio de pago único o anual",
+        "Precio de pago único",
         "Fotos del interior y exterior del local comercial",
         "Catálogo web con capacidad de hasta 3,000 productos/servicios",
         "Página informativa del negocio, imprimible, en tamaño carta y en formato .PDF",
