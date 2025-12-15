@@ -39,6 +39,7 @@ export const Plans = () => {
         "Creación de actualizaciones, promociones, ofertas y eventos",
         "Respaldo en la nube",
         "Inventario de hasta 18,000 items",
+        "Optimización del motor de búsquedas de Google",
         "100 productos/servicios adicionales para el perfil y la página",
       ],
       examples: "Tiendas de repuestos, mercerías, zapaterias, comercios de alimentos, centros comerciales, tiendas por departamento y más",
