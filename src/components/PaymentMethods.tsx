@@ -17,8 +17,8 @@ export const PaymentMethods = () => {
       icon: CreditCard,
       title: "Por Partes",
       options: [
-        "PLaN Básico en 3 partes de $20 o en 6 partes de $10",
-        "PLaN Especial en 12 partes de $10 o 6 partes de $20",
+        "PLaN Básico en 3 partes de $25 o en 5 partes de $15",
+        "PLaN Especial en 4 partes de $30 o 6 partes de $20",
       ],
       color: "secondary",
       image: paymentInstallments,
