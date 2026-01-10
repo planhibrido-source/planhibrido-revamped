@@ -107,6 +107,19 @@ All colors MUST be HSL.
   }
 }
 
+@keyframes pulse-green {
+  0%, 100% {
+    color: hsl(142 76% 45%);
+  }
+  50% {
+    color: hsl(142 76% 35%);
+  }
+}
+
+.animate-pulse-green {
+  animation: pulse-green 1.5s ease-in-out infinite;
+}
+
 @layer base {
   * {
     @apply border-border;
