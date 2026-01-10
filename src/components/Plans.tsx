@@ -11,6 +11,7 @@ export const Plans = () => {
     {
       name: "Plan Básico",
       price: "$60(Efectivo, Zelle, Binance)",
+      discountPrice: "$40 Sin dominio",
       ideal: "Ideal para comercios con con pocos productos o solo servicios",
       features: [
         "Edición básica del Perfil de negocios de Google",
@@ -82,6 +83,9 @@ export const Plans = () => {
                 <div>
                   <h3 className="text-3xl font-bold text-foreground mb-2">{plan.name}</h3>
                   <div className="text-4xl font-bold text-primary my-3">{plan.price}</div>
+                  {plan.discountPrice && (
+                    <div className="text-2xl font-bold animate-pulse-green my-2">{plan.discountPrice}</div>
+                  )}
                   <p className="text-muted-foreground italic">{plan.ideal}</p>
                 </div>
 
