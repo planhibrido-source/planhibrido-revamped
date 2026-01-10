@@ -11,7 +11,7 @@ export const Plans = () => {
     {
       name: "Plan Básico",
       price: "$60(Efectivo, Zelle, Binance)",
-      discountPrice: "$40 Sin dominio",
+      discountPrice: "$40 Sin dominio web",
       ideal: "Ideal para comercios con con pocos productos o solo servicios",
       features: [
         "Edición básica del Perfil de negocios de Google",
