@@ -31,6 +31,7 @@ export const Plans = () => {
     {
       name: "Plan Especial",
       price: "$100(Efectivo, Zelle, Binance)",
+      discountPrice: "$80 Sin dominio web",
       ideal: "Ideal para comercios complejos con inventario extenso",
       features: [
         "Todo lo incluido en el Plan Básico",
