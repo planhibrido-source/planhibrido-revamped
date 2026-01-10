@@ -51,7 +51,7 @@ export const Footer = () => {
               <li>Optimización de busquedas locales</li>
               <li>Desarrollo Web: Páginas, sitios y Apps</li>
               <li>Diseño Gráfico</li>
-              <li><b></>Fotografía Comercial:</b></li>
+              <li><b>Fotografía Comercial:</b></li>
               <li>Fotografía de Interiores</li>
               <li>Fotografía de Exteriores</li>
               <li>Fotografía de Personal</li>
