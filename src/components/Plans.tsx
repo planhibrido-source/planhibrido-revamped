@@ -10,7 +10,7 @@ export const Plans = () => {
   const plans = [
     {
       name: "Plan Básico",
-      price: "$60(30%+ BCV)",
+      price: "$60(Efectivo, Zelle, Binance)",
       ideal: "Ideal para comercios con con pocos productos o solo servicios",
       features: [
         "Edición básica del Perfil de negocios de Google",
@@ -29,7 +29,7 @@ export const Plans = () => {
     },
     {
       name: "Plan Especial",
-      price: "$100(30%+ BCV)",
+      price: "$100(Efectivo, Zelle, Binance)",
       ideal: "Ideal para comercios complejos con inventario extenso",
       features: [
         "Todo lo incluido en el Plan Básico",
