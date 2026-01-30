@@ -16,8 +16,8 @@ const Index = () => {
       <Services />
       <ExampleSites />
       <Plans />
-      <BcvBanner />
       <PaymentMethods />
+      <BcvBanner />
       <Benefits />
       <CTA />
       <Footer />

@@ -14,7 +14,7 @@ export const BcvBanner = () => {
             />
             {/* Overlay Text */}
             <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-4xl sm:text-5xl font-black animate-twinkle-yellow drop-shadow-lg">
+              <span className="text-6xl sm:text-8xl font-black animate-twinkle-yellow drop-shadow-lg">
                 30%+
               </span>
             </div>
