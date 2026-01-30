@@ -120,8 +120,8 @@ export const ExampleSites = () => {
         {/* Info Note */}
         <div className="mt-12 p-6 bg-gradient-to-r from-primary/5 to-secondary/5 rounded-2xl border border-border text-center">
           <p className="text-muted-foreground">
-            <span className="font-semibold text-foreground">💡 Nota:</span> Los sitios sin dominio utilizan Google Sites, 
-            una opción gratuita ideal para negocios que buscan presencia web económica.
+            <span className="font-semibold text-foreground">💡 Nota:</span> Los sitios sin dominio son 
+            una opción ideal para negocios que buscan presencia web económica.
           </p>
         </div>
       </div>
