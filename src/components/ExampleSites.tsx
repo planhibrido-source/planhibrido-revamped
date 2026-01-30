@@ -19,7 +19,7 @@ export const ExampleSites = () => {
     {
       name: "Toallas Deportivas Mérida",
       url: "https://sites.google.com/view/toallasdeportivasmerida/toallas",
-      description: "Tienda de toallas deportivas"
+      description: "Tienda Online de toallas"
     },
     {
       name: "Trolemoto La 16",
