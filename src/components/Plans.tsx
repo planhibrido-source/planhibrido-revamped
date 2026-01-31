@@ -139,7 +139,8 @@ export const Plans = () => {
             </div>
             <div className="text-center p-6">
               <div className="text-4xl font-bold text-secondary mb-2">1-3 <br></br>días</div>
-              <p className="text-sm text-muted-foreground">Edición del perfil verificado</p>
+              <p className="text-sm text-muted-foreground">Edición del perfil verificado.
+                Página web creada</p>
             </div>
             <div className="text-center p-6">
               <div className="text-4xl font-bold text-accent mb-2">3 <br></br>semanas</div>
