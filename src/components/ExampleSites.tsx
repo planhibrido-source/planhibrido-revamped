@@ -126,7 +126,7 @@ export const ExampleSites = () => {
             la página web puede estar visible desde el día uno en la internet (como esta página) más no en Google, 
             ya que es un proceso que puede tardar semanas dependiendo de multiples factores que van desde herramientas 
             pagas hasta el tipo de códificación y el proposito. Es por eso que hemos perfeccionado el proceso para 
-            obtener resultados más "rápidos" al adquirir un dominio web, que genera un retorno sobre la inversión n 
+            obtener resultados más "rápidos" <span className="font-bold animate-pulse-blue">al adquirir un dominio web</span>, que genera un retorno sobre la inversión n
             veces  mayor cada año en condiciones normales a un precio justo con gestión e incorporación de certificados 
             de seguridad y demás configuraciones relacionadas. Invierta más en su negocio y goce de los beneficios desde
             hoy en adelante, gracias por su tiempo.
