@@ -144,7 +144,7 @@ export const Plans = () => {
             </div>
             <div className="text-center p-6">
               <div className="text-4xl font-bold text-accent mb-2">3 <br></br>semanas</div>
-              <p className="text-sm text-muted-foreground">Administración del perfil</p>
+              <p className="text-sm text-muted-foreground">Administración del perfil. Aparecer en Google</p>
             </div>
           </div>
           <p className="text-center text-sm text-muted-foreground mt-6">
