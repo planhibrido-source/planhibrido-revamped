@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, MessageCircle } from "lucide-react";
+import { MessageCircle, FileText } from "lucide-react";
 
 export const CTA = () => {
   const handleWhatsAppClick = () => {
@@ -32,21 +32,21 @@ export const CTA = () => {
             <Button 
               variant="hero" 
               size="xl"
-              onClick={handleWhatsAppClick}
+              onClick={() => window.open("https://forms.gle/CkPyrohy1GQuYQp96", "_blank")}
               className="bg-white text-primary hover:bg-white/90 shadow-2xl group"
             >
-              <MessageCircle className="w-5 h-5 group-hover:scale-110 transition-transform" />
-              WhatsApp: +58 414-0770120
+              <FileText className="w-5 h-5 group-hover:scale-110 transition-transform" />
+              Llenar Formulario
             </Button>
             
             <Button 
               variant="outline" 
               size="xl"
-              onClick={handlePhoneClick}
+              onClick={handleWhatsAppClick}
               className="bg-white/10 backdrop-blur-sm text-white border-white/30 hover:bg-white/20 shadow-xl"
             >
-              <Phone className="w-5 h-5" />
-              Llamar Ahora
+              <MessageCircle className="w-5 h-5" />
+              WhatsApp: +58 414-0770120
             </Button>
           </div>
 
