@@ -160,6 +160,25 @@ All colors MUST be HSL.
   animation: twinkle-yellow 2s ease-in-out infinite;
 }
 
+@keyframes google-colors {
+  0%, 100% {
+    color: #4285F4; /* Google Blue */
+  }
+  25% {
+    color: #EA4335; /* Google Red */
+  }
+  50% {
+    color: #FBBC05; /* Google Yellow */
+  }
+  75% {
+    color: #34A853; /* Google Green */
+  }
+}
+
+.animate-google-colors {
+  animation: google-colors 3s ease-in-out infinite;
+}
+
 @layer base {
   * {
     @apply border-border;
