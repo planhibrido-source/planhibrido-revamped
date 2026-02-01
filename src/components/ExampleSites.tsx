@@ -37,34 +37,24 @@ export const ExampleSites = () => {
 
   return (
     <section className="relative">
-      {/* Parallax Header - Mobile fallback for bg-fixed */}
+      {/* Parallax Header */}
       <div className="relative w-full h-[50vh] min-h-[400px] overflow-hidden flex items-center justify-center">
-        {/* Background Image with Parallax Effect - usando transform para móvil */}
-        <div 
-          className="absolute inset-0 bg-cover bg-center md:bg-fixed bg-scroll will-change-transform"
-          style={{ 
-            backgroundImage: `url('${exampleCaballero}')`,
-            backgroundAttachment: 'scroll',
-          }}
-        >
-          {/* Imagen fija solo en desktop usando CSS media query */}
-          <style>{`
-            @media (min-width: 768px) {
-              .parallax-bg {
-                background-attachment: fixed !important;
-              }
-            }
-          `}</style>
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent"></div>
-        </div>
         
-        {/* Imagen de fondo alternativa para móvil */}
+        {/* Imagen para MÓVIL - visible solo en pantallas pequeñas */}
         <img 
           src={exampleCaballero} 
-          alt="" 
-          className="absolute inset-0 w-full h-full object-cover md:hidden -z-10"
+          alt="Caballero medieval" 
+          className="absolute inset-0 w-full h-full object-cover object-center md:hidden"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent md:hidden"></div>
+        
+        {/* Background con parallax para DESKTOP - oculto en móvil */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-fixed hidden md:block"
+          style={{ backgroundImage: `url('${exampleCaballero}')` }}
+        />
+        
+        {/* Gradient overlay - siempre visible */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent"></div>
         
         {/* Content */}
         <div className="relative z-20 container mx-auto px-6">
