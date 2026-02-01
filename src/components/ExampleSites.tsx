@@ -185,7 +185,7 @@ export const ExampleSites = () => {
         
         <div className="relative z-20 container mx-auto px-6 text-center">
           <p className="text-xl lg:text-2xl text-white font-medium drop-shadow-lg">
-            Tu negocio merece estar en internet 🚀
+            ⛔💵 Vamos hasta su negocio ¡Sin Costo! Si leyó bien, ¡Gratis! Estamos para servirle a los que no conocemos aún y nos necesitan 😎
           </p>
         </div>
       </div>
