@@ -60,13 +60,13 @@ export const ExampleSites = () => {
         <div className="relative z-20 container mx-auto px-6">
           <div className="max-w-3xl text-left">
             <h2 className="text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Ejemplos de <span className="text-primary">Sitios Web</span>
+              De la Ciudad de los Caballeros a la Era Digital. <span className="text-primary">Sitios Web</span>
             </h2>
             
             <div className="w-20 h-1 bg-primary mb-6"></div>
             
             <p className="text-lg lg:text-2xl text-gray-200 leading-relaxed drop-shadow-md">
-              Mira algunos ejemplos de páginas web que hemos creado para nuestros clientes en{" "}
+              Encuentre algunos ejemplos de páginas web recientes que hemos creado para nuestros clientes en{" "}
               <span className="font-semibold text-white underline decoration-primary/50">Mérida</span>.
             </p>
           </div>
