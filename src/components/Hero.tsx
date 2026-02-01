@@ -7,8 +7,8 @@ const CountUp = ({ end }: { end: number }) => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    const duration = 2000; // 2 seconds
-    const steps = 60;
+    const duration = 8000; // 8 seconds - much slower
+    const steps = 100;
     const increment = end / steps;
     const stepDuration = duration / steps;
     
