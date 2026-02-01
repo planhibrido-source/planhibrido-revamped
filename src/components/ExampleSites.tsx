@@ -59,8 +59,8 @@ export const ExampleSites = () => {
         {/* Content */}
         <div className="relative z-20 container mx-auto px-6">
           <div className="max-w-3xl text-left">
-            <h2 className="text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              De la Era de los Caballeros a la Era Digital.
+            <h2 className="text-xl lg:text-3xl font-bold text-white mb-6 leading-tight">
+              De la Era de los Caballeros a la <span className="font-bold animate-google-colors">Era Digital</span>.
             </h2>
             
             <div className="w-20 h-1 bg-primary mb-6"></div>
