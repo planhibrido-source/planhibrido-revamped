@@ -37,15 +37,34 @@ export const ExampleSites = () => {
 
   return (
     <section className="relative">
-      {/* Parallax Header */}
+      {/* Parallax Header - Mobile fallback for bg-fixed */}
       <div className="relative w-full h-[50vh] min-h-[400px] overflow-hidden flex items-center justify-center">
-        {/* Background Image with Parallax Effect */}
+        {/* Background Image with Parallax Effect - usando transform para móvil */}
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-fixed transition-transform duration-1000"
-          style={{ backgroundImage: `url('${exampleCaballero}')` }}
+          className="absolute inset-0 bg-cover bg-center md:bg-fixed bg-scroll will-change-transform"
+          style={{ 
+            backgroundImage: `url('${exampleCaballero}')`,
+            backgroundAttachment: 'scroll',
+          }}
         >
+          {/* Imagen fija solo en desktop usando CSS media query */}
+          <style>{`
+            @media (min-width: 768px) {
+              .parallax-bg {
+                background-attachment: fixed !important;
+              }
+            }
+          `}</style>
           <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent"></div>
         </div>
+        
+        {/* Imagen de fondo alternativa para móvil */}
+        <img 
+          src={exampleCaballero} 
+          alt="" 
+          className="absolute inset-0 w-full h-full object-cover md:hidden -z-10"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent md:hidden"></div>
         
         {/* Content */}
         <div className="relative z-20 container mx-auto px-6">
@@ -156,14 +175,24 @@ export const ExampleSites = () => {
         </div>
       </div>
 
-      {/* Second Parallax Section */}
+      {/* Second Parallax Section - Mobile fallback */}
       <div className="relative w-full h-[30vh] min-h-[250px] overflow-hidden flex items-center justify-center">
+        {/* Background para desktop */}
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-fixed"
+          className="absolute inset-0 bg-cover bg-center md:bg-fixed bg-scroll hidden md:block"
           style={{ backgroundImage: `url('${exampleAngel}')` }}
         >
           <div className="absolute inset-0 bg-gradient-to-l from-black/70 via-black/50 to-transparent"></div>
         </div>
+        
+        {/* Imagen para móvil */}
+        <img 
+          src={exampleAngel} 
+          alt="" 
+          className="absolute inset-0 w-full h-full object-cover md:hidden"
+        />
+        <div className="absolute inset-0 bg-gradient-to-l from-black/70 via-black/50 to-transparent md:hidden"></div>
+        
         <div className="relative z-20 container mx-auto px-6 text-center">
           <p className="text-xl lg:text-2xl text-white font-medium drop-shadow-lg">
             Tu negocio merece estar en internet 🚀
