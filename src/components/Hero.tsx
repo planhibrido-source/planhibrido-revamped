@@ -87,7 +87,7 @@ export const Hero = () => {
               className="group"
             >
               <Phone className="w-5 h-5 group-hover:rotate-12 transition-transform" />
-              Llámanos: +58 414-0770120
+              +58 414-0770120
             </Button>
             
             <Button 
