@@ -6,14 +6,14 @@ import exampleCaballero from "@/assets/example-caballero.png";
 export const ExampleSites = () => {
   const sitesWithDomain = [
     {
-      name: "MediClinic ME",
+      name: "Mediclinic C.A.",
       url: "https://www.mediclinicme.com/",
-      description: "Clínica médica profesional"
+      description: "Centro médico de diagnóstico por imágenes en Mérida"
     },
     {
-      name: "Industria Duprince",
+      name: "Industria Du Prince",
       url: "https://www.industriaduprince.com/",
-      description: "Empresa industrial"
+      description: "Fabricantes de Lencería Hotelera"
     }
   ];
 
