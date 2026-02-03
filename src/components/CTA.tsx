@@ -36,7 +36,7 @@ export const CTA = () => {
               className="bg-white text-primary hover:bg-white/90 shadow-2xl group"
             >
               <FileText className="w-5 h-5 group-hover:scale-110 transition-transform" />
-              Enviar Datos de mi Negocio
+              Quiero que mi negocio esté en Google desde hoy
             </Button>
             
             <Button 
@@ -56,6 +56,7 @@ export const CTA = () => {
               className="bg-white/10 backdrop-blur-sm text-white border-white/30 hover:bg-white/20 shadow-xl"
             >
               <Phone className="w-5 h-5" />
+              Llamar Ahora
             </Button>
           </div>
 
