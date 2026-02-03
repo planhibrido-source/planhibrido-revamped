@@ -56,7 +56,6 @@ export const CTA = () => {
               className="bg-white/10 backdrop-blur-sm text-white border-white/30 hover:bg-white/20 shadow-xl"
             >
               <Phone className="w-5 h-5" />
-              Llamar Ahora
             </Button>
           </div>
 
