@@ -33,10 +33,13 @@ export const CTA = () => {
               variant="hero" 
               size="xl"
               onClick={() => window.open("https://forms.gle/CkPyrohy1GQuYQp96", "_blank")}
-              className="bg-white text-primary hover:bg-white/90 shadow-2xl group whitespace-normal text-center leading-tight text-sm sm:text-base max-w-xs sm:max-w-none h-auto py-4"
+              className="bg-white text-primary hover:bg-white/90 shadow-2xl group h-auto py-4"
             >
-              <FileText className="w-5 h-5 group-hover:scale-110 transition-transform flex-shrink-0" />
-              <span>Quiero que mi negocio esté en Google desde hoy</span>
+              <FileText className="w-10 h-10 group-hover:scale-110 transition-transform flex-shrink-0" />
+              <span className="flex flex-col text-left leading-tight">
+                <span>Quiero que mi negocio esté</span>
+                <span>en Google desde ¡HOY!</span>
+              </span>
             </Button>
             
             <Button 
