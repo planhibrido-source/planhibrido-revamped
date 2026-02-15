@@ -21,10 +21,10 @@ export const BcvBanner = () => {
           </div>
         </div>
         <p className="text-center text-muted-foreground mt-6 text-lg">
-          <span className="font-bold">Pago en bolívares a tasa BCV + 30%</span>
+          <span className="font-bold">Pago en bolívares a tasa BCV del dominio</span>
         </p>
         <p className="text-center text-muted-foreground mt-2 text-sm">
-          No incluye el precio del dominio, el cual se paga solo en divisas o criptomonedas (25$ anuales)
+          El precio de un dominio WEB con nosotros al año es de $30 al BCV
         </p>
       </div>
     </section>
