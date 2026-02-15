@@ -47,10 +47,12 @@ export const Footer = () => {
             <h4 className="text-lg font-semibold">Servicios</h4>
             <ul className="space-y-2 text-sm text-background/80">
               <li>Administración del Perfil de Google</li>
+              <li>Soporte Local 😎</li>
               <li>Verificación de Negocios</li>
               <li>Optimización de busquedas locales</li>
               <li>Desarrollo Web: Páginas, sitios y Apps</li>
               <li>Diseño Gráfico</li>
+              <li>Edición de Videos</li>
               <li><b>Fotografía Comercial:</b></li>
               <li>Fotografía de Interiores</li>
               <li>Fotografía de Exteriores</li>
