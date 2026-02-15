@@ -8,8 +8,8 @@ export const PaymentMethods = () => {
   const methods = [
     {
       icon: DollarSign,
-      title: "De Contado",
-      description: "Divisas en efectivo, Zelle o Binance",
+      title: "De Contado o Por Transferencias",
+      description: "Pago móvil, Divisas en efectivo, Zelle y Binance",
       color: "primary",
       image: paymentCash,
     },
@@ -25,7 +25,7 @@ export const PaymentMethods = () => {
     },
     {
       icon: Repeat,
-      title: "Intercambio P2P",
+      title: "Intercambio B2B (Business to Business)",
       description: "Por productos y/o servicios equivalentes a $60 por el PLaN Básico y $120 por el PLaN Especial",
       color: "accent",
       image: paymentExchange,
