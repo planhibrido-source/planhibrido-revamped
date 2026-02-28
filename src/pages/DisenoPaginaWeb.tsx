@@ -191,7 +191,10 @@ const DisenoPaginaWeb = () => {
               Creamos Páginas Web para negocios en Mérida
             </h2>
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-              Incluidos en nuestros planes de digitalización. Su página web viene integrada con su perfil de Google Maps.
+              Su Negocio Merece la Mejor Página Web en Mérida. No solo lo registramos en Google; 
+              creamos una identidad digital que atrae clientes reales. De lo tangible a lo virtual y 
+              viceversa con resultados medibles. Incluidos en nuestros planes de digitalización, su 
+              página web estará integrada con su perfil de Google Maps.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <Card className="p-8 hover:shadow-xl transition-all duration-300">
@@ -201,7 +204,7 @@ const DisenoPaginaWeb = () => {
                   <p className="text-sm text-muted-foreground italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$40 Pago Único sin Dominio</div>
                   <p className="text-sm text-muted-foreground">
-                    Ideal para comercios con pocos productos, solo servicios o con menos de 3 categorías.
+                    Ideal para comercios con pocos productos, solo servicios o con solo una categoría.
                   </p>
                   <Button variant="default" size="lg" className="w-full" onClick={handleWhatsAppClick}>
                     <MessageCircle className="w-4 h-4" />
@@ -219,7 +222,7 @@ const DisenoPaginaWeb = () => {
                   <p className="text-sm text-muted-foreground italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$80 Pago Único sin Dominio</div>
                   <p className="text-sm text-muted-foreground">
-                    Ideal para comercios con inventario extenso o con más de 3 categorías. Incluye optimización SEO avanzada.
+                    Ideal para comercios con inventario extenso o con más de dos categorías. Incluye optimización SEO avanzada.
                   </p>
                   <Button variant="secondary" size="lg" className="w-full" onClick={handleWhatsAppClick}>
                     <MessageCircle className="w-4 h-4" />
