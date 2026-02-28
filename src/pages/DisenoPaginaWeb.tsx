@@ -1,9 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Check, Phone, MessageCircle, ArrowLeft, Globe, Palette, Search, ShieldCheck, Smartphone, Zap } from "lucide-react";
+import { Check, Phone, MapPin, MessageCircle, ArrowLeft, Globe, Palette, Search, ShieldCheck, Smartphone, Zap } from "lucide-react";
 import { Link } from "react-router-dom";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import { Footer } from "@/components/Footer";
+import heroBg from "@/assets/example-caballero.png";
 
 const DisenoPaginaWeb = () => {
   const handleWhatsAppClick = () => {
@@ -56,15 +57,15 @@ const DisenoPaginaWeb = () => {
       />
       <div className="min-h-screen bg-background">
         {/* Hero */}
-        <section className="relative py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-primary via-primary to-secondary overflow-hidden">
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute top-0 left-0 w-72 h-72 bg-white rounded-full blur-3xl" />
-            <div className="absolute bottom-0 right-0 w-72 h-72 bg-secondary rounded-full blur-3xl" />
+        <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+          <div className="absolute inset-0">
+            <img src={heroBg} alt="Diseño de Página Web en Mérida" className="w-full h-full object-cover" />
+            <div className="absolute inset-0 bg-primary/80" />
           </div>
           <div className="container mx-auto max-w-5xl relative z-10">
             <Link to="/" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-8 transition-colors">
               <ArrowLeft className="w-4 h-4" />
-              Volver al inicio
+              Soluciones de Google Maps en Mérida
             </Link>
             <div className="space-y-6 max-w-3xl">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
@@ -75,15 +76,16 @@ const DisenoPaginaWeb = () => {
                 Páginas rápidas, responsivas y optimizadas para que sus clientes lo encuentren en Google.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                <Button
-                  variant="hero"
-                  size="xl"
-                  onClick={handleWhatsAppClick}
-                  className="bg-white text-primary hover:bg-white/90 shadow-2xl group"
-                >
-                  <MessageCircle className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                  Solicitar Presupuesto
-                </Button>
+                <Link to="/">
+                  <Button
+                    variant="hero"
+                    size="xl"
+                    className="bg-white text-primary hover:bg-white/90 shadow-2xl group"
+                  >
+                    <MapPin className="w-5 h-5 group-hover:scale-110 transition-transform" />
+                    📍 Soluciones en el Mapa Google
+                  </Button>
+                </Link>
                 <Button
                   variant="outline"
                   size="xl"
