@@ -9,7 +9,7 @@ export const Plans = () => {
 
   const plans = [
     {
-      name: "Plan Básico",
+      name: "Plan Básico - Una Página Web + Cátalogo",
       price: "$60 Anuales/$5 Mensuales - Con Dominio Web",
       discountPrice: "$40 de Pago Único Sin Dominio Web",
       ideal: "Ideal para comercios con con pocos productos, solo servicios o con menos de 3 categorías",
@@ -24,14 +24,14 @@ export const Plans = () => {
         "Dominio Web por 1 año con certificado SSL y alojamiento",
         "Página web de Inicio o Landing Page editable, con toda la información del local y optimizada para búsquedas relacionadas a sus productos y/o servicios",
       ],
-      examples: "Panaderías, profesionales, abastos, fruterías, clínicas, hoteles y comercios en general",
+      examples: "Panaderías, Gimnasios, líneas de taxi, profesionales, abastos, fruterías, hoteles y comercios en general",
       color: "primary",
     },
     {
-      name: "Plan Especial",
+      name: "Plan Especial - 10 Páginas Web + Cátalogo",
       price: "$120 Anuales/$10 Mensuales - Con Dominio Web",
       discountPrice: "$80 de Pago Único Sin Dominio Web",
-      ideal: "Ideal para comercios con inventario extenso o con más de 3 categorías",
+      ideal: "Ideal para comercios con inventario extenso o con más de 2 categorías",
       features: [
         "Todo lo incluido en el Plan Básico",
         "Edición completa del perfil de negocios de Google",
@@ -42,7 +42,7 @@ export const Plans = () => {
         "Optimización del motor de búsquedas de Google",
         "100 productos adicionales para el perfil y la página",
       ],
-      examples: "Tiendas de repuestos, mercerías, zapaterias, comercios de alimentos, centros comerciales, tiendas por departamento y más",
+      examples: "Tiendas de repuestos, clínicas, zapaterias, comercios de alimentos, centros comerciales, tiendas por departamento y más",
       color: "secondary",
       featured: true,
     },
