@@ -83,7 +83,7 @@ const DisenoPaginaWeb = () => {
                     className="bg-white text-primary hover:bg-white/90 shadow-2xl group"
                   >
                     <MapPin className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                    📍 Soluciones en el Mapa Google
+                    Soluciones en el Mapa Google
                   </Button>
                 </Link>
                 <Button
