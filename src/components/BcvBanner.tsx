@@ -24,7 +24,7 @@ export const BcvBanner = () => {
           <span className="font-bold">Pago en bolívares a tasa BCV de nuestros servicios</span>
         </p>
         <p className="text-center text-muted-foreground mt-2 text-sm">
-          El precio varía en la págima web y en el Instagram del BCV. Se paga según lo establecido por el Banco.
+          El precio varía en la página web y en el Instagram del BCV. Se paga según lo establecido por el Banco.
         </p>
       </div>
     </section>
