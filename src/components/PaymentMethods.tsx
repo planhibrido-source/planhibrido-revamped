@@ -40,7 +40,7 @@ export const PaymentMethods = () => {
             Formas de Pago
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ofrecemos múltiples opciones de pago para facilitar tu digitalización
+            Ofrecemos múltiples opciones de pago para facilitar la digitalización
           </p>
         </div>
 
