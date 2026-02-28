@@ -109,7 +109,11 @@ const DisenoPaginaWeb = () => {
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
                 Una página web es su vitrina digital las 24 horas del día. Permite que clientes potenciales 
-                conozcan sus productos y servicios, lo contacten fácilmente y confíen en su negocio antes de visitarlo.
+                conozcan sus productos y servicios, lo contacten fácilmente y confíen en su negocio antes de 
+                visitarlo bien sea en el Centro, en Las Americas, en la Humboldt, en la Milagrosa, en la 
+                Avenida Universidad, en la 16, en la Urdaneta, en las Tapias, en la Pedregosa, 
+                en la Hechicera, en los Proceres, en los Chorros, en Santa Juana, en los Curos, en la Mata 
+                o en Belenzate servimos en toda Mérida Venezuela.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -210,7 +214,7 @@ const DisenoPaginaWeb = () => {
                   Recomendado
                 </div>
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">Varias Páginas Web Interelacioandas</h3>
+                  <h3 className="text-2xl font-bold text-foreground">Varias Páginas Web Interelacionadas</h3>
                   <div className="text-3xl font-bold text-primary">$120 Anuales / $10 Mensuales</div>
                   <p className="text-sm text-muted-foreground italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$80 Pago Único sin Dominio</div>
