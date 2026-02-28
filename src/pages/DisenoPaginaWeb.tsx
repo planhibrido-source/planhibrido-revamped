@@ -87,12 +87,12 @@ const DisenoPaginaWeb = () => {
                   </Button>
                 </Link>
                 <Button
-                  variant="outline"
+                  variant="hero"
                   size="xl"
-                  className="bg-white/10 backdrop-blur-sm text-white border-white/30 hover:bg-white/20"
+                  className="group"
                   onClick={() => window.location.href = "tel:+584140770120"}
                 >
-                  <Phone className="w-5 h-5" />
+                  <Phone className="w-5 h-5 group-hover:rotate-12 transition-transform" />
                   +58 414-0770120
                 </Button>
               </div>
