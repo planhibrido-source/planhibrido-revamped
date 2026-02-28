@@ -184,7 +184,7 @@ const DisenoPaginaWeb = () => {
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
           <div className="container mx-auto max-w-5xl">
             <h2 className="text-3xl sm:text-4xl font-bold text-foreground text-center mb-4">
-              Planes de Página Web
+              Creamos Páginas Web para negocios en Mérida
             </h2>
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
               Incluidos en nuestros planes de digitalización. Su página web viene integrada con su perfil de Google Maps.
@@ -192,7 +192,7 @@ const DisenoPaginaWeb = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <Card className="p-8 hover:shadow-xl transition-all duration-300">
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">Plan Básico</h3>
+                  <h3 className="text-2xl font-bold text-foreground">Una Página Web</h3>
                   <div className="text-3xl font-bold text-primary">$60 Anuales / $5 Mensuales</div>
                   <p className="text-sm text-muted-foreground italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$40 Pago Único sin Dominio</div>
@@ -210,7 +210,7 @@ const DisenoPaginaWeb = () => {
                   Recomendado
                 </div>
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">Plan Especial</h3>
+                  <h3 className="text-2xl font-bold text-foreground">Varias Páginas Web Interelacioandas</h3>
                   <div className="text-3xl font-bold text-primary">$120 Anuales / $10 Mensuales</div>
                   <p className="text-sm text-muted-foreground italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$80 Pago Único sin Dominio</div>
