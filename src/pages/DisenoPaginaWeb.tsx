@@ -76,7 +76,7 @@ const DisenoPaginaWeb = () => {
                 Creamos páginas web profesionales para negocios locales en Mérida, Venezuela. 
                 Páginas rápidas, responsivas y optimizadas para que sus clientes lo encuentren en Google.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <div className="flex flex-col sm:flex-row gap-4 pt-4 pb-16 sm:pb-20 md:pb-24 relative z-30">
                 <Link to="/">
                   <Button
                     variant="hero"
