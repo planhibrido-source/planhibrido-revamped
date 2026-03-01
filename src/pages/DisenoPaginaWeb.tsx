@@ -99,21 +99,33 @@ const DisenoPaginaWeb = () => {
               </div>
             </div>
           </div>
-          {/* Bottom Skyline Cutout */}
-          <div className="absolute bottom-0 left-0 right-0 z-20" style={{ height: '100px' }}>
-            <div 
-              className="w-full h-full bg-background"
-              style={{ 
-                maskImage: `url(${meridaSkyline})`,
-                WebkitMaskImage: `url(${meridaSkyline})`,
-                maskSize: '100% auto',
-                WebkitMaskSize: '100% auto',
-                maskPosition: 'bottom center',
-                WebkitMaskPosition: 'bottom center',
-                maskRepeat: 'no-repeat',
-                WebkitMaskRepeat: 'no-repeat',
-              }}
-            />
+          {/* Bottom Medieval Skyline Cutout */}
+          <div className="absolute bottom-0 left-0 right-0 z-20">
+            <svg
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+              className="w-full h-[80px] sm:h-[100px] md:h-[120px]"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0,120 L0,80
+                  L40,80 L40,50 L50,50 L50,40 L55,40 L55,30 L60,30 L60,40 L65,40 L65,50 L75,50 L75,40 L80,40 L80,30 L85,30 L85,40 L90,40 L90,50 L100,50 L100,80
+                  L130,80 L130,55 L135,55 L135,45 L140,45 L140,35 L143,35 L143,20 L147,20 L147,35 L150,35 L150,45 L155,45 L155,55 L160,55 L160,80
+                  L200,80 L200,60 L210,60 L210,50 L215,50 L215,35 L220,25 L225,35 L230,25 L235,35 L240,25 L245,35 L245,50 L250,50 L250,60 L260,60 L260,80
+                  L310,80 L310,55 L320,55 L320,40 L325,40 L325,25 L330,25 L330,15 L332,8 L334,15 L334,25 L339,25 L339,40 L344,40 L344,55 L354,55 L354,80
+                  L400,80 L400,60 L410,60 L410,50 L415,50 L415,35 L420,25 L425,35 L430,25 L435,35 L440,25 L445,35 L445,50 L450,50 L450,60 L460,60 L460,80
+                  L510,80 L510,65 L515,65 L515,55 L525,55 L525,45 L520,45 L520,35 L530,35 L530,45 L535,45 L535,55 L545,55 L545,65 L550,65 L550,80
+                  L590,80 L590,50 L600,50 L600,40 L605,40 L605,25 L608,25 L608,10 L612,10 L612,25 L615,25 L615,40 L620,40 L620,50 L630,50 L630,80
+                  L670,80 L670,55 L680,55 L680,45 L685,45 L685,30 L690,20 L695,10 L700,20 L705,30 L705,45 L710,45 L710,55 L720,55 L720,80
+                  L760,80 L760,60 L770,60 L770,45 L775,45 L775,30 L780,20 L785,30 L790,20 L795,30 L800,20 L805,30 L805,45 L810,45 L810,60 L820,60 L820,80
+                  L860,80 L860,65 L865,65 L865,55 L875,55 L875,45 L870,45 L870,35 L880,35 L880,45 L885,45 L885,55 L895,55 L895,65 L900,65 L900,80
+                  L940,80 L940,55 L950,55 L950,40 L955,40 L955,25 L960,25 L960,15 L962,8 L964,15 L964,25 L969,25 L969,40 L974,40 L974,55 L984,55 L984,80
+                  L1020,80 L1020,50 L1025,50 L1025,40 L1030,40 L1030,30 L1033,30 L1033,18 L1037,18 L1037,30 L1040,30 L1040,40 L1045,40 L1045,50 L1050,50 L1050,80
+                  L1090,80 L1090,55 L1095,55 L1095,45 L1100,45 L1100,35 L1105,35 L1105,20 L1110,15 L1115,10 L1120,15 L1125,20 L1125,35 L1130,35 L1130,45 L1135,45 L1135,55 L1140,55 L1140,80
+                  L1200,80 L1200,120 Z"
+                className="fill-background"
+              />
+            </svg>
           </div>
         </section>
 
