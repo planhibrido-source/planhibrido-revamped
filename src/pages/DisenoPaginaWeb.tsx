@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import { Footer } from "@/components/Footer";
 import heroBg from "@/assets/example-caballero.png";
+import meridaSkyline from "@/assets/merida-skyline.png";
 
 const DisenoPaginaWeb = () => {
   const handleWhatsAppClick = () => {
@@ -97,6 +98,16 @@ const DisenoPaginaWeb = () => {
                 </Button>
               </div>
             </div>
+          </div>
+          {/* Bottom Skyline Decoration */}
+          <div className="absolute bottom-0 left-0 right-0">
+            <img 
+              src={meridaSkyline} 
+              alt="" 
+              className="w-full h-auto opacity-20 object-cover object-bottom"
+              style={{ maxHeight: '120px' }}
+            />
+            <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-background to-transparent" />
           </div>
         </section>
 
