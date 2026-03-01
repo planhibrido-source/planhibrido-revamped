@@ -73,7 +73,7 @@ const DisenoPaginaWeb = () => {
                 Diseño de Página Web en Mérida, Venezuela
               </h1>
               <p className="text-xl text-white/90 leading-relaxed">
-                Creamos páginas web profesionales para negocios locales en Mérida, Venezuela. 
+                Creamos una página web profesional optimizada para negocios locales en Mérida, Venezuela. 
                 Páginas rápidas, responsivas y optimizadas para que sus clientes lo encuentren en Google.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4 pb-16 sm:pb-20 md:pb-24 relative z-30">
@@ -84,7 +84,7 @@ const DisenoPaginaWeb = () => {
                     className="bg-white text-primary hover:bg-white/90 shadow-2xl group"
                   >
                     <MapPin className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                    Soluciones en el Mapa Google
+                    Soluciones Google Maps
                   </Button>
                 </Link>
                 <Button
@@ -149,7 +149,7 @@ const DisenoPaginaWeb = () => {
           <div className="container mx-auto max-w-5xl">
             <div className="text-center mb-12 space-y-4">
               <h2 className="text-3xl sm:text-4xl font-bold text-foreground">
-                ¿Por qué su negocio en Mérida necesita una página web?
+                ¿Por qué su negocio necesita una página web en Mérida?
               </h2>
               <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
                 Una página web es su vitrina digital las 24 horas del día. Permite que clientes potenciales 
@@ -261,7 +261,7 @@ const DisenoPaginaWeb = () => {
                   Recomendado
                 </div>
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">Varias Páginas Web Interelacionadas</h3>
+                  <h3 className="text-2xl font-bold text-foreground">Hasta 10 Páginas Web Interelacionadas</h3>
                   <div className="text-3xl font-bold text-primary">$120 Anuales / $10 Mensuales</div>
                   <p className="text-sm text-muted-foreground italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$80 Pago Único sin Dominio</div>
