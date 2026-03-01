@@ -99,15 +99,21 @@ const DisenoPaginaWeb = () => {
               </div>
             </div>
           </div>
-          {/* Bottom Skyline Decoration */}
-          <div className="absolute bottom-0 left-0 right-0">
-            <img 
-              src={meridaSkyline} 
-              alt="" 
-              className="w-full h-auto opacity-20 object-cover object-bottom"
-              style={{ maxHeight: '120px' }}
+          {/* Bottom Skyline Cutout */}
+          <div className="absolute bottom-0 left-0 right-0 z-20" style={{ height: '100px' }}>
+            <div 
+              className="w-full h-full bg-background"
+              style={{ 
+                maskImage: `url(${meridaSkyline})`,
+                WebkitMaskImage: `url(${meridaSkyline})`,
+                maskSize: '100% auto',
+                WebkitMaskSize: '100% auto',
+                maskPosition: 'bottom center',
+                WebkitMaskPosition: 'bottom center',
+                maskRepeat: 'no-repeat',
+                WebkitMaskRepeat: 'no-repeat',
+              }}
             />
-            <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-background to-transparent" />
           </div>
         </section>
 
