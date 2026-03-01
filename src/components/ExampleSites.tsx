@@ -67,7 +67,7 @@ export const ExampleSites = () => {
             
             <p className="text-lg lg:text-2xl text-gray-200 leading-relaxed drop-shadow-md">
               Encuentre algunos ejemplos de páginas web recientes que hemos creado para nuestros clientes en{" "}
-              <span className="font-semibold text-white underline decoration-primary/50">Mérida</span>.
+              <span className="font-semibold text-white underline decoration-primary/50">Mérida, Venezuela</span>.
             </p>
           </div>
         </div>
