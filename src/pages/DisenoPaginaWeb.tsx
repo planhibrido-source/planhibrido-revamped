@@ -70,7 +70,7 @@ const DisenoPaginaWeb = () => {
             </Link>
             <div className="space-y-6 max-w-3xl">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
-                Diseño de Página Web en Mérida
+                Diseño de Página Web en Mérida, Venezuela
               </h1>
               <p className="text-xl text-white/90 leading-relaxed">
                 Creamos páginas web profesionales para negocios locales en Mérida, Venezuela. 
@@ -155,9 +155,9 @@ const DisenoPaginaWeb = () => {
                 Una página web es su vitrina digital las 24 horas del día. Permite que clientes potenciales 
                 conozcan sus productos y servicios, lo contacten fácilmente y confíen en su negocio antes de 
                 visitarlo bien sea en el Centro, en Las Americas, en la Humboldt, en la Milagrosa, en la 
-                Avenida Universidad, en la 16, en la Urdaneta, en las Tapias, en la Pedregosa, 
-                en la Hechicera, en los Proceres, en los Chorros, en Santa Juana, en los Curos, en la Mata 
-                o en Belenzate servimos en toda Mérida Venezuela.
+                Avenida Universidad, en la Avenida 16, en la Avenida Urdaneta, en las Tapias, en la Pedregosa, 
+                en la Hechicera, en los Proceres, en los Chorros, en Santa Juana, en los Curos, en la Mata, en 
+                Zumba, en la Avenida Andres Bello o en Belenzate servimos en toda Mérida, Venezuela.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
