@@ -221,7 +221,7 @@ const DisenoPaginaWeb = () => {
               Proceso de Inclusión Completa en la Plataforma de Google
             </h2>
              <p className="text-center text-xl font-vt323 text-muted-foreground mb-12 max-w-2xl mx-auto">
-              Nuestro proceso paso a paso para llevar su negocio de la era tradicional a la era digital
+              Nuestro proceso paso a paso para llevar su negocio de la era de los caballeros a la era digital
             </p>
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
