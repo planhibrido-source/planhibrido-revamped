@@ -215,9 +215,9 @@ const DisenoPaginaWeb = () => {
         </section>
 
         {/* Proceso */}
-        <section className="py-20 px-4 sm:px-6 lg:px-8" style={{ background: "linear-gradient(180deg, hsl(var(--background)) 0%, hsl(39 40% 85%) 10%, hsl(39 45% 80%) 50%, hsl(39 40% 85%) 90%, hsl(var(--background)) 100%)" }}>
+        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
           <div className="container mx-auto max-w-5xl">
-            <h2 className="text-3xl sm:text-4xl font-pirata text-center mb-4 uppercase tracking-wider" style={{ color: "hsl(30 20% 25%)" }}>
+            <h2 className="text-3xl sm:text-4xl font-pirata text-center mb-4 tracking-wider" style={{ color: "hsl(30 20% 25%)" }}>
               Proceso de Inclusión Completa en la Plataforma de Google
             </h2>
              <p className="text-center text-xl font-vt323 text-muted-foreground mb-12 max-w-2xl mx-auto">
