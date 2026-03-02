@@ -6,6 +6,7 @@ import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import { Footer } from "@/components/Footer";
 import heroBg from "@/assets/example-caballero.png";
 import meridaSkyline from "@/assets/merida-skyline.png";
+import procesoPln from "@/assets/proceso-pln.png";
 
 const DisenoPaginaWeb = () => {
   const handleWhatsAppClick = () => {
@@ -22,10 +23,15 @@ const DisenoPaginaWeb = () => {
   ];
 
   const process = [
-    { step: "1", title: "Consulta Inicial", desc: "Analizamos su negocio, sus necesidades y definimos los objetivos de su página web." },
-    { step: "2", title: "Diseño y Contenido", desc: "Creamos el diseño visual, organizamos los productos/servicios y redactamos el contenido optimizado." },
-    { step: "3", title: "Desarrollo", desc: "Construimos su página web con tecnología moderna, responsiva y optimizada para buscadores." },
-    { step: "4", title: "Publicación", desc: "Configuramos el dominio, el certificado SSL y publicamos su página lista para recibir clientes." },
+    { step: "1", title: "Asesoría Gratis", desc: "Nos reunimos con usted sin compromiso para conocer su negocio, evaluar su presencia digital y diseñar una estrategia personalizada." },
+    { step: "2", title: "Recolectamos sus Datos", desc: "Recopilamos toda la información de su negocio: horarios, ubicación, productos, servicios y datos de contacto para crear su perfil completo." },
+    { step: "3", title: "Fotos Comerciales", desc: "Visitamos su negocio y tomamos fotografías profesionales de su local, productos y servicios para mostrar lo mejor de su empresa." },
+    { step: "4", title: "Desarrollo Web", desc: "Diseñamos y programamos su página web personalizada, optimizada para móviles y preparada para posicionarse en Google." },
+    { step: "5", title: "Su Negocio en Google", desc: "Publicamos su negocio en Google Maps y Google Search para que los clientes lo encuentren fácilmente desde cualquier dispositivo." },
+    { step: "6", title: "Resultados Medibles", desc: "Le presentamos métricas reales de rendimiento: visitas, llamadas y solicitudes de dirección generadas desde su perfil digital." },
+    { step: "7", title: "Hoja Informativa", desc: "Creamos y colocamos un material impreso con el código QR de su página web y perfil de Google en su negocio para atraer más visitas." },
+    { step: "8", title: "Mayor Visibilidad", desc: "Sus clientes potenciales descubren su negocio tanto en línea como en persona gracias a la estrategia digital y física integrada." },
+    { step: "9", title: "Nuevos Clientes", desc: "Su negocio comienza a recibir llamadas, visitas y ventas reales gracias a su presencia digital profesional y optimizada." },
   ];
 
   const jsonLd = {
@@ -209,21 +215,40 @@ const DisenoPaginaWeb = () => {
         </section>
 
         {/* Proceso */}
-        <section className="py-20 px-4 sm:px-6 lg:px-8">
+        <section className="py-20 px-4 sm:px-6 lg:px-8" style={{ background: "linear-gradient(180deg, hsl(var(--background)) 0%, hsl(39 40% 85%) 10%, hsl(39 45% 80%) 50%, hsl(39 40% 85%) 90%, hsl(var(--background)) 100%)" }}>
           <div className="container mx-auto max-w-5xl">
-            <h2 className="text-3xl sm:text-4xl font-bold text-foreground text-center mb-12">
-              Nuestro Proceso
+            <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4 uppercase tracking-wider" style={{ color: "hsl(30 20% 25%)", fontFamily: "'Georgia', serif" }}>
+              Proceso de Inclusión Completa en la Plataforma de Google
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {process.map((p, idx) => (
-                <div key={idx} className="text-center space-y-4">
-                  <div className="w-14 h-14 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-xl font-bold mx-auto">
-                    {p.step}
+            <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+              Nuestro proceso paso a paso para llevar su negocio de la era tradicional a la era digital
+            </p>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+              {/* Imagen del proceso */}
+              <div className="flex justify-center lg:sticky lg:top-8">
+                <img
+                  src={procesoPln}
+                  alt="Proceso de inclusión completa en la plataforma de Google - 9 pasos ilustrados con temática medieval"
+                  className="w-full max-w-sm rounded-lg shadow-2xl border-4"
+                  style={{ borderColor: "hsl(39 40% 70%)" }}
+                />
+              </div>
+
+              {/* Pasos del proceso */}
+              <div className="space-y-6">
+                {process.map((p, idx) => (
+                  <div key={idx} className="flex gap-4 items-start p-4 rounded-xl transition-all duration-300 hover:shadow-lg" style={{ backgroundColor: "hsl(39 35% 92% / 0.7)" }}>
+                    <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-lg font-bold flex-shrink-0 shadow-md">
+                      {p.step}
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-foreground text-lg uppercase tracking-wide">{p.title}</h3>
+                      <p className="text-sm text-muted-foreground mt-1 leading-relaxed">{p.desc}</p>
+                    </div>
                   </div>
-                  <h3 className="font-semibold text-foreground">{p.title}</h3>
-                  <p className="text-sm text-muted-foreground">{p.desc}</p>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </section>
