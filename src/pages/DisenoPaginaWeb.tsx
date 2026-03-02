@@ -75,10 +75,10 @@ const DisenoPaginaWeb = () => {
               Soluciones de Google Maps en Mérida
             </Link>
             <div className="space-y-6 max-w-3xl">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-pirata text-white leading-tight">
                 Diseño de Página Web en Mérida, Venezuela
               </h1>
-              <p className="text-xl text-white/90 leading-relaxed">
+              <p className="text-2xl font-vt323 text-white/90 leading-relaxed">
                 Creamos una página web profesional optimizada para negocios locales en Mérida, Venezuela. 
                 Páginas rápidas, responsivas y optimizadas para que sus clientes lo encuentren en Google.
               </p>
@@ -154,10 +154,10 @@ const DisenoPaginaWeb = () => {
         <section className="py-20 px-4 sm:px-6 lg:px-8">
           <div className="container mx-auto max-w-5xl">
             <div className="text-center mb-12 space-y-4">
-              <h2 className="text-3xl sm:text-4xl font-bold text-foreground">
+               <h2 className="text-3xl sm:text-4xl font-pirata text-foreground">
                 ¿Por qué su negocio necesita una página web en Mérida?
-              </h2>
-              <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+               </h2>
+              <p className="text-xl font-vt323 text-muted-foreground max-w-3xl mx-auto">
                 Una página web es su vitrina digital las 24 horas del día. Permite que clientes potenciales 
                 conozcan sus productos y servicios, lo contacten fácilmente y confíen en su negocio antes de 
                 visitarlo bien sea en el Centro, en Las Americas, en la Humboldt, en la Milagrosa, en la 
@@ -174,8 +174,8 @@ const DisenoPaginaWeb = () => {
                       <f.icon className="w-6 h-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-foreground mb-2">{f.title}</h3>
-                      <p className="text-sm text-muted-foreground">{f.desc}</p>
+                      <h3 className="font-pirata text-lg text-foreground mb-2">{f.title}</h3>
+                      <p className="text-lg font-vt323 text-muted-foreground">{f.desc}</p>
                     </div>
                   </div>
                 </Card>
@@ -187,7 +187,7 @@ const DisenoPaginaWeb = () => {
         {/* Qué incluye */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
           <div className="container mx-auto max-w-5xl">
-            <h2 className="text-3xl sm:text-4xl font-bold text-foreground text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-pirata text-foreground text-center mb-12">
               ¿Qué incluye nuestro servicio de diseño web?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
@@ -207,7 +207,7 @@ const DisenoPaginaWeb = () => {
                   <div className="w-5 h-5 rounded-full bg-secondary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
                     <Check className="w-3 h-3 text-secondary" />
                   </div>
-                  <span className="text-sm text-foreground">{item}</span>
+                  <span className="text-lg font-vt323 text-foreground">{item}</span>
                 </div>
               ))}
             </div>
@@ -217,10 +217,10 @@ const DisenoPaginaWeb = () => {
         {/* Proceso */}
         <section className="py-20 px-4 sm:px-6 lg:px-8" style={{ background: "linear-gradient(180deg, hsl(var(--background)) 0%, hsl(39 40% 85%) 10%, hsl(39 45% 80%) 50%, hsl(39 40% 85%) 90%, hsl(var(--background)) 100%)" }}>
           <div className="container mx-auto max-w-5xl">
-            <h2 className="text-3xl sm:text-4xl font-bold text-center mb-4 uppercase tracking-wider" style={{ color: "hsl(30 20% 25%)", fontFamily: "'Georgia', serif" }}>
+            <h2 className="text-3xl sm:text-4xl font-pirata text-center mb-4 uppercase tracking-wider" style={{ color: "hsl(30 20% 25%)" }}>
               Proceso de Inclusión Completa en la Plataforma de Google
             </h2>
-            <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+             <p className="text-center text-xl font-vt323 text-muted-foreground mb-12 max-w-2xl mx-auto">
               Nuestro proceso paso a paso para llevar su negocio de la era tradicional a la era digital
             </p>
 
@@ -243,8 +243,8 @@ const DisenoPaginaWeb = () => {
                       {p.step}
                     </div>
                     <div>
-                      <h3 className="font-bold text-foreground text-lg uppercase tracking-wide">{p.title}</h3>
-                      <p className="text-sm text-muted-foreground mt-1 leading-relaxed">{p.desc}</p>
+                      <h3 className="font-pirata text-foreground text-xl uppercase tracking-wide">{p.title}</h3>
+                      <p className="text-lg font-vt323 text-muted-foreground mt-1 leading-relaxed">{p.desc}</p>
                     </div>
                   </div>
                 ))}
@@ -256,10 +256,10 @@ const DisenoPaginaWeb = () => {
         {/* Precios */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
           <div className="container mx-auto max-w-5xl">
-            <h2 className="text-3xl sm:text-4xl font-bold text-foreground text-center mb-4">
+            <h2 className="text-3xl sm:text-4xl font-pirata text-foreground text-center mb-4">
               Creamos Páginas Web para negocios en Mérida
             </h2>
-            <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+            <p className="text-center text-xl font-vt323 text-muted-foreground mb-12 max-w-2xl mx-auto">
               Su Negocio Merece la Mejor Página Web en Mérida. No solo lo registramos en Google; 
               creamos una identidad digital que atrae clientes reales. De lo tangible a lo virtual y 
               viceversa con resultados medibles. Incluidos en nuestros planes de digitalización, su 
@@ -268,11 +268,11 @@ const DisenoPaginaWeb = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <Card className="p-8 hover:shadow-xl transition-all duration-300">
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">Una Página Web</h3>
+                  <h3 className="text-2xl font-pirata text-foreground">Una Página Web</h3>
                   <div className="text-3xl font-bold text-primary">$60 Anuales / $5 Mensuales</div>
-                  <p className="text-sm text-muted-foreground italic">Con Dominio Web incluido</p>
+                  <p className="text-lg font-vt323 text-muted-foreground italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$40 Pago Único sin Dominio</div>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-lg font-vt323 text-muted-foreground">
                     Ideal para comercios con pocos productos, solo servicios o con solo una categoría.
                   </p>
                   <Button variant="default" size="lg" className="w-full" onClick={handleWhatsAppClick}>
@@ -286,11 +286,11 @@ const DisenoPaginaWeb = () => {
                   Recomendado
                 </div>
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">Hasta 10 Páginas Web Interelacionadas</h3>
+                  <h3 className="text-2xl font-pirata text-foreground">Hasta 10 Páginas Web Interelacionadas</h3>
                   <div className="text-3xl font-bold text-primary">$120 Anuales / $10 Mensuales</div>
-                  <p className="text-sm text-muted-foreground italic">Con Dominio Web incluido</p>
+                  <p className="text-lg font-vt323 text-muted-foreground italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$80 Pago Único sin Dominio</div>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-lg font-vt323 text-muted-foreground">
                     Ideal para comercios con inventario extenso o con más de dos categorías. Incluye optimización SEO avanzada.
                   </p>
                   <Button variant="secondary" size="lg" className="w-full" onClick={handleWhatsAppClick}>
@@ -309,10 +309,10 @@ const DisenoPaginaWeb = () => {
             <div className="absolute top-0 right-0 w-72 h-72 bg-white rounded-full blur-3xl" />
           </div>
           <div className="container mx-auto max-w-4xl relative z-10 text-center space-y-8">
-            <h2 className="text-4xl sm:text-5xl font-bold text-white leading-tight">
+            <h2 className="text-4xl sm:text-5xl font-pirata text-white leading-tight">
               ¿Listo para tener su página web profesional?
             </h2>
-            <p className="text-xl text-white/90 max-w-2xl mx-auto">
+            <p className="text-2xl font-vt323 text-white/90 max-w-2xl mx-auto">
               Contáctenos hoy y comience a recibir clientes desde Internet. Atención local en Mérida, Venezuela.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
