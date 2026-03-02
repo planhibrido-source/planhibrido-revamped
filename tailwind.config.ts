@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        pirata: ['"Pirata One"', 'Georgia', 'serif'],
+        pirata: ['"UnifrakturMaguntia"', 'Georgia', 'serif'],
         vt323: ['"VT323"', 'monospace'],
       },
       colors: {
