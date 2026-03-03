@@ -7,6 +7,7 @@ import { Footer } from "@/components/Footer";
 import heroBg from "@/assets/example-caballero.png";
 import meridaSkyline from "@/assets/merida-skyline.png";
 import procesoPln from "@/assets/proceso-pln.png";
+import parchmentBg from "@/assets/parchment-bg.png";
 
 const DisenoPaginaWeb = () => {
   const handleWhatsAppClick = () => {
@@ -151,16 +152,10 @@ const DisenoPaginaWeb = () => {
         </section>
 
         {/* ¿Por qué una página web? */}
-        <section className="py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden" style={{ background: "linear-gradient(135deg, hsl(39 45% 90%), hsl(35 40% 85%), hsl(30 35% 82%), hsl(39 45% 88%))" }}>
-          {/* Parchment texture overlay */}
-          <div className="absolute inset-0 opacity-[0.08]" style={{ backgroundImage: "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E\")" }} />
-          {/* Burn/wear edges */}
-          <div className="absolute inset-0 pointer-events-none" style={{ boxShadow: "inset 0 0 80px 20px hsl(30 30% 60% / 0.4), inset 0 0 200px 60px hsl(25 40% 50% / 0.15)" }} />
-          {/* Stain spots */}
-          <div className="absolute top-[10%] left-[5%] w-40 h-40 rounded-full opacity-[0.06]" style={{ background: "radial-gradient(circle, hsl(30 50% 40%), transparent 70%)" }} />
-          <div className="absolute bottom-[15%] right-[8%] w-60 h-48 rounded-full opacity-[0.05]" style={{ background: "radial-gradient(circle, hsl(25 45% 35%), transparent 70%)" }} />
-          <div className="absolute top-[60%] left-[40%] w-32 h-32 rounded-full opacity-[0.04]" style={{ background: "radial-gradient(circle, hsl(35 40% 45%), transparent 70%)" }} />
-          <div className="container mx-auto max-w-5xl">
+        <section className="py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+          {/* Parchment background image */}
+          <div className="absolute inset-0" style={{ backgroundImage: `url(${parchmentBg})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} />
+          <div className="container mx-auto max-w-5xl relative z-10">
             <div className="text-center mb-12 space-y-4">
                <h2 className="text-3xl sm:text-4xl font-pirata text-foreground">
                 ¿Por qué su negocio necesita una página web en Mérida?
