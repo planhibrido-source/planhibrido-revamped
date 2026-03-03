@@ -230,8 +230,7 @@ const DisenoPaginaWeb = () => {
                 <img
                   src={procesoPln}
                   alt="Proceso de inclusión completa en la plataforma de Google - 9 pasos ilustrados con temática medieval"
-                  className="w-full max-w-sm rounded-lg shadow-2xl border-4"
-                  style={{ borderColor: "hsl(39 40% 70%)" }}
+                  className="w-full max-w-sm rounded-lg shadow-2xl"
                 />
               </div>
 
