@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Check, Phone, MapPin, MessageCircle, ArrowLeft, Globe, Palette, Search, ShieldCheck, Smartphone, Zap } from "lucide-react";
+import { Phone, MapPin, MessageCircle, ArrowLeft, Globe, Palette, Search, ShieldCheck, Smartphone, Zap } from "lucide-react";
 import { Link } from "react-router-dom";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import { Footer } from "@/components/Footer";
@@ -8,6 +8,7 @@ import heroBg from "@/assets/example-caballero.png";
 import meridaSkyline from "@/assets/merida-skyline.png";
 import procesoPln from "@/assets/proceso-pln.png";
 import parchmentBg from "@/assets/parchment-bg.png";
+import waxSealCheck from "@/assets/wax-seal-check.png";
 
 const DisenoPaginaWeb = () => {
   const handleWhatsAppClick = () => {
@@ -207,9 +208,7 @@ const DisenoPaginaWeb = () => {
                 "Soporte local en Mérida, Venezuela",
               ].map((item, idx) => (
                 <div key={idx} className="flex items-start gap-3 p-3">
-                  <div className="w-5 h-5 rounded-full bg-secondary/10 flex items-center justify-center flex-shrink-0 mt-0.5">
-                    <Check className="w-3 h-3 text-secondary" />
-                  </div>
+                  <img src={waxSealCheck} alt="✓" className="w-8 h-8 flex-shrink-0 mt-0.5" />
                   <span className="text-lg font-vt323 text-foreground">{item}</span>
                 </div>
               ))}
