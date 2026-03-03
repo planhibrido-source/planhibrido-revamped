@@ -243,7 +243,7 @@ const DisenoPaginaWeb = () => {
                       {p.step}
                     </div>
                     <div>
-                      <h3 className="font-pirata text-foreground text-xl uppercase tracking-wide">{p.title}</h3>
+                      <h3 className="font-pirata text-foreground text-xl tracking-wide">{p.title}</h3>
                       <p className="text-lg font-vt323 text-muted-foreground mt-1 leading-relaxed">{p.desc}</p>
                     </div>
                   </div>
