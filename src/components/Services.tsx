@@ -10,16 +10,16 @@ export const Services = () => {
     { icon: MapPinned, title: "Nombre y Dirección", desc: "Configuración completa de ubicación" },
     { icon: Star, title: "Categoría", desc: "Clasificación óptima del negocio" },
     { icon: Link2, title: "Vínculos a Redes", desc: "Integración con redes sociales" },
-    { icon: Image, title: "Fotos del Local", desc: "Exterior e interior profesional" },
+    { icon: Image, title: "Fotos del Local", desc: "Tanto Exteriores, como Interiores" },
   ];
 
   const advancedServices = [
-    { icon: Search, title: "Verificación", desc: "Proceso completo de validación" },
-    { icon: Camera, title: "Fotos", desc: "Digitalizamos el ambiente del local" },
+    { icon: Search, title: "Verificación", desc: "Proceso de validación en Google" },
+    { icon: Camera, title: "Fotos", desc: "Digitalizamos hasta 200 productos y/o servicios" },
     { icon: Star, title: "Experiencias", desc: "Gestión de reseñas de clientes" },
-    { icon: Globe, title: "Optimización SEO", desc: "Mejor posicionamiento en búsquedas" },
-    { icon: Video, title: "Video Referencia", desc: "Contenido visual desde puntos clave" },
-    { icon: MapPinned, title: "Ubicación Exacta", desc: "Precisión en el mapa de Google" },
+    { icon: Globe, title: "Optimización SEO", desc: "Mejores resultados en búsquedas" },
+    { icon: Video, title: "Videos Referenciales", desc: "Contenido visual desde puntos clave" },
+    { icon: MapPinned, title: "Ubicación Exacta", desc: "Precisión en el Mapa de Google" },
   ];
 
   return (
