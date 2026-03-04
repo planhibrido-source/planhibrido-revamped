@@ -204,11 +204,16 @@ const DisenoPaginaWeb = () => {
             <h2 className="text-3xl sm:text-4xl font-pirata text-foreground text-center mb-12">
               ¿Qué incluye nuestro servicio de diseño web?
             </h2>
-            <div className="flex flex-col gap-2 max-w-xl mx-auto">
+            <div className="flex flex-col gap-2 items-center">
               {[
                 "Página web de inicio (Landing Page) profesional y editable",
                 "Catálogo web con capacidad de hasta 3,000 productos/servicios",
-                "Dominio de pago anual o mensual (.com o personalizado)",
+                "Dominio propio por 1 año (.com o personalizado)",
+                "Certificado SSL (HTTPS) y alojamiento web incluido",
+                "Integración con WhatsApp, Instagram, Facebook y más redes",
+                "Optimización SEO para búsquedas locales en Mérida",
+                "Diseño adaptado a celulares y tablets (responsivo)",
+                "Página informativa imprimible en formato PDF",
                 "Integración con Google Maps y perfil de Google",
                 "Soporte local en Mérida, Venezuela",
               ].map((item, idx) => (
