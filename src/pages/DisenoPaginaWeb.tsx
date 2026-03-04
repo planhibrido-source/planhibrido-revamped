@@ -195,16 +195,16 @@ const DisenoPaginaWeb = () => {
             className="absolute inset-0" 
             style={{ 
               backgroundImage: `url(${parchmentScroll})`, 
-              backgroundSize: "cover", 
+              backgroundSize: "contain", 
               backgroundPosition: "center", 
               backgroundRepeat: "no-repeat" 
             }} 
           />
-          <div className="container mx-auto max-w-5xl relative z-10">
+          <div className="container mx-auto max-w-2xl relative z-10">
             <h2 className="text-3xl sm:text-4xl font-pirata text-foreground text-center mb-12">
               ¿Qué incluye nuestro servicio de diseño web?
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-3xl mx-auto">
+            <div className="flex flex-col gap-2 max-w-xl mx-auto">
               {[
                 "Página web de inicio (Landing Page) profesional y editable",
                 "Catálogo web con capacidad de hasta 3,000 productos/servicios",
@@ -217,8 +217,8 @@ const DisenoPaginaWeb = () => {
                 "Integración con Google Maps y perfil de Google",
                 "Soporte local en Mérida, Venezuela",
               ].map((item, idx) => (
-                <div key={idx} className="flex items-start gap-3 p-3">
-                  <img src={waxSealCheck} alt="✓" className="w-32 h-32 flex-shrink-0 mt-0.5" />
+                <div key={idx} className="flex items-center gap-4 p-2">
+                  <img src={waxSealCheck} alt="✓" className="w-12 h-12 flex-shrink-0" />
                   <span className="text-lg font-vt323 text-foreground">{item}</span>
                 </div>
               ))}
