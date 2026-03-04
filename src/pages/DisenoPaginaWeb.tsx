@@ -169,7 +169,7 @@ const DisenoPaginaWeb = () => {
                 Avenida Universidad, en la Avenida 16, en la Avenida Urdaneta, en las Tapias, en la Pedregosa, 
                 en la Hechicera, en los Proceres, en los Chorros, en Santa Juana, en los Curos, en la Mata, en 
                 Zumba, en la Avenida Andres Bello o en Belenzate quienes busquen información relacionada a su
-                negocio lo encuentran con mayor facilidad según su tipo de negocio en toda Mérida, Venezuela.
+                negocio lo encuentran con mayor facilidad en toda Mérida, Venezuela.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
