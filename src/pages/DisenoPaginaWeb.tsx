@@ -161,7 +161,7 @@ const DisenoPaginaWeb = () => {
                <h2 className="text-3xl sm:text-4xl font-pirata text-foreground">
                 ¿Por qué su negocio necesita una página web en Mérida?
                </h2>
-              <p className="text-xl font-vt323 text-muted-foreground max-w-3xl mx-auto">
+              <p className="text-xl font-vt323 text-foreground max-w-3xl mx-auto">
                 Una página web es su vitrina digital las 24 horas del día. Permite que clientes potenciales 
                 conozcan sus productos y servicios, lo contacten fácilmente y confíen en su negocio antes de 
                 visitarlo bien sea en el Centro, en Las Americas, en la Humboldt, en la Milagrosa, en la 
@@ -180,7 +180,7 @@ const DisenoPaginaWeb = () => {
                       </div>
                       <h3 className="font-pirata text-2xl text-foreground">{f.title}</h3>
                     </div>
-                    <p className="text-lg font-vt323 text-muted-foreground">{f.desc}</p>
+                    <p className="text-lg font-vt323 text-foreground">{f.desc}</p>
                   </div>
                 </Card>
               ))}
@@ -222,7 +222,7 @@ const DisenoPaginaWeb = () => {
             <h2 className="text-3xl sm:text-4xl font-pirata text-center mb-4 tracking-wider" style={{ color: "hsl(30 20% 25%)" }}>
               Proceso de Inclusión Completa en la Plataforma de Google
             </h2>
-             <p className="text-center text-xl font-vt323 text-muted-foreground mb-12 max-w-2xl mx-auto">
+             <p className="text-center text-xl font-vt323 text-foreground mb-12 max-w-2xl mx-auto">
               Nuestro proceso paso a paso para llevar su negocio de la era de los caballeros a la era digital
             </p>
 
@@ -245,7 +245,7 @@ const DisenoPaginaWeb = () => {
                     </div>
                     <div>
                       <h3 className="font-pirata text-foreground text-xl tracking-wide">{p.title}</h3>
-                      <p className="text-lg font-vt323 text-muted-foreground mt-1 leading-relaxed">{p.desc}</p>
+                      <p className="text-lg font-vt323 text-foreground mt-1 leading-relaxed">{p.desc}</p>
                     </div>
                   </div>
                 ))}
@@ -260,7 +260,7 @@ const DisenoPaginaWeb = () => {
             <h2 className="text-3xl sm:text-4xl font-pirata text-foreground text-center mb-4">
               Creamos Páginas Web para negocios en Mérida
             </h2>
-            <p className="text-center text-xl font-vt323 text-muted-foreground mb-12 max-w-2xl mx-auto">
+            <p className="text-center text-xl font-vt323 text-foreground mb-12 max-w-2xl mx-auto">
               Su Negocio Merece la Mejor Página Web en Mérida. No solo lo registramos en Google; 
               creamos una identidad digital que atrae clientes reales. De lo tangible a lo virtual y 
               viceversa con resultados medibles. Incluidos en nuestros planes de digitalización, su 
@@ -271,9 +271,9 @@ const DisenoPaginaWeb = () => {
                 <div className="space-y-4">
                   <h3 className="text-2xl font-pirata text-foreground">Una Página Web</h3>
                   <div className="text-3xl font-bold text-primary">$60 Anuales / $5 Mensuales</div>
-                  <p className="text-lg font-vt323 text-muted-foreground italic">Con Dominio Web incluido</p>
+                  <p className="text-lg font-vt323 text-foreground italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$40 Pago Único sin Dominio</div>
-                  <p className="text-lg font-vt323 text-muted-foreground">
+                  <p className="text-lg font-vt323 text-foreground">
                     Ideal para comercios con pocos productos, solo servicios o con solo una categoría.
                   </p>
                   <Button variant="default" size="lg" className="w-full" onClick={handleWhatsAppClick}>
@@ -289,9 +289,9 @@ const DisenoPaginaWeb = () => {
                 <div className="space-y-4">
                   <h3 className="text-2xl font-pirata text-foreground">Hasta 10 Páginas Web Interelacionadas</h3>
                   <div className="text-3xl font-bold text-primary">$120 Anuales / $10 Mensuales</div>
-                  <p className="text-lg font-vt323 text-muted-foreground italic">Con Dominio Web incluido</p>
+                  <p className="text-lg font-vt323 text-foreground italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$80 Pago Único sin Dominio</div>
-                  <p className="text-lg font-vt323 text-muted-foreground">
+                  <p className="text-lg font-vt323 text-foreground">
                     Ideal para comercios con inventario extenso o con más de dos categorías. Incluye optimización SEO avanzada.
                   </p>
                   <Button variant="secondary" size="lg" className="w-full" onClick={handleWhatsAppClick}>
