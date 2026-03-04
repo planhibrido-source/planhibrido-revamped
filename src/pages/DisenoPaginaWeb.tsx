@@ -202,7 +202,7 @@ const DisenoPaginaWeb = () => {
           />
           <div className="container mx-auto max-w-2xl relative z-10">
             <h2 className="text-3xl sm:text-4xl font-pirata text-foreground text-center mb-12">
-              ¿Qué incluye nuestro servicio de diseño web?
+              ¿Qué incluye nuestro<br />servicio de diseño web?
             </h2>
             <div className="flex flex-col gap-2 items-center">
               {[
