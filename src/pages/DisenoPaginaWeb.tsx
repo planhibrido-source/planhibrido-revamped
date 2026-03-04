@@ -208,7 +208,7 @@ const DisenoPaginaWeb = () => {
               {[
                 "Página web de inicio (Landing Page) profesional y editable",
                 "Catálogo web con capacidad de hasta 3,000 productos/servicios",
-                "Dominio propio por 1 año (.com o personalizado)",
+                "Dominio de pago anual o mensual (.com o personalizado)",
                 "Integración con Google Maps y perfil de Google",
                 "Soporte local en Mérida, Venezuela",
               ].map((item, idx) => (
