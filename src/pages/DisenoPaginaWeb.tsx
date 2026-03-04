@@ -210,7 +210,6 @@ const DisenoPaginaWeb = () => {
                 "Catálogo web con capacidad de hasta 3,000 productos/servicios",
                 "Dominio de pago anual o mensual (.com o personalizado)",
                 "Integración con Google Maps y perfil de Google",
-                "Soporte local en Mérida, Venezuela",
               ].map((item, idx) => (
                 <div key={idx} className="flex items-center gap-4 p-2">
                   <img src={waxSealCheck} alt="✓" className="w-12 h-12 flex-shrink-0" />
@@ -225,7 +224,7 @@ const DisenoPaginaWeb = () => {
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
           <div className="container mx-auto max-w-5xl">
             <h2 className="text-3xl sm:text-4xl font-pirata text-center mb-4 tracking-wider" style={{ color: "hsl(30 20% 25%)" }}>
-              Proceso de Inclusión Completa en la Plataforma de Google
+              Proceso de Inclusión en la Plataforma de Google
             </h2>
              <p className="text-center text-xl font-vt323 text-foreground mb-12 max-w-2xl mx-auto">
               Nuestro proceso paso a paso para llevar su negocio de la era de los caballeros a la era digital
@@ -236,7 +235,7 @@ const DisenoPaginaWeb = () => {
               <div className="flex justify-center lg:sticky lg:top-8">
                 <img
                   src={procesoPln}
-                  alt="Proceso de inclusión completa en la plataforma de Google - 9 pasos ilustrados con temática medieval"
+                  alt="Proceso de inclusión en la plataforma de Google - 9 pasos ilustrados con temática medieval"
                   className="w-full max-w-sm rounded-lg shadow-2xl"
                 />
               </div>
@@ -263,7 +262,7 @@ const DisenoPaginaWeb = () => {
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
           <div className="container mx-auto max-w-5xl">
             <h2 className="text-3xl sm:text-4xl font-pirata text-foreground text-center mb-4">
-              Creamos Páginas Web para negocios en Mérida
+              Precios de Páginas Web para negocios en Mérida
             </h2>
             <p className="text-center text-xl font-vt323 text-foreground mb-12 max-w-2xl mx-auto">
               Su Negocio Merece la Mejor Página Web en Mérida. No solo lo registramos en Google; 
