@@ -168,7 +168,8 @@ const DisenoPaginaWeb = () => {
                 visitarlo bien sea en el Centro, en Las Americas, en la Humboldt, en la Milagrosa, en la 
                 Avenida Universidad, en la Avenida 16, en la Avenida Urdaneta, en las Tapias, en la Pedregosa, 
                 en la Hechicera, en los Proceres, en los Chorros, en Santa Juana, en los Curos, en la Mata, en 
-                Zumba, en la Avenida Andres Bello o en Belenzate servimos en toda Mérida, Venezuela.
+                Zumba, en la Avenida Andres Bello o en Belenzate quienes busquen información relacionada a su
+                negocio lo encuentran con mayor facilidad según su tipo de negocio en toda Mérida, Venezuela.
               </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
