@@ -8,6 +8,7 @@ import heroBg from "@/assets/example-caballero.png";
 import meridaSkyline from "@/assets/merida-skyline.png";
 import procesoPln from "@/assets/proceso-pln.png";
 import parchmentBg from "@/assets/parchment-bg.png";
+import parchmentScroll from "@/assets/parchment-scroll.png";
 import waxSealCheck from "@/assets/wax-seal-check.png";
 
 const DisenoPaginaWeb = () => {
@@ -189,8 +190,17 @@ const DisenoPaginaWeb = () => {
         </section>
 
         {/* Qué incluye */}
-        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
-          <div className="container mx-auto max-w-5xl">
+        <section className="relative py-20 px-4 sm:px-6 lg:px-8">
+          <div 
+            className="absolute inset-0" 
+            style={{ 
+              backgroundImage: `url(${parchmentScroll})`, 
+              backgroundSize: "cover", 
+              backgroundPosition: "center", 
+              backgroundRepeat: "no-repeat" 
+            }} 
+          />
+          <div className="container mx-auto max-w-5xl relative z-10">
             <h2 className="text-3xl sm:text-4xl font-pirata text-foreground text-center mb-12">
               ¿Qué incluye nuestro servicio de diseño web?
             </h2>
@@ -208,7 +218,7 @@ const DisenoPaginaWeb = () => {
                 "Soporte local en Mérida, Venezuela",
               ].map((item, idx) => (
                 <div key={idx} className="flex items-start gap-3 p-3">
-                  <img src={waxSealCheck} alt="✓" className="w-8 h-8 flex-shrink-0 mt-0.5" />
+                  <img src={waxSealCheck} alt="✓" className="w-32 h-32 flex-shrink-0 mt-0.5" />
                   <span className="text-lg font-vt323 text-foreground">{item}</span>
                 </div>
               ))}
