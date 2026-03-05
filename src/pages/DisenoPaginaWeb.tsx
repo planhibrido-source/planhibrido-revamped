@@ -9,6 +9,7 @@ import meridaSkyline from "@/assets/merida-skyline.png";
 import procesoPln from "@/assets/proceso-pln.png";
 import parchmentBg from "@/assets/parchment-bg.png";
 import parchmentScroll from "@/assets/parchment-scroll.png";
+import parchmentScrollDesktop from "@/assets/parchment-scroll-desktop.png";
 import waxSealCheck from "@/assets/wax-seal-check.png";
 
 const DisenoPaginaWeb = () => {
@@ -192,10 +193,21 @@ const DisenoPaginaWeb = () => {
 
         {/* Qué incluye */}
         <section className="relative py-20 px-4 sm:px-6 lg:px-8">
+          {/* Mobile background */}
           <div 
-            className="absolute inset-0" 
+            className="absolute inset-0 md:hidden" 
             style={{ 
               backgroundImage: `url(${parchmentScroll})`, 
+              backgroundSize: "contain", 
+              backgroundPosition: "center", 
+              backgroundRepeat: "no-repeat" 
+            }} 
+          />
+          {/* Desktop/tablet background */}
+          <div 
+            className="absolute inset-0 hidden md:block" 
+            style={{ 
+              backgroundImage: `url(${parchmentScrollDesktop})`, 
               backgroundSize: "contain", 
               backgroundPosition: "center", 
               backgroundRepeat: "no-repeat" 
