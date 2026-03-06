@@ -12,6 +12,7 @@ import parchmentScroll from "@/assets/parchment-scroll.png";
 import parchmentScrollDesktop from "@/assets/parchment-scroll-desktop.png";
 import waxSealCheck from "@/assets/wax-seal-check.png";
 import parchmentPricing from "@/assets/parchment-pricing.png";
+import whatsappSeal from "@/assets/whatsapp-seal.png";
 
 const DisenoPaginaWeb = () => {
   const handleWhatsAppClick = () => {
@@ -291,17 +292,16 @@ const DisenoPaginaWeb = () => {
                   style={{ backgroundImage: `url(${parchmentPricing})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} 
                 />
                 <div className="space-y-4 relative z-10">
-                  <h3 className="text-2xl font-pirata text-foreground">Una Página Web</h3>
+                  <h3 className="text-2xl font-pirata text-foreground text-center">Una Página Web</h3>
                   <div className="text-xl font-bold" style={{ color: '#DC143C' }}>$60 Anuales / $5 Mensuales</div>
                   <p className="text-lg font-vt323 text-foreground italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$40 Pago Único sin Dominio</div>
                   <p className="text-lg font-vt323 text-foreground">
                     Ideal para comercios con pocos productos, solo servicios o con solo una categoría.
                   </p>
-                  <Button variant="default" size="lg" className="w-full" onClick={handleWhatsAppClick}>
-                    <MessageCircle className="w-4 h-4" />
-                    Consultar por WhatsApp
-                  </Button>
+                  <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="block mx-auto w-20 h-20 hover:scale-110 transition-transform">
+                    <img src={whatsappSeal} alt="Consultar por WhatsApp" className="w-full h-full object-contain" />
+                  </a>
                 </div>
               </Card>
               <Card className="p-8 shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden">
@@ -310,17 +310,16 @@ const DisenoPaginaWeb = () => {
                   style={{ backgroundImage: `url(${parchmentPricing})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} 
                 />
                 <div className="space-y-4 relative z-10">
-                  <h3 className="text-2xl font-pirata text-foreground">Hasta 10 Páginas Web Interelacionadas</h3>
+                  <h3 className="text-2xl font-pirata text-foreground text-center">Hasta 10 Páginas Web Interelacionadas</h3>
                   <div className="text-xl font-bold" style={{ color: '#DC143C' }}>$120 Anuales / $10 Mensuales</div>
                   <p className="text-lg font-vt323 text-foreground italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$80 Pago Único sin Dominio</div>
                   <p className="text-lg font-vt323 text-foreground">
                     Ideal para comercios con inventario extenso o con más de dos categorías. Incluye optimización SEO avanzada.
                   </p>
-                  <Button variant="secondary" size="lg" className="w-full" onClick={handleWhatsAppClick}>
-                    <MessageCircle className="w-4 h-4" />
-                    Consultar por WhatsApp
-                  </Button>
+                  <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="block mx-auto w-20 h-20 hover:scale-110 transition-transform">
+                    <img src={whatsappSeal} alt="Consultar por WhatsApp" className="w-full h-full object-contain" />
+                  </a>
                 </div>
               </Card>
             </div>
