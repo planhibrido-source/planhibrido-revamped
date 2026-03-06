@@ -11,6 +11,7 @@ import parchmentBg from "@/assets/parchment-bg.png";
 import parchmentScroll from "@/assets/parchment-scroll.png";
 import parchmentScrollDesktop from "@/assets/parchment-scroll-desktop.png";
 import waxSealCheck from "@/assets/wax-seal-check.png";
+import parchmentPricing from "@/assets/parchment-pricing.png";
 
 const DisenoPaginaWeb = () => {
   const handleWhatsAppClick = () => {
@@ -284,8 +285,12 @@ const DisenoPaginaWeb = () => {
               página web estará integrada con su perfil de Google Maps.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <Card className="p-8 hover:shadow-xl transition-all duration-300">
-                <div className="space-y-4">
+              <Card className="p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden">
+                <div 
+                  className="absolute inset-0 z-0" 
+                  style={{ backgroundImage: `url(${parchmentPricing})`, backgroundSize: "cover", backgroundPosition: "center" }} 
+                />
+                <div className="space-y-4 relative z-10">
                   <h3 className="text-2xl font-pirata text-foreground">Una Página Web</h3>
                   <div className="text-3xl font-bold text-primary">$60 Anuales / $5 Mensuales</div>
                   <p className="text-lg font-vt323 text-foreground italic">Con Dominio Web incluido</p>
@@ -299,11 +304,15 @@ const DisenoPaginaWeb = () => {
                   </Button>
                 </div>
               </Card>
-              <Card className="p-8 border-2 border-secondary shadow-lg hover:shadow-xl transition-all duration-300 relative">
-                <div className="absolute top-0 right-0 bg-secondary text-secondary-foreground px-4 py-1 text-sm font-semibold">
+              <Card className="p-8 border-2 border-secondary shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden">
+                <div 
+                  className="absolute inset-0 z-0" 
+                  style={{ backgroundImage: `url(${parchmentPricing})`, backgroundSize: "cover", backgroundPosition: "center" }} 
+                />
+                <div className="absolute top-0 right-0 bg-secondary text-secondary-foreground px-4 py-1 text-sm font-semibold z-20">
                   Recomendado
                 </div>
-                <div className="space-y-4">
+                <div className="space-y-4 relative z-10">
                   <h3 className="text-2xl font-pirata text-foreground">Hasta 10 Páginas Web Interelacionadas</h3>
                   <div className="text-3xl font-bold text-primary">$120 Anuales / $10 Mensuales</div>
                   <p className="text-lg font-vt323 text-foreground italic">Con Dominio Web incluido</p>
