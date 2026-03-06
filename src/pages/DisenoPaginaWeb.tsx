@@ -320,6 +320,7 @@ const DisenoPaginaWeb = () => {
                   <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="block mx-auto w-20 h-20 hover:scale-110 transition-transform">
                     <img src={whatsappSeal} alt="Consultar por WhatsApp" className="w-full h-full object-contain" />
                   </a>
+                </div>
               </Card>
             </div>
           </div>
