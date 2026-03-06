@@ -292,7 +292,7 @@ const DisenoPaginaWeb = () => {
                 />
                 <div className="space-y-4 relative z-10">
                   <h3 className="text-2xl font-pirata text-foreground">Una Página Web</h3>
-                  <div className="text-3xl font-bold text-primary">$60 Anuales / $5 Mensuales</div>
+                  <div className="text-xl font-bold" style={{ color: '#DC143C' }}>$60 Anuales / $5 Mensuales</div>
                   <p className="text-lg font-vt323 text-foreground italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$40 Pago Único sin Dominio</div>
                   <p className="text-lg font-vt323 text-foreground">
@@ -311,7 +311,7 @@ const DisenoPaginaWeb = () => {
                 />
                 <div className="space-y-4 relative z-10">
                   <h3 className="text-2xl font-pirata text-foreground">Hasta 10 Páginas Web Interelacionadas</h3>
-                  <div className="text-3xl font-bold text-primary">$120 Anuales / $10 Mensuales</div>
+                  <div className="text-xl font-bold" style={{ color: '#DC143C' }}>$120 Anuales / $10 Mensuales</div>
                   <p className="text-lg font-vt323 text-foreground italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$80 Pago Único sin Dominio</div>
                   <p className="text-lg font-vt323 text-foreground">
