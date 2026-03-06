@@ -304,14 +304,11 @@ const DisenoPaginaWeb = () => {
                   </Button>
                 </div>
               </Card>
-              <Card className="p-8 border-2 border-secondary shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden">
+              <Card className="p-8 shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden">
                 <div 
                   className="absolute inset-0 z-0" 
                   style={{ backgroundImage: `url(${parchmentPricing})`, backgroundSize: "cover", backgroundPosition: "center" }} 
                 />
-                <div className="absolute top-0 right-0 bg-secondary text-secondary-foreground px-4 py-1 text-sm font-semibold z-20">
-                  Recomendado
-                </div>
                 <div className="space-y-4 relative z-10">
                   <h3 className="text-2xl font-pirata text-foreground">Hasta 10 Páginas Web Interelacionadas</h3>
                   <div className="text-3xl font-bold text-primary">$120 Anuales / $10 Mensuales</div>
