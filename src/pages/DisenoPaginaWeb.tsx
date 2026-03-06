@@ -288,7 +288,7 @@ const DisenoPaginaWeb = () => {
               <Card className="p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden">
                 <div 
                   className="absolute inset-0 z-0" 
-                  style={{ backgroundImage: `url(${parchmentPricing})`, backgroundSize: "cover", backgroundPosition: "center" }} 
+                  style={{ backgroundImage: `url(${parchmentPricing})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} 
                 />
                 <div className="space-y-4 relative z-10">
                   <h3 className="text-2xl font-pirata text-foreground">Una Página Web</h3>
@@ -307,7 +307,7 @@ const DisenoPaginaWeb = () => {
               <Card className="p-8 shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden">
                 <div 
                   className="absolute inset-0 z-0" 
-                  style={{ backgroundImage: `url(${parchmentPricing})`, backgroundSize: "cover", backgroundPosition: "center" }} 
+                  style={{ backgroundImage: `url(${parchmentPricing})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} 
                 />
                 <div className="space-y-4 relative z-10">
                   <h3 className="text-2xl font-pirata text-foreground">Hasta 10 Páginas Web Interelacionadas</h3>
