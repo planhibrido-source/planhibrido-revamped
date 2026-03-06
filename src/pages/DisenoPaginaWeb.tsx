@@ -12,6 +12,7 @@ import parchmentScroll from "@/assets/parchment-scroll.png";
 import parchmentScrollDesktop from "@/assets/parchment-scroll-desktop.png";
 import waxSealCheck from "@/assets/wax-seal-check.png";
 import parchmentPricing from "@/assets/parchment-pricing.png";
+import whatsappSeal from "@/assets/whatsapp-seal.png";
 
 const DisenoPaginaWeb = () => {
   const handleWhatsAppClick = () => {
