@@ -299,8 +299,9 @@ const DisenoPaginaWeb = () => {
                   <p className="text-lg font-vt323 text-foreground">
                     Ideal para comercios con pocos productos, solo servicios o con solo una categoría.
                   </p>
-                  <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="block mx-auto w-20 h-20 hover:scale-110 transition-transform">
-                    <img src={whatsappSeal} alt="Consultar por WhatsApp" className="w-full h-full object-contain" />
+                  <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="flex items-center justify-end gap-3 hover:scale-105 transition-transform">
+                    <span className="font-pirata text-lg text-foreground">Comencemos por WhatsApp</span>
+                    <img src={whatsappSeal} alt="Consultar por WhatsApp" className="w-[7.5rem] h-[7.5rem] object-contain" />
                   </a>
                 </div>
               </Card>
@@ -317,8 +318,9 @@ const DisenoPaginaWeb = () => {
                   <p className="text-lg font-vt323 text-foreground">
                     Ideal para comercios con inventario extenso o con más de dos categorías. Incluye optimización SEO avanzada.
                   </p>
-                  <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="block mx-auto w-20 h-20 hover:scale-110 transition-transform">
-                    <img src={whatsappSeal} alt="Consultar por WhatsApp" className="w-full h-full object-contain" />
+                  <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="flex items-center justify-end gap-3 hover:scale-105 transition-transform">
+                    <span className="font-pirata text-lg text-foreground">Comencemos por WhatsApp</span>
+                    <img src={whatsappSeal} alt="Consultar por WhatsApp" className="w-[7.5rem] h-[7.5rem] object-contain" />
                   </a>
                 </div>
               </Card>
