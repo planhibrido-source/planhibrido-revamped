@@ -15,6 +15,8 @@ import parchmentPricing from "@/assets/parchment-pricing.png";
 import whatsappSeal from "@/assets/whatsapp-seal.png";
 import sealGoogleMaps from "@/assets/seal-google-maps.png";
 import sealCall from "@/assets/seal-call.png";
+import wallBg from "@/assets/wall-bg.png";
+import whatsappDoor from "@/assets/whatsapp-door.png";
 
 const DisenoPaginaWeb = () => {
   const handleWhatsAppClick = () => {
@@ -318,28 +320,22 @@ const DisenoPaginaWeb = () => {
         </section>
 
         {/* CTA Final */}
-        <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-primary via-primary to-secondary relative overflow-hidden">
-          <div className="absolute inset-0 opacity-10">
-            <div className="absolute top-0 right-0 w-72 h-72 bg-white rounded-full blur-3xl" />
+        <section className="relative px-4 sm:px-6 lg:px-8 pt-20 pb-0 overflow-hidden">
+          <div className="absolute inset-0 z-0">
+            <img src={wallBg} alt="" className="w-full h-full object-cover" />
           </div>
           <div className="container mx-auto max-w-4xl relative z-10 text-center space-y-8">
-            <h2 className="text-4xl sm:text-5xl font-pirata text-white leading-tight">
+            <h2 className="text-4xl sm:text-5xl font-pirata text-white leading-tight drop-shadow-lg">
               ¿Listo para tener su página web profesional?
             </h2>
-            <p className="text-2xl font-vt323 text-white/90 max-w-2xl mx-auto">
+            <p className="text-2xl font-vt323 text-white/90 max-w-2xl mx-auto drop-shadow-md">
               Contáctenos hoy y comience a recibir clientes desde Internet. Atención local en Mérida, Venezuela.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                variant="hero"
-                size="xl"
-                onClick={handleWhatsAppClick}
-                className="bg-white text-primary hover:bg-white/90 shadow-2xl group"
-              >
-                <MessageCircle className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                WhatsApp: +58 414-0770120
-              </Button>
-            </div>
+          </div>
+          <div className="relative z-10 flex justify-center mt-8">
+            <a href="https://wa.me/584140770120?text=Hola%2C%20me%20interesa%20el%20servicio%20de%20diseño%20de%20página%20web" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-transform">
+              <img src={whatsappDoor} alt="Contactar por WhatsApp" className="w-48 sm:w-56 md:w-64 object-contain" />
+            </a>
           </div>
         </section>
 
