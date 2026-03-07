@@ -286,7 +286,7 @@ const DisenoPaginaWeb = () => {
               página web estará integrada con su perfil de Google Maps.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <Card className="p-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden">
+              <Card className="pt-6 pr-6 pl-6 pb-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden border-0 shadow-none">
                 <div 
                   className="absolute inset-0 z-0" 
                   style={{ backgroundImage: `url(${parchmentPricing})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} 
@@ -305,7 +305,7 @@ const DisenoPaginaWeb = () => {
                   </a>
                 </div>
               </Card>
-              <Card className="p-8 shadow-lg hover:shadow-xl transition-all duration-300 relative overflow-hidden">
+              <Card className="pt-6 pr-6 pl-6 pb-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden border-0 shadow-none">
                 <div 
                   className="absolute inset-0 z-0" 
                   style={{ backgroundImage: `url(${parchmentPricing})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} 
