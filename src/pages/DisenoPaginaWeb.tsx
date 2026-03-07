@@ -86,7 +86,7 @@ const DisenoPaginaWeb = () => {
               </h1>
               <p className="text-2xl font-vt323 text-white/90 leading-relaxed">
                 Creamos una página web profesional optimizada para su negocio local en Mérida, Venezuela. 
-                Página web rápida, responsiva y optimizada para que sus clientes lo encuentren en Google.
+                Página web rápida, moderna, accesible, segura y optimizada para que sus clientes lo encuentren en Google.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4 pb-16 sm:pb-20 md:pb-24 relative z-30">
                 <Link to="/">
