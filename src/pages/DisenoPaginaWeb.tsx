@@ -326,10 +326,10 @@ const DisenoPaginaWeb = () => {
           </div>
           <div className="container mx-auto max-w-4xl relative z-10 text-center space-y-8">
             <h2 className="text-4xl sm:text-5xl font-pirata text-white leading-tight drop-shadow-lg">
-              ¿Listo para tener su página web profesional?
+              ¿Ya lo convencimos de tener al menos una Página Web con catálogo y con el nombre de su negocio en el dominio desde 5 dolitas al BCV cada mes?
             </h2>
             <p className="text-2xl font-vt323 text-white/90 max-w-2xl mx-auto drop-shadow-md">
-              Contáctenos hoy y comience a recibir clientes desde Internet. Atención local en Mérida, Venezuela.
+              Contáctenos hoy para resolver cualquier duda y lo ayudamos a recibir más clientes con Google
             </p>
           </div>
           <div className="relative z-10 flex justify-center mt-8">
