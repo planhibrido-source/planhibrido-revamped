@@ -13,6 +13,8 @@ import parchmentScrollDesktop from "@/assets/parchment-scroll-desktop.png";
 import waxSealCheck from "@/assets/wax-seal-check.png";
 import parchmentPricing from "@/assets/parchment-pricing.png";
 import whatsappSeal from "@/assets/whatsapp-seal.png";
+import sealGoogleMaps from "@/assets/seal-google-maps.png";
+import sealCall from "@/assets/seal-call.png";
 
 const DisenoPaginaWeb = () => {
   const handleWhatsAppClick = () => {
@@ -73,7 +75,7 @@ const DisenoPaginaWeb = () => {
         <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
           <div className="absolute inset-0">
             <img src={heroBg} alt="Diseño de Página Web en Mérida" className="w-full h-full object-cover" />
-            <div className="absolute inset-0 bg-primary/80" />
+            <div className="absolute inset-0" style={{ backgroundColor: '#8B7355', opacity: 0.85 }} />
           </div>
           <div className="container mx-auto max-w-5xl relative z-10">
             <Link to="/" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-8 transition-colors">
@@ -88,26 +90,13 @@ const DisenoPaginaWeb = () => {
                 Creamos una página web profesional optimizada para su negocio local en Mérida, Venezuela. 
                 Página web rápida, moderna, accesible, segura y optimizada para que sus clientes lo encuentren en Google.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 pt-4 pb-16 sm:pb-20 md:pb-24 relative z-30">
-                <Link to="/">
-                  <Button
-                    variant="hero"
-                    size="xl"
-                    className="bg-white text-primary hover:bg-white/90 shadow-2xl group"
-                  >
-                    <MapPin className="w-5 h-5 group-hover:scale-110 transition-transform" />
-                    Soluciones Google Maps
-                  </Button>
+              <div className="flex flex-col sm:flex-row items-center gap-6 pt-4 pb-16 sm:pb-20 md:pb-24 relative z-30">
+                <Link to="/" className="hover:scale-110 transition-transform">
+                  <img src={sealGoogleMaps} alt="Soluciones Google Maps" className="w-24 h-24 sm:w-28 sm:h-28 object-contain" />
                 </Link>
-                <Button
-                  variant="hero"
-                  size="xl"
-                  className="group"
-                  onClick={() => window.location.href = "tel:+584140770120"}
-                >
-                  <Phone className="w-5 h-5 group-hover:rotate-12 transition-transform" />
-                  +58 414-0770120
-                </Button>
+                <a href="tel:+584140770120" className="hover:scale-110 transition-transform">
+                  <img src={sealCall} alt="Llamar +58 414-0770120" className="w-24 h-24 sm:w-28 sm:h-28 object-contain" />
+                </a>
               </div>
             </div>
           </div>
