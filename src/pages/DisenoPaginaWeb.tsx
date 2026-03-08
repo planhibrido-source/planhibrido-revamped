@@ -355,7 +355,7 @@ const DisenoPaginaWeb = () => {
           </div>
           <div className="relative z-10 flex justify-center mt-8 mb-0">
             <a href="https://forms.gle/6d5WQyuHYGefB4qe6" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-transform">
-              <img src={googleDoor} alt="Contactar por WhatsApp" className="w-[48rem] sm:w-[56rem] md:w-[64rem] object-contain" />
+              <img src={googleDoor} alt="Contactar por WhatsApp" className="w-full max-w-[96rem] object-contain" />
             </a>
           </div>
         </section>
