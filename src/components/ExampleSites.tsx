@@ -185,7 +185,7 @@ export const ExampleSites = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-[hsl(217,91%,45%)] md:hidden"></div>
         
         <div className="relative z-20 container mx-auto px-6 text-center">
-          <p className="text-xl lg:text-2xl text-white font-medium drop-shadow-lg" style={{ fontFamily: "'VT323', monospace" }}>
+          <p className="text-2xl lg:text-3xl text-white font-medium drop-shadow-lg" style={{ fontFamily: "'VT323', monospace" }}>
             ⛔💵 Vamos hasta su negocio ¡Sin Costo! Si leyó bien, ¡Gratis! Estamos para servirle a los que no conocemos aún y nos necesitan 😎
           </p>
         </div>
