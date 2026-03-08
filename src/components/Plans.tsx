@@ -145,7 +145,7 @@ export const Plans = () => {
       name: "Plan Básico: Una Página Web + Catálogo",
       price: "$60 Anuales/$5 Mensuales: Con Dominio Web",
       discountPrice: "$40 de Pago Único: Sin Dominio Web",
-      ideal: "Ideal para comercios con con pocos productos, solo servicios o con menos de 3 categorías",
+      ideal: "Ideal para comercios con pocos productos, solo servicios o con menos de 3 categorías",
       features: [
         "Edición básica del Perfil de negocios de Google",
         "Fotos del interior y exterior del local comercial",
@@ -164,7 +164,7 @@ export const Plans = () => {
       name: "Plan Especial: Hasta 10 Páginas Web + Catálogo",
       price: "$120 Anuales/$10 Mensuales: Con Dominio Web",
       discountPrice: "$80 de Pago Único: Sin Dominio Web",
-      ideal: "Ideal para comercios con inventario extenso o con más de 2 categorías",
+      ideal: "Ideal para comercios con inventario extenso o con más de 3 categorías",
       features: [
         "Todo lo incluido en el Plan Básico",
         "Edición completa del perfil de negocios de Google",
