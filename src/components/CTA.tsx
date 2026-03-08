@@ -69,10 +69,15 @@ export const CTA = () => {
               <div className="w-2 h-2 bg-secondary rounded-full" />
               <span>Respuesta Rápida</span>
             </div>
-            <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-accent rounded-full" />
-              <span>Asesoría Gratuita</span>
-            </div>
+            <a 
+              href="https://forms.gle/F9ZdA4YqWj1c9NnA6" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 hover:scale-105 transition-transform"
+            >
+              <div className="w-2 h-2 bg-accent rounded-full animate-pulse" />
+              <span className="font-bold animate-[twinkle-colors_4s_ease-in-out_infinite]">Asesoría Gratuita</span>
+            </a>
             <div className="flex items-center gap-2">
               <div className="w-2 h-2 bg-white rounded-full" />
               <span>Especialistas Certificados</span>
