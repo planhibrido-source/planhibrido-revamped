@@ -34,8 +34,8 @@ const Index = () => {
               rel="noopener noreferrer"
               className="flex items-center gap-2 bg-black/60 backdrop-blur-sm rounded-full px-3 py-1.5 text-white hover:scale-105 transition-transform"
             >
-              <div className="w-2 h-2 bg-accent rounded-full animate-pulse" />
-              <span className="font-bold uppercase animate-[twinkle-colors_4s_ease-in-out_infinite]">Asesoría Gratuita</span>
+              <div className="w-2 h-2 rounded-full animate-[twinkle-colors_4s_ease-in-out_infinite]" style={{ backgroundColor: 'currentColor' }} />
+              <span className="font-bold uppercase animate-[twinkle-colors_4s_ease-in-out_infinite]">Obtener Asesoría Gratuita</span>
             </a>
             <div className="flex items-center gap-2 bg-black/60 backdrop-blur-sm rounded-full px-3 py-1.5 text-white">
               <div className="w-2 h-2 bg-white rounded-full" />
