@@ -322,7 +322,7 @@ const DisenoPaginaWeb = () => {
         </section>
 
         {/* CTA Final */}
-        <section className="relative px-4 sm:px-6 lg:px-8 pt-96 lg:pt-[93.6rem] pb-0 overflow-hidden">
+        <section className="relative px-4 sm:px-6 lg:px-8 pt-96 lg:pt-[80rem] pb-0 overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img src={wallBg} alt="" className="w-full h-full object-cover object-top" />
           </div>
