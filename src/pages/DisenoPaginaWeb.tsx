@@ -7,6 +7,7 @@ import { Footer } from "@/components/Footer";
 import { ExampleSites } from "@/components/ExampleSites";
 import heroBg from "@/assets/example-caballero.png";
 import meridaSkyline from "@/assets/merida-skyline.png";
+import mapaMerida from "@/assets/mapa-merida.png";
 import procesoPln from "@/assets/proceso-pln.png";
 import parchmentBg from "@/assets/parchment-bg.png";
 import parchmentScroll from "@/assets/parchment-scroll.png";
