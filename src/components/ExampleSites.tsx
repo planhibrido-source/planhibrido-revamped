@@ -135,10 +135,10 @@ export const ExampleSites = () => {
                         <Link2 className="w-6 h-6 text-secondary" />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-foreground mb-1 group-hover:text-secondary transition-colors">
+                        <h4 className="font-semibold text-foreground mb-1 group-hover:text-secondary transition-colors" style={{ fontFamily: "'Pirata One', cursive" }}>
                           {site.name}
                         </h4>
-                        <p className="text-sm text-muted-foreground">{site.description}</p>
+                        <p className="text-sm text-muted-foreground" style={{ fontFamily: "'VT323', monospace" }}>{site.description}</p>
                       </div>
                     </div>
                   </Card>
