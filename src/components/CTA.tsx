@@ -28,7 +28,7 @@ export const CTA = () => {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
+          <div className="flex flex-col gap-4 justify-center items-center pt-4">
             <Button 
               variant="hero" 
               size="xl"
