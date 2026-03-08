@@ -31,7 +31,8 @@ const MatrixTitle = ({ text }: { text: string }) => {
     const draw = () => {
       ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
-      ctx.fillStyle = "#0f0";
+      const blueShades = ["#00bfff", "#1e90ff", "#4169e1", "#00cfff", "#87cefa"];
+      ctx.fillStyle = blueShades[Math.floor(Math.random() * blueShades.length)];
       ctx.font = `${fontSize}px monospace`;
 
       for (let i = 0; i < drops.length; i++) {
