@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Check, ClipboardList } from "lucide-react";
 import { useEffect, useRef } from "react";
 
-const MatrixTitle = ({ text }: { text: string }) => {
+const MatrixTitle = ({ text, color = "blue" }: { text: string; color?: "blue" | "green" }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -28,11 +28,78 @@ const MatrixTitle = ({ text }: { text: string }) => {
     const columns = Math.floor(canvas.width / fontSize);
     const drops: number[] = Array(columns).fill(1);
 
+    const blueShades = ["#00bfff", "#1e90ff", "#4169e1", "#00cfff", "#87cefa"];
+    const greenShades = ["#00ff41", "#39ff14", "#32cd32", "#00e676", "#76ff03"];
+
     const draw = () => {
       ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
-      const blueShades = ["#00bfff", "#1e90ff", "#4169e1", "#00cfff", "#87cefa"];
-      ctx.fillStyle = blueShades[Math.floor(Math.random() * blueShades.length)];
+      const shades = color === "green" ? greenShades : blueShades;
+      ctx.fillStyle = shades[Math.floor(Math.random() * shades.length)];
+      ctx.font = `${fontSize}px monospace`;
+
+      for (let i = 0; i < drops.length; i++) {
+        const char = chars[Math.floor(Math.random() * chars.length)];
+        ctx.fillText(char, i * fontSize, drops[i] * fontSize);
+        if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+          drops[i] = 0;
+        }
+        drops[i]++;
+      }
+    };
+
+    const interval = setInterval(draw, 50);
+    return () => {
+      clearInterval(interval);
+      window.removeEventListener("resize", resize);
+    };
+  }, [color]);
+
+  const textClass = color === "green"
+    ? "text-green-400 drop-shadow-[0_0_10px_rgba(0,255,0,0.5)]"
+    : "text-sky-400 drop-shadow-[0_0_10px_rgba(0,191,255,0.5)]";
+
+  return (
+    <div ref={containerRef} className="relative inline-block px-6 py-4 rounded-xl overflow-hidden">
+      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full rounded-xl" />
+      <h2 className={`relative z-10 text-4xl sm:text-5xl font-bold ${textClass}`}>
+        {text}
+      </h2>
+    </div>
+  );
+};
+
+const MatrixPlanName = ({ text }: { text: string }) => {
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const canvas = canvasRef.current;
+    const container = containerRef.current;
+    if (!canvas || !container) return;
+
+    const ctx = canvas.getContext("2d");
+    if (!ctx) return;
+
+    const resize = () => {
+      const rect = container.getBoundingClientRect();
+      canvas.width = rect.width;
+      canvas.height = rect.height;
+    };
+    resize();
+    window.addEventListener("resize", resize);
+
+    const chars = "01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン";
+    const fontSize = 12;
+    const columns = Math.floor(canvas.width / fontSize);
+    const drops: number[] = Array(columns).fill(1);
+
+    const greenShades = ["#00ff41", "#39ff14", "#32cd32", "#00e676", "#76ff03"];
+
+    const draw = () => {
+      ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.fillStyle = greenShades[Math.floor(Math.random() * greenShades.length)];
       ctx.font = `${fontSize}px monospace`;
 
       for (let i = 0; i < drops.length; i++) {
@@ -53,11 +120,11 @@ const MatrixTitle = ({ text }: { text: string }) => {
   }, []);
 
   return (
-    <div ref={containerRef} className="relative inline-block px-6 py-4 rounded-xl overflow-hidden">
-      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full rounded-xl" />
-      <h2 className="relative z-10 text-4xl sm:text-5xl font-bold text-sky-400 drop-shadow-[0_0_10px_rgba(0,191,255,0.5)]">
+    <div ref={containerRef} className="relative inline-block px-4 py-2 rounded-lg overflow-hidden">
+      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full rounded-lg" />
+      <h3 className="relative z-10 text-2xl font-bold text-green-400 drop-shadow-[0_0_8px_rgba(0,255,0,0.5)]">
         {text}
-      </h2>
+      </h3>
     </div>
   );
 };
@@ -138,7 +205,7 @@ export const Plans = () => {
               <div className="space-y-6">
                 {/* Plan Header */}
                 <div>
-                  <h3 className="text-2xl font-bold text-foreground mb-2">{plan.name}</h3>
+                  <MatrixPlanName text={plan.name} />
                   <div className="text-2xl font-bold animate-pulse-blue my-3">{plan.price}</div>
                   {plan.discountPrice && (
                     <div className="text-2xl font-bold animate-pulse-green my-2">{plan.discountPrice}</div>
