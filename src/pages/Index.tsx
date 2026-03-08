@@ -6,6 +6,7 @@ import { PaymentMethods } from "@/components/PaymentMethods";
 import { Benefits } from "@/components/Benefits";
 import { ExampleSites } from "@/components/ExampleSites";
 import { CTA } from "@/components/CTA";
+import { AboutUs } from "@/components/AboutUs";
 import { Footer } from "@/components/Footer";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import exampleAngel from "@/assets/example-angel.jpg";
