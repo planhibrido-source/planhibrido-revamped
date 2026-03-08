@@ -27,7 +27,7 @@ export const Services = () => {
       <div className="container mx-auto max-w-7xl">
         {/* Header */}
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl sm:text-5xl font-bold text-foreground">
+          <h2 className="text-4xl sm:text-5xl font-bold" style={{ color: '#0F56C7' }}>
             Nuestros Servicios
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
