@@ -161,7 +161,7 @@ export const Plans = () => {
       color: "primary",
     },
     {
-      name: "Plan Especial: Hasta 10 Páginas Web + Cátalogo",
+      name: "Plan Especial: Hasta 10 Páginas Web + Catálogo",
       price: "$120 Anuales/$10 Mensuales: Con Dominio Web",
       discountPrice: "$80 de Pago Único: Sin Dominio Web",
       ideal: "Ideal para comercios con inventario extenso o con más de 2 categorías",
