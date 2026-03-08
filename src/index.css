@@ -133,17 +133,17 @@ All colors MUST be HSL.
   animation: pulse-red 1.5s ease-in-out infinite;
 }
 
-@keyframes pulse-purple {
+@keyframes pulse-darkblue {
   0%, 100% {
-    color: hsl(280 80% 45%);
+    color: hsl(217 80% 25%);
   }
   50% {
-    color: hsl(280 80% 32%);
+    color: hsl(0 0% 100%);
   }
 }
 
-.animate-pulse-purple {
-  animation: pulse-purple 1.5s ease-in-out infinite;
+.animate-pulse-darkblue {
+  animation: pulse-darkblue 1.5s ease-in-out infinite;
 }
 
 @keyframes pulse-blue {
