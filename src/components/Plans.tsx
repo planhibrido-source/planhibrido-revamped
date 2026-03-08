@@ -112,9 +112,7 @@ export const Plans = () => {
       <div className="container mx-auto max-w-7xl">
         {/* Header */}
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl sm:text-5xl font-bold text-foreground">
-            Planes de Digitalización
-          </h2>
+          <MatrixTitle text="Planes de Digitalización" />
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Diseñados para ajustarse a locales comerciales que no aparecen en Google Maps, tanto como para los que ya aparecen pero quieren aumentar su visibilidad
           </p>
