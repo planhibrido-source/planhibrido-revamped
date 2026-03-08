@@ -103,7 +103,7 @@ const DisenoPaginaWeb = () => {
                   <img src={sealGoogleMaps} alt="Soluciones Google Maps" className="w-30 h-30 sm:w-35 sm:h-35 object-contain" style={{ width: '8.75rem', height: '8.75rem' }} />
                 </Link>
                 <a href="tel:+584140770120" className="flex items-center gap-4 hover:scale-105 transition-transform">
-                  <span className="text-2xl sm:text-3xl font-pirata text-[#3B2F1E] drop-shadow-sm">Contacto al 0414-077.01.20</span>
+                  <span className="text-2xl sm:text-3xl text-[#3B2F1E] drop-shadow-sm" style={{ fontFamily: "'Source Code Pro', monospace" }}>Contacto al 0414-077.01.20</span>
                   <img src={sealCall} alt="Llamar +58 414-0770120" className="object-contain" style={{ width: '8.75rem', height: '8.75rem' }} />
                 </a>
               </div>
