@@ -9,9 +9,9 @@ export const Plans = () => {
 
   const plans = [
     {
-      name: "Plan Básico - Una Página Web + Cátalogo",
-      price: "$60 Anuales/$5 Mensuales - Con Dominio Web",
-      discountPrice: "$40 de Pago Único Sin Dominio Web",
+      name: "Plan Básico: Una Página Web + Cátalogo",
+      price: "$60 Anuales/$5 Mensuales: Con Dominio Web",
+      discountPrice: "$40 de Pago Único: Sin Dominio Web",
       ideal: "Ideal para comercios con con pocos productos, solo servicios o con menos de 3 categorías",
       features: [
         "Edición básica del Perfil de negocios de Google",
@@ -28,9 +28,9 @@ export const Plans = () => {
       color: "primary",
     },
     {
-      name: "Plan Especial - 10 Páginas Web + Cátalogo",
-      price: "$120 Anuales/$10 Mensuales - Con Dominio Web",
-      discountPrice: "$80 de Pago Único Sin Dominio Web",
+      name: "Plan Especial: Hasta 10 Páginas Web + Cátalogo",
+      price: "$120 Anuales/$10 Mensuales: Con Dominio Web",
+      discountPrice: "$80 de Pago Único: Sin Dominio Web",
       ideal: "Ideal para comercios con inventario extenso o con más de 2 categorías",
       features: [
         "Todo lo incluido en el Plan Básico",
