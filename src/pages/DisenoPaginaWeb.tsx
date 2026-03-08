@@ -241,7 +241,7 @@ const DisenoPaginaWeb = () => {
               Nuestro proceso paso a paso para llevar su negocio de la era de los caballeros a la era digital
             </p>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-stretch">
               {/* Imagen del proceso */}
               <div className="flex justify-center lg:sticky lg:top-8">
                 <img
@@ -252,7 +252,7 @@ const DisenoPaginaWeb = () => {
               </div>
 
               {/* Pasos del proceso */}
-              <div className="space-y-6">
+              <div className="flex flex-col justify-between gap-2">
                 {process.map((p, idx) => (
                   <div key={idx} className="flex gap-4 items-start p-4 rounded-xl transition-all duration-300 hover:shadow-lg" style={{ backgroundColor: 'rgba(212, 197, 160, 0.7)' }}>
                     <div className="relative w-[4.2rem] h-[4.2rem] flex-shrink-0 flex items-center justify-center">
