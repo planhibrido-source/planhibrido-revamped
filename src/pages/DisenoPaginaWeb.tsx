@@ -322,7 +322,7 @@ const DisenoPaginaWeb = () => {
                 <img src={parchmentCard} alt="" className="w-full h-auto block" />
                 <div className="absolute inset-0 flex flex-col items-center justify-center px-8 py-12 space-y-3">
                   <h3 className="text-2xl font-pirata text-[#3B2F1E] text-center">Una Página Web</h3>
-                  <div className="text-xl font-bold" style={{ color: '#C00000' }}>$60 Anuales / $5 Mensuales</div>
+                  <div className="text-xl font-bold animate-pulse-red">$60 Anuales / $5 Mensuales</div>
                   <p className="text-lg font-vt323 text-[#3B2F1E] italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$40 Pago Único sin Dominio</div>
                   <p className="text-lg font-vt323 text-[#3B2F1E] text-center">
