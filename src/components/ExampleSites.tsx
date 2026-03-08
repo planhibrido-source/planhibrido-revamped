@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Globe, Link2 } from "lucide-react";
 import plnMerida from "@/assets/pln-merida.png";
+import plnMeridaOwned from "@/assets/pln-merida-owned.png";
 import exampleCaballero from "@/assets/torre-caballero.png";
 
 export const ExampleSites = () => {
