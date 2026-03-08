@@ -255,9 +255,9 @@ const DisenoPaginaWeb = () => {
               <div className="space-y-6">
                 {process.map((p, idx) => (
                   <div key={idx} className="flex gap-4 items-start p-4 rounded-xl transition-all duration-300 hover:shadow-lg" style={{ backgroundColor: 'rgba(212, 197, 160, 0.7)' }}>
-                    <div className="relative w-12 h-12 flex-shrink-0 flex items-center justify-center">
+                    <div className="relative w-[4.2rem] h-[4.2rem] flex-shrink-0 flex items-center justify-center">
                       <img src={sealBlue} alt="" className="absolute inset-0 w-full h-full object-contain" />
-                      <span className="relative text-white font-bold text-lg">{p.step}</span>
+                      <span className="relative font-pirata text-xl animate-twinkle-gold">{p.step}</span>
                     </div>
                     <div>
                       <h3 className="font-pirata text-foreground text-xl tracking-wide">{p.title}</h3>
