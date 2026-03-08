@@ -170,7 +170,7 @@ export const ExampleSites = () => {
         {/* Background para desktop */}
         <div 
           className="absolute inset-0 bg-cover bg-center md:bg-fixed bg-scroll hidden md:block"
-          style={{ backgroundImage: `url('${exampleAngel}')` }}
+          style={{ backgroundImage: `url('${plnMerida}')` }}
         >
           <div className="absolute inset-0 bg-gradient-to-l from-black/70 via-black/50 to-transparent"></div>
         </div>
