@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Globe, Link2 } from "lucide-react";
 import plnMerida from "@/assets/pln-merida.png";
+import plnMeridaOwned from "@/assets/pln-merida-owned.png";
 import exampleCaballero from "@/assets/torre-caballero.png";
 
 export const ExampleSites = () => {
@@ -170,14 +171,14 @@ export const ExampleSites = () => {
         {/* Background para desktop */}
         <div 
           className="absolute inset-0 bg-cover bg-center md:bg-fixed bg-scroll hidden md:block"
-          style={{ backgroundImage: `url('${plnMerida}')` }}
+          style={{ backgroundImage: `url('${plnMeridaOwned}')` }}
         >
           <div className="absolute inset-0 bg-gradient-to-l from-black/70 via-black/50 to-transparent"></div>
         </div>
         
         {/* Imagen para móvil */}
         <img 
-          src={plnMerida} 
+          src={plnMeridaOwned} 
           alt="" 
           className="absolute inset-0 w-full h-full object-cover md:hidden"
         />
