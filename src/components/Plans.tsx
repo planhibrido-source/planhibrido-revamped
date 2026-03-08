@@ -69,7 +69,7 @@ const MatrixTitle = ({ text, color = "blue" }: { text: string; color?: "blue" | 
   );
 };
 
-const MatrixPlanName = ({ text }: { text: string }) => {
+const MatrixPlanName = ({ text, theme = "green" }: { text: string; theme?: "green" | "orange" }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -94,12 +94,14 @@ const MatrixPlanName = ({ text }: { text: string }) => {
     const columns = Math.floor(canvas.width / fontSize);
     const drops: number[] = Array(columns).fill(1);
 
-    const greenShades = ["#00ff41", "#39ff14", "#32cd32", "#00e676", "#76ff03"];
+    const shades = theme === "orange"
+      ? ["#ff8c00", "#ff6600", "#ffa500", "#ff4500", "#ffae42"]
+      : ["#00ff41", "#39ff14", "#32cd32", "#00e676", "#76ff03"];
 
     const draw = () => {
       ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
-      ctx.fillStyle = greenShades[Math.floor(Math.random() * greenShades.length)];
+      ctx.fillStyle = shades[Math.floor(Math.random() * shades.length)];
       ctx.font = `${fontSize}px monospace`;
 
       for (let i = 0; i < drops.length; i++) {
@@ -117,12 +119,16 @@ const MatrixPlanName = ({ text }: { text: string }) => {
       clearInterval(interval);
       window.removeEventListener("resize", resize);
     };
-  }, []);
+  }, [theme]);
+
+  const textClass = theme === "orange"
+    ? "text-orange-400 drop-shadow-[0_0_8px_rgba(255,140,0,0.5)]"
+    : "text-green-400 drop-shadow-[0_0_8px_rgba(0,255,0,0.5)]";
 
   return (
     <div ref={containerRef} className="relative inline-block px-4 py-2 rounded-lg overflow-hidden">
       <canvas ref={canvasRef} className="absolute inset-0 w-full h-full rounded-lg" />
-      <h3 className="relative z-10 text-2xl font-bold text-green-400 drop-shadow-[0_0_8px_rgba(0,255,0,0.5)]">
+      <h3 className={`relative z-10 text-2xl font-bold ${textClass}`}>
         {text}
       </h3>
     </div>
@@ -136,7 +142,7 @@ export const Plans = () => {
 
   const plans = [
     {
-      name: "Plan Básico: Una Página Web + Cátalogo",
+      name: "Plan Básico: Una Página Web + Catálogo",
       price: "$60 Anuales/$5 Mensuales: Con Dominio Web",
       discountPrice: "$40 de Pago Único: Sin Dominio Web",
       ideal: "Ideal para comercios con con pocos productos, solo servicios o con menos de 3 categorías",
@@ -155,7 +161,7 @@ export const Plans = () => {
       color: "primary",
     },
     {
-      name: "Plan Especial: Hasta 10 Páginas Web + Cátalogo",
+      name: "Plan Especial: Hasta 10 Páginas Web + Catálogo",
       price: "$120 Anuales/$10 Mensuales: Con Dominio Web",
       discountPrice: "$80 de Pago Único: Sin Dominio Web",
       ideal: "Ideal para comercios con inventario extenso o con más de 2 categorías",
@@ -205,7 +211,7 @@ export const Plans = () => {
               <div className="space-y-6">
                 {/* Plan Header */}
                 <div>
-                  <MatrixPlanName text={plan.name} />
+                  <MatrixPlanName text={plan.name} theme={idx === 0 ? "orange" : "green"} />
                   <div className="text-2xl font-bold animate-pulse-blue my-3">{plan.price}</div>
                   {plan.discountPrice && (
                     <div className="text-2xl font-bold animate-pulse-green my-2">{plan.discountPrice}</div>
