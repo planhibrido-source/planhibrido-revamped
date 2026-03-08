@@ -29,7 +29,7 @@ const Index = () => {
               <span>Respuesta Rápida</span>
             </div>
             <div className="relative flex flex-col items-center">
-              <div className="absolute -top-7 -right-2 text-red-500 text-2xl animate-bounce" style={{ animationDuration: '2s' }}>▼</div>
+              <div className="absolute -top-7 -right-2 text-red-500 text-2xl animate-bounce" style={{ animationDuration: '2s' }}>❤️</div>
               <a 
                 href="https://forms.gle/F9ZdA4YqWj1c9NnA6" 
                 target="_blank" 
