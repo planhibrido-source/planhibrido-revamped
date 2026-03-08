@@ -27,7 +27,7 @@ export const Services = () => {
       <div className="container mx-auto max-w-7xl">
         {/* Header */}
         <div className="text-center mb-16 space-y-4">
-          <h2 className="text-4xl sm:text-5xl font-bold text-foreground">
+          <h2 className="text-4xl sm:text-5xl font-bold" style={{ color: '#0F56C7' }}>
             Nuestros Servicios
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
@@ -121,9 +121,9 @@ export const Services = () => {
 
         {/* Additional Services */}
         <div className="mt-16 p-8 bg-gradient-to-r from-primary/5 to-secondary/5 rounded-2xl border border-border">
-          <h3 className="text-2xl font-bold text-foreground mb-6 text-center">
-            Otros Servicios
-          </h3>
+           <h3 className="text-2xl font-bold mb-6 text-center" style={{ color: '#0F56C7' }}>
+             Otros Servicios
+           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
             <Link to="/diseno-pagina-web" className="p-4 block hover:bg-primary/10 rounded-lg transition-colors cursor-pointer">
               <p className="font-medium text-primary underline underline-offset-4">🖥️ Desarrollo de Página Web</p>
