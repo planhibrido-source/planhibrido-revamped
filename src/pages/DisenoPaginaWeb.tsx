@@ -77,27 +77,29 @@ const DisenoPaginaWeb = () => {
         <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
           <div className="absolute inset-0">
             <img src={heroBg} alt="Diseño de Página Web en Mérida" className="w-full h-full object-cover" />
-            <div className="absolute inset-0" style={{ backgroundColor: '#8B7355', opacity: 0.85 }} />
+            <div className="absolute inset-0" style={{ backgroundColor: '#D4C5A0', opacity: 0.92 }} />
           </div>
           <div className="container mx-auto max-w-5xl relative z-10">
-            <Link to="/" className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-8 transition-colors">
+            <Link to="/" className="inline-flex items-center gap-2 text-[#3B2F1E]/80 hover:text-[#3B2F1E] mb-8 transition-colors">
               <ArrowLeft className="w-4 h-4" />
               Soluciones de Google Maps en Mérida
             </Link>
-            <div className="space-y-6 max-w-3xl">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-pirata text-white leading-tight">
+            <div className="space-y-6">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-pirata text-[#3B2F1E] leading-tight">
                 Diseño de Página Web en Mérida, Venezuela
               </h1>
-              <p className="text-2xl font-vt323 text-white/90 leading-relaxed">
+              <p className="text-2xl font-vt323 text-[#3B2F1E]/85 leading-relaxed max-w-3xl">
                 Creamos una página web profesional optimizada para su negocio local en Mérida, Venezuela. 
                 Página web rápida, moderna, accesible, segura y optimizada para que sus clientes lo encuentren en Google.
               </p>
-              <div className="flex flex-col sm:flex-row items-center gap-6 pt-4 pb-16 sm:pb-20 md:pb-24 relative z-30">
-                <Link to="/" className="hover:scale-110 transition-transform">
-                  <img src={sealGoogleMaps} alt="Soluciones Google Maps" className="w-24 h-24 sm:w-28 sm:h-28 object-contain" />
+              <div className="flex flex-col items-end gap-6 pt-4 pb-16 sm:pb-20 md:pb-24 relative z-30">
+                <Link to="/" className="flex items-center gap-4 hover:scale-105 transition-transform">
+                  <span className="text-2xl sm:text-3xl font-pirata text-[#3B2F1E] drop-shadow-sm">Soluciones Google Maps</span>
+                  <img src={sealGoogleMaps} alt="Soluciones Google Maps" className="w-30 h-30 sm:w-35 sm:h-35 object-contain" style={{ width: '8.75rem', height: '8.75rem' }} />
                 </Link>
-                <a href="tel:+584140770120" className="hover:scale-110 transition-transform">
-                  <img src={sealCall} alt="Llamar +58 414-0770120" className="w-24 h-24 sm:w-28 sm:h-28 object-contain" />
+                <a href="tel:+584140770120" className="flex items-center gap-4 hover:scale-105 transition-transform">
+                  <span className="text-2xl sm:text-3xl font-pirata text-[#3B2F1E] drop-shadow-sm">Contacto al 0414-077.01.20</span>
+                  <img src={sealCall} alt="Llamar +58 414-0770120" className="object-contain" style={{ width: '8.75rem', height: '8.75rem' }} />
                 </a>
               </div>
             </div>
