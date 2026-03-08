@@ -230,7 +230,15 @@ export const Plans = () => {
                           plan.color === 'primary' ? 'text-primary' : 'text-secondary'
                         }`} />
                       </div>
-                      <span className="text-sm text-foreground">{feature}</span>
+                      <span className="text-sm text-foreground">
+                        {idx === 0 && fIdx === plan.features.length - 1 ? (
+                          <>
+                            {feature.split("Página web")[0]}
+                            <a href="/diseno-pagina-web" className="text-primary underline hover:text-primary/80 font-medium">Página web</a>
+                            {feature.split("Página web")[1]}
+                          </>
+                        ) : feature}
+                      </span>
                     </div>
                   ))}
                 </div>
