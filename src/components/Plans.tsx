@@ -142,7 +142,7 @@ export const Plans = () => {
 
   const plans = [
     {
-      name: "Plan Básico: Una Página Web + Cátalogo",
+      name: "Plan Básico: Una Página Web + Catálogo",
       price: "$60 Anuales/$5 Mensuales: Con Dominio Web",
       discountPrice: "$40 de Pago Único: Sin Dominio Web",
       ideal: "Ideal para comercios con con pocos productos, solo servicios o con menos de 3 categorías",
