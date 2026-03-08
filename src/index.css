@@ -120,6 +120,32 @@ All colors MUST be HSL.
   animation: pulse-green 1.5s ease-in-out infinite;
 }
 
+@keyframes pulse-red {
+  0%, 100% {
+    color: hsl(0 100% 40%);
+  }
+  50% {
+    color: hsl(0 100% 28%);
+  }
+}
+
+.animate-pulse-red {
+  animation: pulse-red 1.5s ease-in-out infinite;
+}
+
+@keyframes pulse-purple {
+  0%, 100% {
+    color: hsl(280 80% 45%);
+  }
+  50% {
+    color: hsl(280 80% 32%);
+  }
+}
+
+.animate-pulse-purple {
+  animation: pulse-purple 1.5s ease-in-out infinite;
+}
+
 @keyframes pulse-blue {
   0%, 100% {
     color: hsl(217 91% 55%);
