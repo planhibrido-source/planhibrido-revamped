@@ -160,7 +160,23 @@ All colors MUST be HSL.
   animation: twinkle-yellow 2s ease-in-out infinite;
 }
 
-@keyframes google-colors {
+@keyframes twinkle-gold {
+  0%, 100% {
+    opacity: 1;
+    text-shadow: 0 0 12px hsl(43 80% 55%), 0 0 24px hsl(43 80% 45%);
+    color: hsl(43 90% 58%);
+  }
+  50% {
+    opacity: 0.75;
+    text-shadow: 0 0 6px hsl(38 70% 50%), 0 0 14px hsl(38 70% 40%);
+    color: hsl(38 80% 48%);
+  }
+}
+
+.animate-twinkle-gold {
+  animation: twinkle-gold 3s ease-in-out infinite;
+}
+
   0%, 100% {
     color: #4285F4; /* Google Blue */
   }
