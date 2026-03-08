@@ -8,6 +8,7 @@ import { ExampleSites } from "@/components/ExampleSites";
 import { CTA } from "@/components/CTA";
 import { Footer } from "@/components/Footer";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
+import exampleAngel from "@/assets/example-angel.jpg";
 
 const Index = () => {
   return (
@@ -20,6 +21,11 @@ const Index = () => {
       <Benefits />
       <ExampleSites />
       <CTA />
+      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-background">
+        <div className="container mx-auto max-w-4xl text-center">
+          <img src={exampleAngel} alt="Ejemplo de trabajo PLN Mérida" className="w-full rounded-lg shadow-2xl" />
+        </div>
+      </section>
       <Footer />
       <FloatingWhatsApp />
     </div>
