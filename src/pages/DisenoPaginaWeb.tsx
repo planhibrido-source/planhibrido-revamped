@@ -319,7 +319,7 @@ const DisenoPaginaWeb = () => {
         </section>
 
         {/* CTA Final */}
-        <section className="relative px-4 sm:px-6 lg:px-8 pt-20 pb-0 overflow-hidden">
+        <section className="relative px-4 sm:px-6 lg:px-8 pt-36 pb-0 overflow-hidden">
           <div className="absolute inset-0 z-0">
             <img src={wallBg} alt="" className="w-full h-full object-cover" />
           </div>
@@ -331,9 +331,9 @@ const DisenoPaginaWeb = () => {
               Contáctenos hoy para resolver cualquier duda y lo ayudamos a recibir más clientes con Google
             </p>
           </div>
-          <div className="relative z-10 flex justify-center mt-8">
+          <div className="relative z-10 flex justify-center mt-8 mb-0">
             <a href="https://wa.me/584140770120?text=Hola%2C%20me%20interesa%20el%20servicio%20de%20diseño%20de%20página%20web" target="_blank" rel="noopener noreferrer" className="hover:scale-105 transition-transform">
-              <img src={whatsappDoor} alt="Contactar por WhatsApp" className="w-48 sm:w-56 md:w-64 object-contain" />
+              <img src={whatsappDoor} alt="Contactar por WhatsApp" className="w-96 sm:w-[28rem] md:w-[32rem] object-contain" />
             </a>
           </div>
         </section>
