@@ -280,44 +280,40 @@ const DisenoPaginaWeb = () => {
               página web estará integrada con su perfil de Google Maps.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <Card className="pt-6 pr-6 pl-6 pb-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden border-0 shadow-none">
-                <div 
-                  className="absolute inset-0 z-0" 
-                  style={{ backgroundImage: `url(${parchmentPricing})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} 
-                />
-                <div className="space-y-4 relative z-10 pt-12">
-                  <h3 className="text-2xl font-pirata text-foreground text-center">Una Página Web</h3>
+              {/* Card 1 */}
+              <div className="relative hover:scale-[1.02] transition-transform duration-300">
+                <img src={parchmentCard} alt="" className="w-full h-auto block" />
+                <div className="absolute inset-0 flex flex-col items-center justify-center px-8 py-12 space-y-3">
+                  <h3 className="text-2xl font-pirata text-[#3B2F1E] text-center">Una Página Web</h3>
                   <div className="text-xl font-bold" style={{ color: '#DC143C' }}>$60 Anuales / $5 Mensuales</div>
-                  <p className="text-lg font-vt323 text-foreground italic">Con Dominio Web incluido</p>
+                  <p className="text-lg font-vt323 text-[#3B2F1E] italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$40 Pago Único sin Dominio</div>
-                  <p className="text-lg font-vt323 text-foreground">
+                  <p className="text-lg font-vt323 text-[#3B2F1E] text-center">
                     Ideal para comercios con pocos productos, solo servicios o con solo una categoría.
                   </p>
-                  <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="flex items-center justify-end gap-3 hover:scale-105 transition-transform">
-                    <span className="font-pirata text-lg text-foreground">Comencemos por WhatsApp</span>
-                    <img src={whatsappSeal} alt="Consultar por WhatsApp" className="w-[7.5rem] h-[7.5rem] object-contain" />
+                  <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="flex items-center justify-end gap-3 hover:scale-105 transition-transform pt-2">
+                    <span className="font-pirata text-lg text-[#3B2F1E]">Comencemos por WhatsApp</span>
+                    <img src={whatsappSeal} alt="Consultar por WhatsApp" className="w-[6rem] h-[6rem] object-contain" />
                   </a>
                 </div>
-              </Card>
-              <Card className="pt-6 pr-6 pl-6 pb-8 hover:shadow-xl transition-all duration-300 relative overflow-hidden border-0 shadow-none">
-                <div 
-                  className="absolute inset-0 z-0" 
-                  style={{ backgroundImage: `url(${parchmentPricing})`, backgroundSize: "contain", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} 
-                />
-                <div className="space-y-4 relative z-10 pt-12">
-                  <h3 className="text-2xl font-pirata text-foreground text-center">Hasta 10 Páginas Web Interelacionadas</h3>
+              </div>
+              {/* Card 2 */}
+              <div className="relative hover:scale-[1.02] transition-transform duration-300">
+                <img src={parchmentCard} alt="" className="w-full h-auto block" />
+                <div className="absolute inset-0 flex flex-col items-center justify-center px-8 py-12 space-y-3">
+                  <h3 className="text-2xl font-pirata text-[#3B2F1E] text-center">Hasta 10 Páginas Web Interelacionadas</h3>
                   <div className="text-xl font-bold" style={{ color: '#DC143C' }}>$120 Anuales / $10 Mensuales</div>
-                  <p className="text-lg font-vt323 text-foreground italic">Con Dominio Web incluido</p>
+                  <p className="text-lg font-vt323 text-[#3B2F1E] italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$80 Pago Único sin Dominio</div>
-                  <p className="text-lg font-vt323 text-foreground">
+                  <p className="text-lg font-vt323 text-[#3B2F1E] text-center">
                     Ideal para comercios con inventario extenso o con más de dos categorías. Incluye optimización SEO avanzada.
                   </p>
-                  <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="flex items-center justify-end gap-3 hover:scale-105 transition-transform">
-                    <span className="font-pirata text-lg text-foreground">Comencemos por WhatsApp</span>
-                    <img src={whatsappSeal} alt="Consultar por WhatsApp" className="w-[7.5rem] h-[7.5rem] object-contain" />
+                  <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="flex items-center justify-end gap-3 hover:scale-105 transition-transform pt-2">
+                    <span className="font-pirata text-lg text-[#3B2F1E]">Comencemos por WhatsApp</span>
+                    <img src={whatsappSeal} alt="Consultar por WhatsApp" className="w-[6rem] h-[6rem] object-contain" />
                   </a>
                 </div>
-              </Card>
+              </div>
             </div>
           </div>
         </section>
