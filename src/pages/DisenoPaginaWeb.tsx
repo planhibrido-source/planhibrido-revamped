@@ -160,7 +160,7 @@ const DisenoPaginaWeb = () => {
           <div className="absolute inset-0" style={{ backgroundImage: `url(${parchmentBg})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} />
           <div className="container mx-auto max-w-5xl relative z-10">
             <div className="text-center mb-12 space-y-4">
-               <h2 className="text-3xl sm:text-4xl font-pirata text-foreground">
+               <h2 className="text-3xl sm:text-4xl font-pirata text-[#1C4378]">
                 ¿Por qué su negocio necesita una página web en Mérida?
                </h2>
               <p className="text-xl font-vt323 text-foreground max-w-3xl mx-auto">
