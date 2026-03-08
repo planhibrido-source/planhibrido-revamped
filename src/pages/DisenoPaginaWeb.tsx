@@ -22,6 +22,8 @@ import wallBg from "@/assets/wall-bg.png";
 import whatsappDoor from "@/assets/whatsapp-door.png";
 import googleDoor from "@/assets/google-door.png";
 import sealBlue from "@/assets/seal-blue.png";
+import serviciosBasicos from "@/assets/servicios-basicos.png";
+import serviciosAvanzados from "@/assets/servicios-avanzados.png";
 
 const DisenoPaginaWeb = () => {
   const handleWhatsAppClick = () => {
