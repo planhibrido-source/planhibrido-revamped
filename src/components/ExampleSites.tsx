@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Globe, Link2 } from "lucide-react";
 import exampleAngel from "@/assets/example-angel.jpg";
-import exampleCaballero from "@/assets/example-caballero.png";
+import exampleCaballero from "@/assets/torre-caballero.png";
 
 export const ExampleSites = () => {
   const sitesWithDomain = [
