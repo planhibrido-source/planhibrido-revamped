@@ -28,15 +28,18 @@ const Index = () => {
               <div className="w-2 h-2 bg-secondary rounded-full" />
               <span>Respuesta Rápida</span>
             </div>
-            <a 
-              href="https://forms.gle/F9ZdA4YqWj1c9NnA6" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 bg-black/60 backdrop-blur-sm rounded-full px-3 py-1.5 text-white hover:scale-105 transition-transform animate-[twinkle-colors_8s_ease-in-out_infinite]"
-            >
-              <div className="w-2 h-2 rounded-full" style={{ backgroundColor: 'currentColor' }} />
-              <span className="font-bold uppercase">Obtener Asesoría Gratuita</span>
-            </a>
+            <div className="relative flex flex-col items-center">
+              <div className="absolute -top-8 text-red-500 text-2xl animate-bounce" style={{ animationDuration: '2s' }}>▼</div>
+              <a 
+                href="https://forms.gle/F9ZdA4YqWj1c9NnA6" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 bg-black/60 backdrop-blur-sm rounded-full px-3 py-1.5 text-white hover:scale-105 transition-transform animate-[twinkle-colors_8s_ease-in-out_infinite]"
+              >
+                <div className="w-2 h-2 rounded-full" style={{ backgroundColor: 'currentColor' }} />
+                <span className="font-bold uppercase">Obtener Asesoría Gratuita</span>
+              </a>
+            </div>
             <div className="flex items-center gap-2 bg-black/60 backdrop-blur-sm rounded-full px-3 py-1.5 text-white">
               <div className="w-2 h-2 bg-white rounded-full" />
               <span>Especialistas Certificados</span>
