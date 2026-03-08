@@ -22,7 +22,26 @@ const Index = () => {
       <ExampleSites />
       <CTA />
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-background">
-        <div className="container mx-auto max-w-4xl text-center">
+        <div className="container mx-auto max-w-4xl text-center relative">
+          <div className="absolute top-4 left-0 right-0 z-10 flex flex-wrap justify-center gap-4 sm:gap-6 text-sm px-2">
+            <div className="flex items-center gap-2 bg-black/60 backdrop-blur-sm rounded-full px-3 py-1.5 text-white">
+              <div className="w-2 h-2 bg-secondary rounded-full" />
+              <span>Respuesta Rápida</span>
+            </div>
+            <a 
+              href="https://forms.gle/F9ZdA4YqWj1c9NnA6" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 bg-black/60 backdrop-blur-sm rounded-full px-3 py-1.5 text-white hover:scale-105 transition-transform"
+            >
+              <div className="w-2 h-2 bg-accent rounded-full animate-pulse" />
+              <span className="font-bold animate-[twinkle-colors_4s_ease-in-out_infinite]">Asesoría Gratuita</span>
+            </a>
+            <div className="flex items-center gap-2 bg-black/60 backdrop-blur-sm rounded-full px-3 py-1.5 text-white">
+              <div className="w-2 h-2 bg-white rounded-full" />
+              <span>Especialistas Certificados</span>
+            </div>
+          </div>
           <img src={exampleAngel} alt="Ejemplo de trabajo PLN Mérida" className="w-full rounded-lg shadow-2xl" />
         </div>
       </section>
