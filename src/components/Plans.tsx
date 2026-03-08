@@ -211,7 +211,7 @@ export const Plans = () => {
               <div className="space-y-6">
                 {/* Plan Header */}
                 <div>
-                  <MatrixPlanName text={plan.name} />
+                  <MatrixPlanName text={plan.name} theme={idx === 0 ? "orange" : "green"} />
                   <div className="text-2xl font-bold animate-pulse-blue my-3">{plan.price}</div>
                   {plan.discountPrice && (
                     <div className="text-2xl font-bold animate-pulse-green my-2">{plan.discountPrice}</div>
