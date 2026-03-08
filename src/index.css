@@ -135,15 +135,21 @@ All colors MUST be HSL.
 
 @keyframes pulse-darkblue {
   0%, 100% {
-    color: hsl(217 80% 25%);
+    color: hsl(217 80% 20%);
+  }
+  25% {
+    color: hsl(217 70% 40%);
   }
   50% {
     color: hsl(0 0% 100%);
   }
+  75% {
+    color: hsl(210 90% 55%);
+  }
 }
 
 .animate-pulse-darkblue {
-  animation: pulse-darkblue 1.5s ease-in-out infinite;
+  animation: pulse-darkblue 4s ease-in-out infinite;
 }
 
 @keyframes pulse-blue {
