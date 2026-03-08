@@ -277,7 +277,7 @@ const DisenoPaginaWeb = () => {
                     </div>
                     <div>
                       <h3 className="font-pirata text-foreground text-xl tracking-wide">{p.title}</h3>
-                      <p className="text-lg font-vt323 text-foreground mt-1 leading-relaxed">{p.desc}</p>
+                      <p className="text-[25px] font-vt323 text-foreground mt-1 leading-relaxed">{p.desc}</p>
                     </div>
                   </div>
                 ))}
