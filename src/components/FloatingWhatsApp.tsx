@@ -1,5 +1,4 @@
-import { MessageCircle } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import selloWa from "@/assets/sello-flotante-wa.png";
 
 export const FloatingWhatsApp = () => {
   const handleWhatsAppClick = () => {
@@ -7,14 +6,12 @@ export const FloatingWhatsApp = () => {
   };
 
   return (
-    <Button
+    <button
       onClick={handleWhatsAppClick}
-      size="icon"
-      variant="hero"
-      className="fixed bottom-6 right-6 z-50 w-16 h-16 rounded-full shadow-2xl"
+      className="fixed bottom-4 right-4 z-50 w-20 h-20 rounded-full cursor-pointer transition-transform duration-300 hover:scale-110 focus:outline-none"
       aria-label="Contactar por WhatsApp"
     >
-      <MessageCircle className="w-8 h-8" />
-    </Button>
+      <img src={selloWa} alt="WhatsApp" className="w-full h-full object-contain drop-shadow-2xl" />
+    </button>
   );
 };
