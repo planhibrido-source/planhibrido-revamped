@@ -349,7 +349,8 @@ const DisenoPaginaWeb = () => {
               ¿Ya lo convencimos de tener al menos una Página Web con catálogo y con el nombre de su negocio en el dominio desde 5 dolitas al BCV cada mes?
             </h2>
             <p className="text-4xl font-vt323 text-white/90 max-w-2xl mx-auto drop-shadow-md">
-              Contáctenos hoy para resolver cualquier duda y así lo ayudamos a recibir más clientes con Google, una tecnología sostenible, limpia y rápida
+              Contáctenos hoy para resolver cualquier duda y así lo ayudamos a recibir más clientes con Google, 
+              una tecnología sostenible, limpia y rápida. Haga clic en la puerta y comience a mejorar su negocio desde ¡HOY!
             </p>
           </div>
           <div className="relative z-10 flex justify-center mt-8 mb-0">
