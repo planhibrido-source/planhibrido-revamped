@@ -348,7 +348,7 @@ const DisenoPaginaWeb = () => {
             <h2 className="text-4xl sm:text-5xl font-pirata text-white leading-tight drop-shadow-lg">
               ¿Ya lo convencimos de tener al menos una Página Web con catálogo y con el nombre de su negocio en el dominio desde 5 dolitas al BCV cada mes?
             </h2>
-            <p className="text-2xl font-vt323 text-white/90 max-w-2xl mx-auto drop-shadow-md">
+            <p className="text-4xl font-vt323 text-white/90 max-w-2xl mx-auto drop-shadow-md">
               Contáctenos hoy para resolver cualquier duda y lo ayudamos a recibir más clientes con Google
             </p>
           </div>
