@@ -80,7 +80,7 @@ export const ExampleSites = () => {
           <div className="mb-12">
             <div className="flex items-center justify-center gap-3 mb-8">
               <Globe className="w-8 h-8 text-primary" />
-              <h3 className="text-2xl font-bold text-foreground">
+              <h3 className="text-2xl font-bold text-foreground" style={{ fontFamily: "'Pirata One', cursive" }}>
                 Con Dominio Propio
               </h3>
             </div>
