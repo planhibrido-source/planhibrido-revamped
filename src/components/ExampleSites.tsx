@@ -65,7 +65,7 @@ export const ExampleSites = () => {
             
             <div className="w-20 h-1 bg-primary mb-6"></div>
             
-            <p className="text-lg lg:text-2xl text-gray-200 leading-relaxed drop-shadow-md">
+            <p className="text-lg lg:text-2xl text-gray-200 leading-relaxed drop-shadow-md" style={{ fontFamily: "'VT323', monospace" }}>
               Encuentre algunos ejemplos de páginas web recientes que hemos creado para nuestros clientes en{" "}
               <span className="font-semibold text-white underline decoration-primary/50">Mérida, Venezuela</span>.
             </p>
