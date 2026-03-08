@@ -182,7 +182,7 @@ export const ExampleSites = () => {
           alt="" 
           className="absolute inset-0 w-full h-full object-cover md:hidden"
         />
-        <div className="absolute inset-0 bg-gradient-to-l from-black/70 via-black/50 to-transparent md:hidden"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-[hsl(217,91%,45%)] md:hidden"></div>
         
         <div className="relative z-20 container mx-auto px-6 text-center">
           <p className="text-xl lg:text-2xl text-white font-medium drop-shadow-lg" style={{ fontFamily: "'VT323', monospace" }}>
