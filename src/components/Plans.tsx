@@ -55,7 +55,7 @@ const MatrixTitle = ({ text }: { text: string }) => {
   return (
     <div ref={containerRef} className="relative inline-block px-6 py-4 rounded-xl overflow-hidden">
       <canvas ref={canvasRef} className="absolute inset-0 w-full h-full rounded-xl" />
-      <h2 className="relative z-10 text-4xl sm:text-5xl font-bold text-green-400 drop-shadow-[0_0_10px_rgba(0,255,0,0.5)]">
+      <h2 className="relative z-10 text-4xl sm:text-5xl font-bold text-sky-400 drop-shadow-[0_0_10px_rgba(0,191,255,0.5)]">
         {text}
       </h2>
     </div>
