@@ -19,6 +19,7 @@ import sealCall from "@/assets/seal-call.png";
 import wallBg from "@/assets/wall-bg.png";
 import whatsappDoor from "@/assets/whatsapp-door.png";
 import googleDoor from "@/assets/google-door.png";
+import sealBlue from "@/assets/seal-blue.png";
 
 const DisenoPaginaWeb = () => {
   const handleWhatsAppClick = () => {
