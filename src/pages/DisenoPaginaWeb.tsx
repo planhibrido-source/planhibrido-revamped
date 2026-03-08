@@ -4,6 +4,7 @@ import { Phone, MapPin, MessageCircle, ArrowLeft, Globe, Palette, Search, Shield
 import { Link } from "react-router-dom";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import { Footer } from "@/components/Footer";
+import { ExampleSites } from "@/components/ExampleSites";
 import heroBg from "@/assets/example-caballero.png";
 import meridaSkyline from "@/assets/merida-skyline.png";
 import procesoPln from "@/assets/proceso-pln.png";
