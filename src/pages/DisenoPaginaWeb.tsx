@@ -19,6 +19,7 @@ import sealCall from "@/assets/seal-call.png";
 import wallBg from "@/assets/wall-bg.png";
 import whatsappDoor from "@/assets/whatsapp-door.png";
 import googleDoor from "@/assets/google-door.png";
+import sealBlue from "@/assets/seal-blue.png";
 
 const DisenoPaginaWeb = () => {
   const handleWhatsAppClick = () => {
@@ -253,9 +254,10 @@ const DisenoPaginaWeb = () => {
               {/* Pasos del proceso */}
               <div className="space-y-6">
                 {process.map((p, idx) => (
-                  <div key={idx} className="flex gap-4 items-start p-4 rounded-xl transition-all duration-300 hover:shadow-lg" style={{ backgroundColor: "hsl(39 35% 92% / 0.7)" }}>
-                    <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-lg font-bold flex-shrink-0 shadow-md">
-                      {p.step}
+                  <div key={idx} className="flex gap-4 items-start p-4 rounded-xl transition-all duration-300 hover:shadow-lg" style={{ backgroundColor: 'rgba(212, 197, 160, 0.7)' }}>
+                    <div className="relative w-12 h-12 flex-shrink-0 flex items-center justify-center">
+                      <img src={sealBlue} alt="" className="absolute inset-0 w-full h-full object-contain" />
+                      <span className="relative text-white font-bold text-lg">{p.step}</span>
                     </div>
                     <div>
                       <h3 className="font-pirata text-foreground text-xl tracking-wide">{p.title}</h3>
