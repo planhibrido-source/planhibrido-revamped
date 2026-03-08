@@ -173,21 +173,19 @@ All colors MUST be HSL.
   }
 }
 
-.animate-twinkle-gold {
-  animation: twinkle-gold 3s ease-in-out infinite;
-}
 
+@keyframes google-colors {
   0%, 100% {
-    color: #4285F4; /* Google Blue */
+    color: #4285F4;
   }
   25% {
-    color: #EA4335; /* Google Red */
+    color: #EA4335;
   }
   50% {
-    color: #FBBC05; /* Google Yellow */
+    color: #FBBC05;
   }
   75% {
-    color: #34A853; /* Google Green */
+    color: #34A853;
   }
 }
 
