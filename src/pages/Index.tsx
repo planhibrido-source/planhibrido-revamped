@@ -23,7 +23,7 @@ const Index = () => {
       <CTA />
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-background">
         <div className="container mx-auto max-w-4xl text-center relative">
-          <div className="absolute top-4 left-0 right-0 z-10 flex flex-wrap justify-center gap-4 sm:gap-6 text-sm px-2">
+          <div className="absolute bottom-4 left-0 right-0 z-10 flex flex-wrap justify-center gap-4 sm:gap-6 text-sm px-2">
             <div className="flex items-center gap-2 bg-black/60 backdrop-blur-sm rounded-full px-3 py-1.5 text-white">
               <div className="w-2 h-2 bg-secondary rounded-full" />
               <span>Respuesta Rápida</span>
@@ -35,7 +35,7 @@ const Index = () => {
               className="flex items-center gap-2 bg-black/60 backdrop-blur-sm rounded-full px-3 py-1.5 text-white hover:scale-105 transition-transform"
             >
               <div className="w-2 h-2 bg-accent rounded-full animate-pulse" />
-              <span className="font-bold animate-[twinkle-colors_4s_ease-in-out_infinite]">Asesoría Gratuita</span>
+              <span className="font-bold uppercase animate-[twinkle-colors_4s_ease-in-out_infinite]">Asesoría Gratuita</span>
             </a>
             <div className="flex items-center gap-2 bg-black/60 backdrop-blur-sm rounded-full px-3 py-1.5 text-white">
               <div className="w-2 h-2 bg-white rounded-full" />
