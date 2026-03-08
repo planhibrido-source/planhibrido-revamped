@@ -79,7 +79,7 @@ const DisenoPaginaWeb = () => {
         <section className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
           <div className="absolute inset-0">
             <img src={heroBg} alt="Diseño de Página Web en Mérida" className="w-full h-full object-cover" />
-            <div className="absolute inset-0" style={{ backgroundColor: '#D4C5A0', opacity: 0.92 }} />
+            <div className="absolute inset-0" style={{ backgroundColor: '#D4C5A0', opacity: 0.7 }} />
           </div>
           <div className="container mx-auto max-w-5xl relative z-10">
             <Link to="/" className="inline-flex items-center gap-2 text-[#3B2F1E]/80 hover:text-[#3B2F1E] mb-8 transition-colors">
