@@ -99,10 +99,10 @@ export const ExampleSites = () => {
                         <Globe className="w-6 h-6 text-primary" />
                       </div>
                       <div className="flex-1">
-                        <h4 className="font-semibold text-foreground mb-1 group-hover:text-primary transition-colors">
+                        <h4 className="font-semibold text-foreground mb-1 group-hover:text-primary transition-colors" style={{ fontFamily: "'Pirata One', cursive" }}>
                           {site.name}
                         </h4>
-                        <p className="text-sm text-muted-foreground mb-2">{site.description}</p>
+                        <p className="text-sm text-muted-foreground mb-2" style={{ fontFamily: "'VT323', monospace" }}>{site.description}</p>
                         <p className="text-xs text-primary truncate">{site.url}</p>
                       </div>
                     </div>
