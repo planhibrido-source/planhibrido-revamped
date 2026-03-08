@@ -49,6 +49,7 @@ const Index = () => {
           <img src={exampleAngel} alt="Ejemplo de trabajo PLN Mérida" className="w-full rounded-lg shadow-2xl" />
         </div>
       </section>
+      <AboutUs />
       <Footer />
       <FloatingWhatsApp />
     </div>
