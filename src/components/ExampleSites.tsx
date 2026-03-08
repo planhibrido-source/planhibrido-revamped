@@ -149,7 +149,7 @@ export const ExampleSites = () => {
 
           {/* Info Note */}
           <div className="mt-12 p-6 bg-gradient-to-r from-primary/5 to-secondary/5 rounded-2xl border border-border text-center">
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground" style={{ fontFamily: "'VT323', monospace" }}>
               <span className="font-semibold text-foreground">💡 Nota:</span> Los sitios sin dominio son 
               una opción ideal para negocios que buscan presencia web económica, sin gasto anual, rápidos 
               de gestionar y al acceder pero presentan limitaciones de busqueda y visualización de estadisticas, 
