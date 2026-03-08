@@ -69,7 +69,7 @@ const MatrixTitle = ({ text, color = "blue" }: { text: string; color?: "blue" | 
   );
 };
 
-const MatrixPlanName = ({ text }: { text: string }) => {
+const MatrixPlanName = ({ text, theme = "green" }: { text: string; theme?: "green" | "orange" }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -94,12 +94,14 @@ const MatrixPlanName = ({ text }: { text: string }) => {
     const columns = Math.floor(canvas.width / fontSize);
     const drops: number[] = Array(columns).fill(1);
 
-    const greenShades = ["#00ff41", "#39ff14", "#32cd32", "#00e676", "#76ff03"];
+    const shades = theme === "orange"
+      ? ["#ff8c00", "#ff6600", "#ffa500", "#ff4500", "#ffae42"]
+      : ["#00ff41", "#39ff14", "#32cd32", "#00e676", "#76ff03"];
 
     const draw = () => {
       ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
-      ctx.fillStyle = greenShades[Math.floor(Math.random() * greenShades.length)];
+      ctx.fillStyle = shades[Math.floor(Math.random() * shades.length)];
       ctx.font = `${fontSize}px monospace`;
 
       for (let i = 0; i < drops.length; i++) {
@@ -117,12 +119,16 @@ const MatrixPlanName = ({ text }: { text: string }) => {
       clearInterval(interval);
       window.removeEventListener("resize", resize);
     };
-  }, []);
+  }, [theme]);
+
+  const textClass = theme === "orange"
+    ? "text-orange-400 drop-shadow-[0_0_8px_rgba(255,140,0,0.5)]"
+    : "text-green-400 drop-shadow-[0_0_8px_rgba(0,255,0,0.5)]";
 
   return (
     <div ref={containerRef} className="relative inline-block px-4 py-2 rounded-lg overflow-hidden">
       <canvas ref={canvasRef} className="absolute inset-0 w-full h-full rounded-lg" />
-      <h3 className="relative z-10 text-2xl font-bold text-green-400 drop-shadow-[0_0_8px_rgba(0,255,0,0.5)]">
+      <h3 className={`relative z-10 text-2xl font-bold ${textClass}`}>
         {text}
       </h3>
     </div>
