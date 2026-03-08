@@ -186,7 +186,7 @@ export const ExampleSites = () => {
         
         <div className="relative z-20 container mx-auto px-6 text-center">
           <p className="text-2xl lg:text-3xl text-white font-medium drop-shadow-lg" style={{ fontFamily: "'VT323', monospace" }}>
-            ⛔💵 Vamos hasta su negocio ¡Sin Costo! Si leyó bien, ¡Gratis! Estamos para servirle a los que no conocemos aún y nos necesitan 😎
+            Vamos hasta su negocio ¡Sin Costo! Si leyó bien, ¡Gratis! Estamos para servirle a los que no conocemos aún y nos necesitan
           </p>
         </div>
       </div>
