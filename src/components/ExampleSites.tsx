@@ -59,13 +59,13 @@ export const ExampleSites = () => {
         {/* Content */}
         <div className="relative z-20 container mx-auto px-6">
           <div className="max-w-3xl text-left">
-            <h2 className="text-xl lg:text-3xl font-bold text-white mb-6 leading-tight">
+            <h2 className="text-xl lg:text-3xl font-bold text-white mb-6 leading-tight" style={{ fontFamily: "'Pirata One', cursive" }}>
               De la Era de los Caballeros a la <span className="font-bold animate-google-colors">Era Digital</span>.
             </h2>
             
             <div className="w-20 h-1 bg-primary mb-6"></div>
             
-            <p className="text-lg lg:text-2xl text-gray-200 leading-relaxed drop-shadow-md">
+            <p className="text-lg lg:text-2xl text-gray-200 leading-relaxed drop-shadow-md" style={{ fontFamily: "'VT323', monospace" }}>
               Encuentre algunos ejemplos de páginas web recientes que hemos creado para nuestros clientes en{" "}
               <span className="font-semibold text-white underline decoration-primary/50">Mérida, Venezuela</span>.
             </p>
@@ -80,7 +80,7 @@ export const ExampleSites = () => {
           <div className="mb-12">
             <div className="flex items-center justify-center gap-3 mb-8">
               <Globe className="w-8 h-8 text-primary" />
-              <h3 className="text-2xl font-bold text-foreground">
+              <h3 className="text-2xl font-bold text-foreground" style={{ fontFamily: "'Pirata One', cursive" }}>
                 Con Dominio Propio
               </h3>
             </div>
@@ -99,10 +99,10 @@ export const ExampleSites = () => {
                         <Globe className="w-6 h-6 text-primary" />
                       </div>
                       <div className="flex-1">
-                        <h4 className="font-semibold text-foreground mb-1 group-hover:text-primary transition-colors">
+                        <h4 className="font-semibold text-foreground mb-1 group-hover:text-primary transition-colors" style={{ fontFamily: "'Pirata One', cursive" }}>
                           {site.name}
                         </h4>
-                        <p className="text-sm text-muted-foreground mb-2">{site.description}</p>
+                        <p className="text-sm text-muted-foreground mb-2" style={{ fontFamily: "'VT323', monospace" }}>{site.description}</p>
                         <p className="text-xs text-primary truncate">{site.url}</p>
                       </div>
                     </div>
@@ -116,7 +116,7 @@ export const ExampleSites = () => {
           <div>
             <div className="flex items-center justify-center gap-3 mb-8">
               <Link2 className="w-8 h-8 text-secondary" />
-              <h3 className="text-2xl font-bold text-foreground">
+              <h3 className="text-2xl font-bold text-foreground" style={{ fontFamily: "'Pirata One', cursive" }}>
                 Sin Dominio <span className="animate-pulse-green">(Más Económico)</span>
               </h3>
             </div>
@@ -135,10 +135,10 @@ export const ExampleSites = () => {
                         <Link2 className="w-6 h-6 text-secondary" />
                       </div>
                       <div>
-                        <h4 className="font-semibold text-foreground mb-1 group-hover:text-secondary transition-colors">
+                        <h4 className="font-semibold text-foreground mb-1 group-hover:text-secondary transition-colors" style={{ fontFamily: "'Pirata One', cursive" }}>
                           {site.name}
                         </h4>
-                        <p className="text-sm text-muted-foreground">{site.description}</p>
+                        <p className="text-sm text-muted-foreground" style={{ fontFamily: "'VT323', monospace" }}>{site.description}</p>
                       </div>
                     </div>
                   </Card>
@@ -149,7 +149,7 @@ export const ExampleSites = () => {
 
           {/* Info Note */}
           <div className="mt-12 p-6 bg-gradient-to-r from-primary/5 to-secondary/5 rounded-2xl border border-border text-center">
-            <p className="text-muted-foreground">
+            <p className="text-muted-foreground" style={{ fontFamily: "'VT323', monospace" }}>
               <span className="font-semibold text-foreground">💡 Nota:</span> Los sitios sin dominio son 
               una opción ideal para negocios que buscan presencia web económica, sin gasto anual, rápidos 
               de gestionar y al acceder pero presentan limitaciones de busqueda y visualización de estadisticas, 
@@ -184,7 +184,7 @@ export const ExampleSites = () => {
         <div className="absolute inset-0 bg-gradient-to-l from-black/70 via-black/50 to-transparent md:hidden"></div>
         
         <div className="relative z-20 container mx-auto px-6 text-center">
-          <p className="text-xl lg:text-2xl text-white font-medium drop-shadow-lg">
+          <p className="text-xl lg:text-2xl text-white font-medium drop-shadow-lg" style={{ fontFamily: "'VT323', monospace" }}>
             ⛔💵 Vamos hasta su negocio ¡Sin Costo! Si leyó bien, ¡Gratis! Estamos para servirle a los que no conocemos aún y nos necesitan 😎
           </p>
         </div>
