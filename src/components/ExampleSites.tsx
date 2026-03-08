@@ -177,7 +177,7 @@ export const ExampleSites = () => {
         
         {/* Imagen para móvil */}
         <img 
-          src={exampleAngel} 
+          src={plnMerida} 
           alt="" 
           className="absolute inset-0 w-full h-full object-cover md:hidden"
         />
