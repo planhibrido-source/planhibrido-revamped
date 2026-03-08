@@ -350,7 +350,7 @@ const DisenoPaginaWeb = () => {
             </h2>
             <p className="text-4xl font-vt323 text-white/90 max-w-2xl mx-auto drop-shadow-md">
               Contáctenos hoy para resolver cualquier duda y así lo ayudamos a recibir más clientes con Google, 
-              una tecnología sostenible, limpia y rápida. Haga clic en la puerta para recibir una asesoría presencial¡GRATIS!
+              una tecnología sostenible, limpia y rápida. Haga clic en la puerta para recibir una asesoría presencial<span className="font-bold animate-[twinkle-colors_8s_ease-in-out_infinite]">¡GRATIS!</span>
             </p>
           </div>
           <div className="relative z-10 flex justify-center mt-8 mb-0">
