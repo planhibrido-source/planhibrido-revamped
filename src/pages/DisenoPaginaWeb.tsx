@@ -271,6 +271,8 @@ const DisenoPaginaWeb = () => {
           </div>
         </section>
 
+        <ExampleSites />
+
         {/* Precios */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
           <div className="container mx-auto max-w-5xl">
