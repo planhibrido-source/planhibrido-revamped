@@ -80,7 +80,7 @@ export const Plans = () => {
               <div className="space-y-6">
                 {/* Plan Header */}
                 <div>
-                  <h3 className="text-3xl font-bold text-foreground mb-2">{plan.name}</h3>
+                  <h3 className="text-2xl font-bold text-foreground mb-2">{plan.name}</h3>
                   <div className="text-2xl font-bold text-primary my-3">{plan.price}</div>
                   {plan.discountPrice && (
                     <div className="text-2xl font-bold animate-pulse-green my-2">{plan.discountPrice}</div>
