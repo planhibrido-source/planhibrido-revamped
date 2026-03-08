@@ -305,7 +305,7 @@ const DisenoPaginaWeb = () => {
         {/* Precios */}
         <div className="bg-primary py-6 px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-pirata text-white text-center max-w-5xl mx-auto">
-            Precios de Páginas Web para negocios en Mérida
+            🔥Precios de Páginas Web para negocios en Mérida🔥
           </h2>
         </div>
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
