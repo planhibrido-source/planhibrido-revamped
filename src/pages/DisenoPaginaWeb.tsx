@@ -160,15 +160,15 @@ const DisenoPaginaWeb = () => {
         </section>
 
         {/* ¿Por qué una página web? */}
-        <section className="py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        <section className="pt-[20%] pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
           {/* Parchment background image */}
           <div className="absolute inset-0" style={{ backgroundImage: `url(${benefitsBg})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} />
           <div className="container mx-auto max-w-5xl relative z-10">
             <div className="text-center mb-12 space-y-4">
                <h2 className="text-3xl sm:text-4xl font-pirata text-[#1C4378]">
                 ¿Por qué su negocio necesita una página web en Mérida?
-               </h2>
-              <p className="text-xl font-vt323 text-foreground max-w-3xl mx-auto">
+                </h2>
+              <p className="text-[1.0625rem] font-vt323 text-foreground max-w-3xl mx-auto">
                 Una página web es su vitrina digital las 24 horas del día. Permite que clientes potenciales 
                 conozcan sus productos y servicios, lo contacten fácilmente y confíen en su negocio antes de 
                 visitarlo bien sea en el Centro, en Las Americas, en la Humboldt, en la Milagrosa, en la 
