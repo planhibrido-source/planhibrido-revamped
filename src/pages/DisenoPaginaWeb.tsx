@@ -101,7 +101,7 @@ const DisenoPaginaWeb = () => {
               </p>
               <div className="flex flex-col items-end gap-6 pt-4 pb-16 sm:pb-20 md:pb-24 relative z-30">
                 <Link to="/" className="flex items-center gap-4 hover:scale-105 transition-transform">
-                  <span className="text-2xl sm:text-3xl font-pirata text-[#3B2F1E] drop-shadow-sm">Soluciones Google Maps</span>
+                  <span className="text-2xl sm:text-3xl font-pirata text-[#1C4378] drop-shadow-sm">Soluciones Google Maps</span>
                   <img src={sealGoogleMaps} alt="Soluciones Google Maps" className="w-30 h-30 sm:w-35 sm:h-35 object-contain" style={{ width: '8.75rem', height: '8.75rem' }} />
                 </Link>
                 <a href="tel:+584140770120" className="flex items-center gap-4 hover:scale-105 transition-transform">
