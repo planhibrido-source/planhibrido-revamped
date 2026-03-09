@@ -326,7 +326,7 @@ const DisenoPaginaWeb = () => {
                   <div className="text-xl font-bold animate-pulse-red">$60 Anuales / $5 Mensuales</div>
                   <p className="text-lg font-vt323 text-[#3B2F1E] italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$40 Pago Único sin Dominio</div>
-                  <p className="text-lg font-vt323 text-[#3B2F1E] text-center">
+                  <p className="text-xs font-vt323 text-[#3B2F1E] text-center">
                     Ideal para comercios con pocos productos, solo servicios o con solo una categoría.
                   </p>
                   <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="flex items-center justify-end gap-1 hover:scale-105 transition-transform pt-2 whitespace-nowrap">
@@ -343,7 +343,7 @@ const DisenoPaginaWeb = () => {
                   <div className="text-xl font-bold animate-pulse-darkblue">$120 Anuales / $10 Mensuales</div>
                   <p className="text-lg font-vt323 text-[#3B2F1E] italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$80 Pago Único sin Dominio</div>
-                  <p className="text-lg font-vt323 text-[#3B2F1E] text-center">
+                  <p className="text-xs font-vt323 text-[#3B2F1E] text-center">
                     Ideal para comercios con inventario extenso o con más de dos categorías. Incluye optimización SEO avanzada.
                   </p>
                   <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="flex items-center justify-end gap-1 hover:scale-105 transition-transform pt-2 whitespace-nowrap">
