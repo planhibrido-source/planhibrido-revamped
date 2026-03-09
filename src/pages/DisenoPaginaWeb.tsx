@@ -227,9 +227,9 @@ const DisenoPaginaWeb = () => {
                 "Dominio de pago anual o mensual (.com o personalizado)",
                 "Integración con Google Maps y perfil de Google",
               ].map((item, idx) => (
-                <div key={idx} className="flex items-center gap-4 p-2">
-                  <img src={waxSealCheck} alt="✓" className="w-12 h-12 flex-shrink-0" />
-                  <span className="text-[10px] font-vt323 text-foreground">{item}</span>
+                <div key={idx} className="flex flex-col items-center gap-1 p-2">
+                  <img src={waxSealCheck} alt="✓" className="w-12 h-12" />
+                  <span className="text-[10px] font-vt323 text-foreground text-center">{item}</span>
                 </div>
               ))}
             </div>
