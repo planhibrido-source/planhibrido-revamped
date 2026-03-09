@@ -216,7 +216,7 @@ const DisenoPaginaWeb = () => {
               backgroundRepeat: "no-repeat" 
             }} 
           />
-          <div className="container mx-auto max-w-2xl px-1 sm:px-3 relative z-10">
+          <div className="container mx-auto max-w-2xl px-0.5 sm:px-2 relative z-10">
             <h2 className="text-3xl sm:text-4xl font-pirata text-[#1C4378] text-center mb-12">
               ¿Qué incluye nuestro<br />servicio de diseño web?
             </h2>
