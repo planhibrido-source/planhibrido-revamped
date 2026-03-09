@@ -95,11 +95,11 @@ export const ExampleSites = () => {
                   className="block"
                 >
                   <Card className="p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 bg-card border-border group">
-                    <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <div className="flex flex-col items-center text-center gap-4">
+                      <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center">
                         <Globe className="w-6 h-6 text-primary" />
                       </div>
-                      <div className="flex-1">
+                      <div>
                         <h4 className="font-semibold text-foreground mb-1 group-hover:text-primary transition-colors" style={{ fontFamily: "'Pirata One', cursive" }}>
                           {site.name}
                         </h4>
