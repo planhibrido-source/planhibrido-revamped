@@ -339,7 +339,7 @@ const DisenoPaginaWeb = () => {
                   </p>
                   <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="flex items-center justify-end gap-1 hover:scale-105 transition-transform pt-2 whitespace-nowrap">
                     <span className="font-pirata text-base text-[#3B2F1E]">Comencemos por WhatsApp</span>
-                    <img src={whatsappSeal} alt="Consultar por WhatsApp" className="w-[5rem] h-[5rem] object-contain" />
+                    <img src={whatsappGold} alt="Consultar por WhatsApp" className="w-[5rem] h-[5rem] object-contain" />
                   </a>
                 </div>
               </div>
