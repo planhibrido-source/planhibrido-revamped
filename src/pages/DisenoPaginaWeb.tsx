@@ -10,6 +10,7 @@ import meridaSkyline from "@/assets/merida-skyline.png";
 import mapaMerida from "@/assets/mapa-merida.png";
 import procesoPln from "@/assets/proceso-pln.png";
 import parchmentBg from "@/assets/parchment-bg.png";
+import benefitsBg from "@/assets/benefits-bg.jpg";
 import parchmentScroll from "@/assets/parchment-scroll.png";
 import parchmentScrollDesktop from "@/assets/parchment-scroll-desktop.png";
 import waxSealCheck from "@/assets/wax-seal-check.png";
@@ -161,7 +162,7 @@ const DisenoPaginaWeb = () => {
         {/* ¿Por qué una página web? */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
           {/* Parchment background image */}
-          <div className="absolute inset-0" style={{ backgroundImage: `url(${parchmentBg})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} />
+          <div className="absolute inset-0" style={{ backgroundImage: `url(${benefitsBg})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} />
           <div className="container mx-auto max-w-5xl relative z-10">
             <div className="text-center mb-12 space-y-4">
                <h2 className="text-3xl sm:text-4xl font-pirata text-[#1C4378]">
