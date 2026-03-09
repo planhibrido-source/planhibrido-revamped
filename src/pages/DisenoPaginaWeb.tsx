@@ -227,7 +227,7 @@ const DisenoPaginaWeb = () => {
                 "Integración con Google Maps y perfil de Google",
               ].map((item, idx) => (
                 <div key={idx} className="flex items-center gap-4 p-2">
-                  <img src={waxSealCheck} alt="✓" className="w-12 h-12 flex-shrink-0" />
+                  <img src={waxSealCheck} alt="✓" className="w-12 h-12 flex-shrink-0" style={{ filter: 'brightness(0) saturate(100%) invert(20%) sepia(50%) saturate(1200%) hue-rotate(195deg) brightness(90%) contrast(95%)' }} />
                   <span className="text-lg font-vt323 text-foreground">{item}</span>
                 </div>
               ))}
