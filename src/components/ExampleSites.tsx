@@ -103,7 +103,7 @@ export const ExampleSites = () => {
                         <h4 className="font-semibold text-foreground mb-1 group-hover:text-primary transition-colors" style={{ fontFamily: "'Pirata One', cursive" }}>
                           {site.name}
                         </h4>
-                        <p className="text-sm text-muted-foreground mb-2" style={{ fontFamily: "'VT323', monospace" }}>{site.description}</p>
+                        <p className="text-sm text-muted-foreground mb-2 font-mono">{site.description}</p>
                         <p className="text-xs text-primary truncate">{site.url}</p>
                       </div>
                     </div>
