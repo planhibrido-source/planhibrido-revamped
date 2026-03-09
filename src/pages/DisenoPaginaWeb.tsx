@@ -247,18 +247,6 @@ const DisenoPaginaWeb = () => {
               alt="Mapa de la Ciudad de Mérida, Venezuela"
               className="w-full rounded-lg shadow-2xl"
             />
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <img
-                src={serviciosBasicos}
-                alt="Servicios de Edición Básicos - Nombre, Dirección, Categoría, Vínculos a Redes, Fotos Comerciales"
-                className="w-full rounded-lg shadow-xl"
-              />
-              <img
-                src={serviciosAvanzados}
-                alt="Servicios de Edición Avanzados - Verificación, Experiencias, Optimización SEO, Videos Comerciales"
-                className="w-full rounded-lg shadow-xl"
-              />
-            </div>
           </div>
         </section>
 
