@@ -117,7 +117,7 @@ export const ExampleSites = () => {
           <div>
             <div className="flex items-center justify-center gap-3 mb-8">
               <Link2 className="w-8 h-8 text-secondary" />
-              <h3 className="text-2xl font-bold text-foreground" style={{ fontFamily: "'Pirata One', cursive" }}>
+              <h3 className="text-3xl font-bold text-foreground" style={{ fontFamily: "'Pirata One', cursive" }}>
                 Sin Dominio <span className="animate-pulse-green">(Menos Visible o Invisible)</span>
               </h3>
             </div>
