@@ -38,7 +38,7 @@ const DisenoPaginaWeb = () => {
     { icon: Search, title: "Optimización SEO", desc: "Configuramos su página para aparecer en las búsquedas de Google relacionadas a su negocio en Mérida." },
     { icon: Zap, title: "Carga Rápida", desc: "Páginas ligeras y optimizadas para una experiencia fluida, incluso con conexiones lentas." },
     { icon: ShieldCheck, title: "Certificado SSL", desc: "Su página estará protegida con HTTPS, generando confianza en sus visitantes." },
-    { icon: Globe, title: "Dominio Propio", desc: "Obtenga su dominio personalizado (.com, .ve) para una presencia profesional." },
+    { icon: Globe, title: "Dominio Propio", desc: "Obtenga su dominio personalizado .com para una presencia profesional." },
     { icon: Palette, title: "Diseño Personalizado", desc: "Cada página es única, adaptada a la identidad visual de su negocio." },
   ];
 
