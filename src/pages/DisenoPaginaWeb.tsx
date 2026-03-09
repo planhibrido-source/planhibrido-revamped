@@ -92,7 +92,7 @@ const DisenoPaginaWeb = () => {
               Soluciones de Google Maps en Mérida
             </Link>
             <div className="space-y-6">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-pirata text-[#3B2F1E] leading-tight">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-pirata text-[#1C4378] leading-tight">
                 Diseño de Página Web en Mérida, Venezuela
               </h1>
               <p className="text-2xl font-vt323 text-[#1a1a1a] leading-relaxed max-w-3xl">
@@ -101,7 +101,7 @@ const DisenoPaginaWeb = () => {
               </p>
               <div className="flex flex-col items-end gap-6 pt-4 pb-16 sm:pb-20 md:pb-24 relative z-30">
                 <Link to="/" className="flex items-center gap-4 hover:scale-105 transition-transform">
-                  <span className="text-2xl sm:text-3xl font-pirata text-[#3B2F1E] drop-shadow-sm">Soluciones Google Maps</span>
+                  <span className="text-2xl sm:text-3xl font-pirata text-[#1C4378] drop-shadow-sm">Soluciones Google Maps</span>
                   <img src={sealGoogleMaps} alt="Soluciones Google Maps" className="w-30 h-30 sm:w-35 sm:h-35 object-contain" style={{ width: '8.75rem', height: '8.75rem' }} />
                 </Link>
                 <a href="tel:+584140770120" className="flex items-center gap-4 hover:scale-105 transition-transform">
@@ -183,7 +183,7 @@ const DisenoPaginaWeb = () => {
                       <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                         <f.icon className="w-6 h-6 text-primary" />
                       </div>
-                      <h3 className="font-pirata text-2xl text-foreground">{f.title}</h3>
+                      <h3 className="font-pirata text-2xl text-[#1C4378]">{f.title}</h3>
                     </div>
                     <p className="text-lg font-vt323 text-foreground">{f.desc}</p>
                   </div>
@@ -216,7 +216,7 @@ const DisenoPaginaWeb = () => {
             }} 
           />
           <div className="container mx-auto max-w-2xl relative z-10">
-            <h2 className="text-3xl sm:text-4xl font-pirata text-foreground text-center mb-12">
+            <h2 className="text-3xl sm:text-4xl font-pirata text-[#1C4378] text-center mb-12">
               ¿Qué incluye nuestro<br />servicio de diseño web?
             </h2>
             <div className="flex flex-col gap-2 items-center">
@@ -238,7 +238,7 @@ const DisenoPaginaWeb = () => {
         {/* Mapa de Mérida */}
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-background">
           <div className="container mx-auto max-w-4xl text-center space-y-8">
-            <h2 className="text-3xl sm:text-4xl font-pirata" style={{ color: '#C00000' }}>
+            <h2 className="text-3xl sm:text-4xl font-pirata text-[#1C4378]">
               Atención presencial en Mérida, Venezuela
             </h2>
             <img
@@ -264,7 +264,7 @@ const DisenoPaginaWeb = () => {
         {/* Proceso */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
           <div className="container mx-auto max-w-5xl">
-            <h2 className="text-3xl sm:text-4xl font-pirata text-center mb-4 tracking-wider" style={{ color: "hsl(30 20% 25%)" }}>
+            <h2 className="text-3xl sm:text-4xl font-pirata text-[#1C4378] text-center mb-4 tracking-wider">
               Proceso de Inclusión en la Plataforma de Google
             </h2>
              <p className="text-center text-xl font-vt323 text-foreground mb-12 max-w-2xl mx-auto">
@@ -290,7 +290,7 @@ const DisenoPaginaWeb = () => {
                       <span className="relative font-pirata text-xl font-bold text-yellow-300 animate-[pulse_3s_ease-in-out_infinite]">{p.step}</span>
                     </div>
                     <div>
-                      <h3 className="font-pirata text-foreground text-[30px] tracking-wide">{p.title}</h3>
+                      <h3 className="font-pirata text-[#1C4378] text-[30px] tracking-wide">{p.title}</h3>
                       <p className="text-[25px] font-vt323 text-foreground mt-1 leading-relaxed">{p.desc}</p>
                     </div>
                   </div>
@@ -321,7 +321,7 @@ const DisenoPaginaWeb = () => {
               <div className="relative hover:scale-[1.02] transition-transform duration-300">
                 <img src={parchmentCard} alt="" className="w-full h-auto block" />
                 <div className="absolute inset-0 flex flex-col items-center justify-center px-8 py-12 space-y-3">
-                  <h3 className="text-2xl font-pirata text-[#3B2F1E] text-center">Una Página Web</h3>
+                  <h3 className="text-2xl font-pirata text-[#1C4378] text-center">Una Página Web</h3>
                   <div className="text-xl font-bold animate-pulse-red">$60 Anuales / $5 Mensuales</div>
                   <p className="text-lg font-vt323 text-[#3B2F1E] italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$40 Pago Único sin Dominio</div>
@@ -338,7 +338,7 @@ const DisenoPaginaWeb = () => {
               <div className="relative hover:scale-[1.02] transition-transform duration-300">
                 <img src={parchmentCard} alt="" className="w-full h-auto block" />
                 <div className="absolute inset-0 flex flex-col items-center justify-center px-8 py-12 space-y-3">
-                  <h3 className="text-2xl font-pirata text-[#3B2F1E] text-center">Hasta 10 Páginas Web Interelacionadas</h3>
+                  <h3 className="text-2xl font-pirata text-[#1C4378] text-center">Hasta 10 Páginas Web Interelacionadas</h3>
                   <div className="text-xl font-bold animate-pulse-darkblue">$120 Anuales / $10 Mensuales</div>
                   <p className="text-lg font-vt323 text-[#3B2F1E] italic">Con Dominio Web incluido</p>
                   <div className="text-xl font-bold animate-pulse-green">$80 Pago Único sin Dominio</div>
