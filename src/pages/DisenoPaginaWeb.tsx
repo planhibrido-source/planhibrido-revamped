@@ -160,7 +160,7 @@ const DisenoPaginaWeb = () => {
         </section>
 
         {/* ¿Por qué una página web? */}
-        <section className="pt-[20%] pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        <section className="pt-[24%] sm:pt-[20%] pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
           {/* Parchment background image */}
           <div className="absolute inset-0" style={{ backgroundImage: `url(${benefitsBg})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} />
           <div className="container mx-auto max-w-5xl relative z-10">
