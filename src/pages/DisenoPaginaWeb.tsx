@@ -292,7 +292,7 @@ const DisenoPaginaWeb = () => {
                         <span className="relative font-pirata text-xl font-bold text-yellow-300 animate-[pulse_3s_ease-in-out_infinite]">{p.step}</span>
                       </div>
                       <div>
-                        <h3 className="font-pirata text-[#1C4378] text-[30px] tracking-wide">{p.title}</h3>
+                        <h3 className="font-pirata text-black text-[30px] tracking-wide">{p.title}</h3>
                       </div>
                     </div>
                     <p className="text-[17.5px] font-vt323 text-foreground mt-1 leading-relaxed text-left">{p.desc}</p>
