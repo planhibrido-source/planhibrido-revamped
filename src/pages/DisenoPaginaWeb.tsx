@@ -184,7 +184,7 @@ const DisenoPaginaWeb = () => {
                       <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
                         <f.icon className="w-6 h-6 text-primary" />
                       </div>
-                      <h3 className="font-pirata text-2xl text-[#1C4378]">{f.title}</h3>
+                      <h3 className="font-pirata text-2xl text-black">{f.title}</h3>
                     </div>
                     <p className="text-lg font-vt323 text-foreground">{f.desc}</p>
                   </div>
