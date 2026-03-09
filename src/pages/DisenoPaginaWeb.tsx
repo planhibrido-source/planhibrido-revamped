@@ -229,7 +229,7 @@ const DisenoPaginaWeb = () => {
               ].map((item, idx) => (
                 <div key={idx} className="flex items-center gap-4 p-2">
                   <img src={waxSealCheck} alt="✓" className="w-12 h-12 flex-shrink-0" />
-                  <span className="text-sm font-vt323 text-foreground">{item}</span>
+                  <span className="text-[10px] font-vt323 text-foreground">{item}</span>
                 </div>
               ))}
             </div>
