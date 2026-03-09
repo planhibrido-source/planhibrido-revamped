@@ -195,13 +195,13 @@ const DisenoPaginaWeb = () => {
         </section>
 
         {/* Qué incluye */}
-        <section className="relative py-20 px-4 sm:px-6 lg:px-8">
+        <section className="relative py-12 sm:py-20 px-4 sm:px-6 lg:px-8">
           {/* Mobile background */}
           <div 
             className="absolute inset-0 md:hidden" 
             style={{ 
               backgroundImage: `url(${parchmentScroll})`, 
-              backgroundSize: "contain", 
+              backgroundSize: "100% 100%", 
               backgroundPosition: "center", 
               backgroundRepeat: "no-repeat" 
             }} 
@@ -216,20 +216,20 @@ const DisenoPaginaWeb = () => {
               backgroundRepeat: "no-repeat" 
             }} 
           />
-          <div className="container mx-auto max-w-2xl px-0.5 sm:px-2 relative z-10">
-            <h2 className="text-3xl sm:text-4xl font-pirata text-[#1C4378] text-center mb-12">
+          <div className="container mx-auto max-w-2xl px-8 sm:px-2 relative z-10">
+            <h2 className="text-2xl sm:text-4xl font-pirata text-[#1C4378] text-center mb-6 sm:mb-12">
               ¿Qué incluye nuestro<br />servicio de diseño web?
             </h2>
-            <div className="flex flex-col gap-2 w-full">
+            <div className="flex flex-col gap-1 sm:gap-2 w-full">
               {[
                 "Página web de inicio (Landing Page) profesional y editable",
                 "Catálogo web con capacidad de hasta 3,000 productos/servicios",
                 "Dominio de pago anual o mensual (.com o personalizado)",
                 "Integración con Google Maps y perfil de Google",
               ].map((item, idx) => (
-                <div key={idx} className="flex flex-col items-center gap-1 p-2">
-                  <img src={waxSealCheck} alt="✓" className="w-12 h-12" />
-                  <span className="text-[10px] font-vt323 text-foreground text-center">{item}</span>
+                <div key={idx} className="flex flex-col items-center gap-1 p-1 sm:p-2">
+                  <img src={waxSealCheck} alt="✓" className="w-8 h-8 sm:w-12 sm:h-12" />
+                  <span className="text-[9px] sm:text-[10px] font-vt323 text-foreground text-center">{item}</span>
                 </div>
               ))}
             </div>
