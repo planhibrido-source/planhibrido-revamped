@@ -10,6 +10,7 @@ import meridaSkyline from "@/assets/merida-skyline.png";
 import mapaMerida from "@/assets/mapa-merida.png";
 import procesoPln from "@/assets/proceso-pln.png";
 import parchmentBg from "@/assets/parchment-bg.png";
+import benefitsBg from "@/assets/benefits-bg.jpg";
 import parchmentScroll from "@/assets/parchment-scroll.png";
 import parchmentScrollDesktop from "@/assets/parchment-scroll-desktop.png";
 import waxSealCheck from "@/assets/wax-seal-check.png";
