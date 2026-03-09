@@ -97,7 +97,7 @@ const DisenoPaginaWeb = () => {
                 Diseño de Página Web en Mérida, Venezuela
               </h1>
               <p className="text-2xl font-vt323 text-[#1a1a1a] leading-relaxed max-w-3xl">
-                Creamos una página web profesional optimizada para su negocio local en Mérida, Venezuela. 
+                Creamos una página web profesional para su negocio local en Mérida, Venezuela. 
                 Página web rápida, moderna, accesible, segura y optimizada para que sus clientes lo encuentren en Google.
               </p>
               <div className="flex flex-col items-end gap-6 pt-4 pb-16 sm:pb-20 md:pb-24 relative z-30">
