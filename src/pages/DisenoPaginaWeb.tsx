@@ -16,6 +16,7 @@ import waxSealCheck from "@/assets/wax-seal-check.png";
 import parchmentPricing from "@/assets/parchment-pricing.png";
 import parchmentCard from "@/assets/parchment-card.png";
 import whatsappSeal from "@/assets/whatsapp-seal.png";
+import whatsappGold from "@/assets/whatsapp-gold.png";
 import sealGoogleMaps from "@/assets/seal-google-maps.png";
 import sealCall from "@/assets/seal-call.png";
 import wallBg from "@/assets/wall-bg.png";
@@ -338,7 +339,7 @@ const DisenoPaginaWeb = () => {
                   </p>
                   <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="flex items-center justify-end gap-1 hover:scale-105 transition-transform pt-2 whitespace-nowrap">
                     <span className="font-pirata text-base text-[#3B2F1E]">Comencemos por WhatsApp</span>
-                    <img src={whatsappSeal} alt="Consultar por WhatsApp" className="w-[5rem] h-[5rem] object-contain" />
+                    <img src={whatsappGold} alt="Consultar por WhatsApp" className="w-[5rem] h-[5rem] object-contain" />
                   </a>
                 </div>
               </div>
