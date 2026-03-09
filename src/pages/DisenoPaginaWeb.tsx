@@ -92,7 +92,7 @@ const DisenoPaginaWeb = () => {
               Soluciones de Google Maps en Mérida
             </Link>
             <div className="space-y-6">
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-pirata text-[#3B2F1E] leading-tight">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-pirata text-[#1C4378] leading-tight">
                 Diseño de Página Web en Mérida, Venezuela
               </h1>
               <p className="text-2xl font-vt323 text-[#1a1a1a] leading-relaxed max-w-3xl">
