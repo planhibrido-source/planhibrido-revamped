@@ -264,7 +264,7 @@ const DisenoPaginaWeb = () => {
         {/* Proceso */}
         <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
           <div className="container mx-auto max-w-5xl">
-            <h2 className="text-3xl sm:text-4xl font-pirata text-center mb-4 tracking-wider" style={{ color: "hsl(30 20% 25%)" }}>
+            <h2 className="text-3xl sm:text-4xl font-pirata text-[#1C4378] text-center mb-4 tracking-wider">
               Proceso de Inclusión en la Plataforma de Google
             </h2>
              <p className="text-center text-xl font-vt323 text-foreground mb-12 max-w-2xl mx-auto">
