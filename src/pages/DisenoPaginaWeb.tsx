@@ -238,7 +238,7 @@ const DisenoPaginaWeb = () => {
         {/* Mapa de Mérida */}
         <section className="py-16 px-4 sm:px-6 lg:px-8 bg-background">
           <div className="container mx-auto max-w-4xl text-center space-y-8">
-            <h2 className="text-3xl sm:text-4xl font-pirata" style={{ color: '#C00000' }}>
+            <h2 className="text-3xl sm:text-4xl font-pirata text-[#1C4378]">
               Atención presencial en Mérida, Venezuela
             </h2>
             <img
