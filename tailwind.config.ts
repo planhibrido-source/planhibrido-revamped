@@ -15,7 +15,7 @@ export default {
     extend: {
       fontFamily: {
         pirata: ['"Pirata One"', 'Georgia', 'serif'],
-        vt323: ['"VT323"', 'monospace'],
+        vt323: ['"Source Code Pro"', 'monospace'],
       },
       colors: {
         border: "hsl(var(--border))",
