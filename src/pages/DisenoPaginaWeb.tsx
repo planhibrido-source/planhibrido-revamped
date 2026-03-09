@@ -220,7 +220,7 @@ const DisenoPaginaWeb = () => {
             <h2 className="text-3xl sm:text-4xl font-pirata text-[#1C4378] text-center mb-12">
               ¿Qué incluye nuestro<br />servicio de diseño web?
             </h2>
-            <div className="flex flex-col gap-2 items-center">
+            <div className="flex flex-col gap-2 w-full">
               {[
                 "Página web de inicio (Landing Page) profesional y editable",
                 "Catálogo web con capacidad de hasta 3,000 productos/servicios",
