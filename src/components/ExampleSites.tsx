@@ -66,7 +66,7 @@ export const ExampleSites = () => {
             
             <div className="w-20 h-1 bg-primary mb-6"></div>
             
-            <p className="text-[25px] lg:text-[34px] text-gray-200 leading-relaxed drop-shadow-md" style={{ fontFamily: "'VT323', monospace" }}>
+            <p className="text-[25px] lg:text-[34px] text-gray-200 leading-relaxed drop-shadow-md font-mono">
               Encuentre algunos ejemplos de páginas web recientes que hemos creado para nuestros clientes en{" "}
               <span className="font-semibold text-white underline decoration-primary/50">Mérida, Venezuela</span>.
             </p>
@@ -103,7 +103,7 @@ export const ExampleSites = () => {
                         <h4 className="font-semibold text-foreground mb-1 group-hover:text-primary transition-colors" style={{ fontFamily: "'Pirata One', cursive" }}>
                           {site.name}
                         </h4>
-                        <p className="text-sm text-muted-foreground mb-2" style={{ fontFamily: "'VT323', monospace" }}>{site.description}</p>
+                        <p className="text-sm text-muted-foreground mb-2 font-mono">{site.description}</p>
                         <p className="text-xs text-primary truncate">{site.url}</p>
                       </div>
                     </div>
@@ -139,7 +139,7 @@ export const ExampleSites = () => {
                         <h4 className="font-semibold text-foreground mb-1 group-hover:text-secondary transition-colors" style={{ fontFamily: "'Pirata One', cursive" }}>
                           {site.name}
                         </h4>
-                        <p className="text-sm text-muted-foreground" style={{ fontFamily: "'VT323', monospace" }}>{site.description}</p>
+                        <p className="text-sm text-muted-foreground font-mono">{site.description}</p>
                       </div>
                     </div>
                   </Card>
