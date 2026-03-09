@@ -20,7 +20,7 @@ import whatsappSeal from "@/assets/whatsapp-seal.png";
 import whatsappGold from "@/assets/whatsapp-gold.png";
 import sealGoogleMaps from "@/assets/seal-google-maps.png";
 import sealCall from "@/assets/seal-call.png";
-import wallBg from "@/assets/wall-bg.png";
+import wallBg from "@/assets/wall-bg-new.jpg";
 import whatsappDoor from "@/assets/whatsapp-door.png";
 import googleDoor from "@/assets/google-door.png";
 import sealBlue from "@/assets/seal-blue.png";
