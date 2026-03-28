@@ -23,7 +23,7 @@ const MatrixTitle = ({ text, color = "blue" }: { text: string; color?: "blue" | 
     resize();
     window.addEventListener("resize", resize);
 
-    const chars = "01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン";
+    const chars = "01POSICIONAMIENTO LOCAL DE NEGOCIOS EN MERIDA VENEZUELA PAGINAS WEB FOTOS VIDEOS MARKETING";
     const fontSize = 14;
     const columns = Math.floor(canvas.width / fontSize);
     const drops: number[] = Array(columns).fill(1);
