@@ -20,7 +20,7 @@ export const ExampleSites = () => {
 
   const sitesWithoutDomain = [
     {
-      name: "Trolemoto La 16",
+      name: "Trolemoto",
       url: "https://sites.google.com/view/trolemoto-la-16-ca/repuestos-motos-merida",
       description: "Repuestos para motos"
     },
