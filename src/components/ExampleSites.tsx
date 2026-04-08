@@ -20,11 +20,6 @@ export const ExampleSites = () => {
 
   const sitesWithoutDomain = [
     {
-      name: "Toallas Deportivas Mérida",
-      url: "https://sites.google.com/view/toallasdeportivasmerida/toallas",
-      description: "Tienda Online de toallas"
-    },
-    {
       name: "Trolemoto La 16",
       url: "https://sites.google.com/view/trolemoto-la-16-ca/repuestos-motos-merida",
       description: "Repuestos para motos"
