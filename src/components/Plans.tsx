@@ -142,7 +142,7 @@ export const Plans = () => {
 
   const plans = [
     {
-      name: "Plan Básico: Una Página Web + Catálogo",
+      name: "Plan Básico: Una Página Web + Catálogo General",
       price: "$60 Anuales/$6 Mensuales: Con Dominio Web",
       discountPrice: "$40 de Pago Único: Sin Dominio Web",
       ideal: "Ideal para comercios con pocos productos, solo servicios o con menos de 3 categorías",
@@ -161,20 +161,20 @@ export const Plans = () => {
       color: "primary",
     },
     {
-      name: "Plan Especial: Página Web Extra o de una Categoría más",
-      price: "+$20 Anuales/+$2 Mensuales: Con Dominio Web",
-      discountPrice: "$40 de Pago Único: Sin Dominio Web",
+      name: "Plan Especial: Hasta 10 Páginas Web + Catálogo especifico",
+      price: "$120 Anuales/$12 Mensuales: Con Dominio Web",
+      discountPrice: "$100 de Pago Único: Sin Dominio Web",
       ideal: "Ideal para comercios con inventario extenso o con más de 3 categorías",
       features: [
         "Todo lo incluido en el Plan Básico",
         "Edición completa del perfil de negocios de Google",
         "2 Videos desde puntos de referencia",
-        "Redirección al WhatsApp",
+        "Catálogo con carrito de compra al WhatsApp",
         "Creación de actualizaciones, promociones, ofertas y eventos",
         "Respaldo en la nube",
         "Optimización del motor de búsquedas de Google",
-        "Adición de 100 productos adicionales en el perfil y la página",
-        "Aplica también para cada página adicional del catálogo",
+        "Adición de 100 productos adicionales en el perfil y el catálogo",
+        "Página para cada producto, servicio y categoría",
       ],
       examples: "Tiendas de repuestos, clínicas, zapaterias, comercios de alimentos, centros comerciales, tiendas por departamento y más",
       color: "secondary",
