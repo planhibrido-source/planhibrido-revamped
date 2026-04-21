@@ -16,8 +16,8 @@ export const MatrixMedievalBg = () => {
     resize();
     window.addEventListener("resize", resize);
 
-    // Caracteres medievales / latinos antiguos
-    const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ†‡☩✠✟⚔⚜♛♜♞⛨ℜℑ𝔄𝔅ℭ𝔇𝔈𝔉𝔊ℌℑ𝔍𝔎𝔏𝔐𝔑𝔒𝔓𝔔ℜ𝔖𝔗𝔘𝔙𝔚𝔛𝔜ℨ";
+    // Caracteres rúnicos
+    const chars = "ᚠᚡᚢᚣᚤᚥᚦᚧᚨᚩᚪᚫᚬᚭᚮᚯᚰᚱᚲᚳᚴᚵᚶᚷᚸᚹᚺᚻᚼᚽᚾᚿᛀᛁᛂᛃᛄᛅᛆᛇᛈᛉᛊᛋᛌᛍᛎᛏᛐᛑᛒᛓᛔᛕᛖᛗᛘᛙᛚᛛᛜᛝᛞᛟᛠᛡᛢᛣᛤᛥᛦᛧᛨᛩᛪ";
     const fontSize = 18;
     let columns = Math.floor(canvas.width / fontSize);
     let drops: number[] = Array(columns).fill(1);
