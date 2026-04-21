@@ -164,11 +164,11 @@ const Precios = () => {
               </p>
             )}
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="columns-1 md:columns-2 gap-8 [column-fill:_balance]">
               {services.map((s, idx) => (
                 <article
                   key={idx}
-                  className="relative rounded-xl overflow-hidden shadow-xl"
+                  className="relative rounded-xl overflow-hidden shadow-xl mb-8 break-inside-avoid"
                   style={{
                     backgroundImage: `url(${parchmentCard})`,
                     backgroundSize: "cover",
