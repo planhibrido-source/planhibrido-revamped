@@ -23,7 +23,7 @@ const MatrixTitle = ({ text, color = "blue" }: { text: string; color?: "blue" | 
     resize();
     window.addEventListener("resize", resize);
 
-    const chars = "01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン";
+    const chars = "ᚠᚡᚢᚣᚤᚥᚦᚧᚨᚩᚪᚫᚬᚭᚮᚯᚰᚱᚲᚳᚴᚵᚶᚷᚸᚹᚺᚻᚼᚽᚾᚿᛀᛁᛂᛃᛄᛅᛆᛇᛈᛉᛊᛋᛌᛍᛎᛏᛐᛑᛒᛓᛔᛕᛖᛗᛘᛙᛚᛛᛜᛝᛞᛟᛠᛡᛢᛣᛤᛥᛦᛧᛨᛩᛪ";
     const fontSize = 14;
     const columns = Math.floor(canvas.width / fontSize);
     const drops: number[] = Array(columns).fill(1);
@@ -89,7 +89,7 @@ const MatrixPlanName = ({ text, theme = "green" }: { text: string; theme?: "gree
     resize();
     window.addEventListener("resize", resize);
 
-    const chars = "01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン";
+    const chars = "ᚠᚡᚢᚣᚤᚥᚦᚧᚨᚩᚪᚫᚬᚭᚮᚯᚰᚱᚲᚳᚴᚵᚶᚷᚸᚹᚺᚻᚼᚽᚾᚿᛀᛁᛂᛃᛄᛅᛆᛇᛈᛉᛊᛋᛌᛍᛎᛏᛐᛑᛒᛓᛔᛕᛖᛗᛘᛙᛚᛛᛜᛝᛞᛟᛠᛡᛢᛣᛤᛥᛦᛧᛨᛩᛪ";
     const fontSize = 12;
     const columns = Math.floor(canvas.width / fontSize);
     const drops: number[] = Array(columns).fill(1);
