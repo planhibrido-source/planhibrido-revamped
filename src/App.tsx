@@ -6,7 +6,9 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import Index from "./pages/Index";
 import DisenoPaginaWeb from "./pages/DisenoPaginaWeb";
+import Precios from "./pages/Precios";
 import NotFound from "./pages/NotFound";
+import { CartProvider } from "./contexts/CartContext";
 
 const queryClient = new QueryClient();
 
@@ -23,15 +25,18 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
-        <ScrollToTop />
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/diseno-pagina-web" element={<DisenoPaginaWeb />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </BrowserRouter>
+      <CartProvider>
+        <BrowserRouter>
+          <ScrollToTop />
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/diseno-pagina-web" element={<DisenoPaginaWeb />} />
+            <Route path="/precios" element={<Precios />} />
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </CartProvider>
     </TooltipProvider>
   </QueryClientProvider>
 );
