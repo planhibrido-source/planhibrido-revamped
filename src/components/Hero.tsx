@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Phone, MapPin, TrendingUp } from "lucide-react";
+import { Phone, MapPin, TrendingUp, MessageCircle } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-google-maps.jpg";
 import { useState, useEffect } from "react";
 
@@ -90,6 +91,17 @@ export const Hero = () => {
               +58 414-0770120
             </Button>
             
+            <Button 
+              asChild
+              size="xl"
+              className="bg-[#25D366] hover:bg-[#1da851] text-white border-0"
+            >
+              <Link to="/precios">
+                <MessageCircle className="w-5 h-5" />
+                Ver Precios
+              </Link>
+            </Button>
+
             <Button 
               variant="outline" 
               size="xl"
