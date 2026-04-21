@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowLeft, Plus } from "lucide-react";
+import { ArrowLeft, Plus, CalendarCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { CartHeader } from "@/components/CartHeader";
 import { MatrixMedievalBg } from "@/components/MatrixMedievalBg";
