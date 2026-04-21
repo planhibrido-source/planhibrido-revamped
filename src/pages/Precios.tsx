@@ -183,6 +183,27 @@ const Precios = () => {
                       {s.descripcion}
                     </p>
 
+                    {(() => {
+                      const desc = (s.descripcion || "").trim();
+                      // "Sólo precios" = la descripción está vacía o consiste mayormente en cifras/símbolos monetarios
+                      const onlyPrices =
+                        !desc ||
+                        /^[\s\d$.,\-/$€¥£%]+$/.test(desc) ||
+                        (desc.replace(/[\d$.,\-/$€¥£%\s]/g, "").length < 10);
+                      if (!onlyPrices) return null;
+                      return (
+                        <a
+                          href="https://wa.me/584124373887?text=Hola%2C%20deseo%20solicitar%20una%20visita%20o%20asesor%C3%ADa%20gratis%20sobre%20el%20servicio%3A%20"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-lg bg-[#25D366] hover:bg-[#1da851] text-white font-pirata transition"
+                        >
+                          <CalendarCheck className="w-4 h-4" />
+                          Solicitar Visita o Asesoría Gratis
+                        </a>
+                      );
+                    })()}
+
                     <div className="space-y-2">
                       {modalities.map((m) => {
                         const val = s[m.key] as string;
