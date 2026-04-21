@@ -92,6 +92,7 @@ const Precios = () => {
           precioAnual: r[3] || "",
           precioMensual: r[4] || "",
           precioSemanal: r[5] || "",
+          solicitarVisita: r[6] || "",
         }));
         setServices(data);
         setLoading(false);
