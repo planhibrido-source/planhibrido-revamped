@@ -16,6 +16,7 @@ type Service = {
   precioAnual: string;
   precioMensual: string;
   precioSemanal: string;
+  solicitarVisita: string;
 };
 
 const SHEET_URL =
