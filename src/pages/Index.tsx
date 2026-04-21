@@ -16,7 +16,6 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Hero />
       <Services />
-      <Plans />
       <PaymentMethods />
       <BcvBanner />
       <Benefits />
@@ -49,6 +48,7 @@ const Index = () => {
           <img src={exampleAngel} alt="Ejemplo de trabajo PLN Mérida" className="w-full rounded-lg shadow-2xl" />
         </div>
       </section>
+      <Plans />
       <AboutUs />
       <Footer />
       <FloatingWhatsApp />
