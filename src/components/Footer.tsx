@@ -1,9 +1,23 @@
 import { MapPin, Phone, Mail } from "lucide-react";
+import { useLocation, useNavigate } from "react-router-dom";
 import logoPlnImage from "@/assets/logo-pln.png";
 
+const LOGO_URL = "https://lh3.googleusercontent.com/pw/AP1GczMtpaJa0fgA0IZ8ZVA7zBDgSxnr1HwUvEznOpknSNFjEpXn4gTOiD4v7DCAGzyoj82N6RM2iYI3R5Sc916PLN_h8bpLBBRDfByO3VQ11Iy_WdktL6Q=w1920-h1080";
+
 export const Footer = () => {
+  const location = useLocation();
+  const navigate = useNavigate();
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleLogoClick = () => {
+    if (location.pathname === "/") {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else {
+      navigate("/");
+    }
   };
 
   return (
@@ -12,6 +26,13 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div className="space-y-4">
+            <button
+              onClick={handleLogoClick}
+              className="block hover:scale-105 transition-transform"
+              aria-label="Ir al inicio"
+            >
+              <img src={LOGO_URL} alt="Logo PLN Mérida" className="w-28 h-auto object-contain drop-shadow-lg" />
+            </button>
             <h3 className="text-2xl font-bold">PLN Mérida</h3>
             <p className="text-background/80 text-sm">
               Posicionamiento Local de Negocios en Google Maps
