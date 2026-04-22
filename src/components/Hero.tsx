@@ -31,8 +31,8 @@ const CountUp = ({ end }: { end: number }) => {
 };
 
 export const Hero = () => {
-  const handleWhatsAppClick = () => {
-    window.open("https://wa.me/584140770120", "_blank");
+  const handleCallClick = () => {
+    window.location.href = "tel:+584140770120";
   };
 
   return (
@@ -84,11 +84,11 @@ export const Hero = () => {
             <Button 
               variant="hero" 
               size="xl"
-              onClick={handleWhatsAppClick}
+              onClick={handleCallClick}
               className="group"
             >
               <Phone className="w-5 h-5 group-hover:rotate-12 transition-transform" />
-              +58 414-0770120
+              0414-07.70.120
             </Button>
             
             <Button 
