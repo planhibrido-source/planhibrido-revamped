@@ -1,8 +1,8 @@
 import { Card } from "@/components/ui/card";
 import { DollarSign, CreditCard, Repeat } from "lucide-react";
-import paymentCash from "@/assets/payment-cash.jpg";
-import paymentInstallments from "@/assets/payment-installments.jpg";
-import paymentExchange from "@/assets/payment-exchange.jpg";
+const paymentCash = "https://lh3.googleusercontent.com/pw/AP1GczMlIo_6SXMZRirRe7TK91tXD34LVOqqNjNw56QmnGvH-A6mB2B-i4I3JnHNcCtbfr5EPKZcPEcSNg5hlBaWZ9ey8HuGipnvUV1VPxB8N0FWF_fHkc4=w2400";
+const paymentInstallments = "https://lh3.googleusercontent.com/pw/AP1GczOWNqPCtMhQgyivL6fGg0W0REgqZZX62YaPQIVIGydjWXNuydi-0UyseO_Zgb6PnKwRACWvtozDqlg7XrrCWDaDhq3FWbQNTCRVKAUU7Ukt_lP2iE0=w2400";
+const paymentExchange = "https://lh3.googleusercontent.com/pw/AP1GczMGbrCeTBRXJwHlu_iCWTvztDg2binzReexEgWS4SnpWUjG6lXbXUKLLQaEsTpY53JrRxEZrNOgsBhiMvBQxwiW3RHTkWtlyJxbGX3cgfOYSoXz0LU=w2400";
 
 export const PaymentMethods = () => {
   const methods = [
