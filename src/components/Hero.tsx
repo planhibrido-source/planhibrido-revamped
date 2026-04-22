@@ -126,7 +126,7 @@ export const Hero = () => {
           </div>
 
           <div className="flex justify-center animate-fade-in" style={{ animationDelay: "0.45s" }}>
-            <Button asChild variant="cta" size="xl">
+            <Button asChild size="xl" className="bg-blue-600 hover:bg-blue-700 text-white border-0 shadow-lg hover:shadow-xl hover:scale-105 transition-all">
               <Link to="/pagina-web-merida-venezuela">
                 <Globe className="w-5 h-5" />
                 Creamos su Página Web en Mérida
