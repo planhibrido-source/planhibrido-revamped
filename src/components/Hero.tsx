@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, MapPin, TrendingUp, MessageCircle } from "lucide-react";
+import { Phone, MapPin, TrendingUp, MessageCircle, Globe } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-google-maps.jpg";
 
@@ -122,6 +122,15 @@ export const Hero = () => {
             >
               <TrendingUp className="w-5 h-5" />
               Ver Planes
+            </Button>
+          </div>
+
+          <div className="flex justify-center animate-fade-in" style={{ animationDelay: "0.45s" }}>
+            <Button asChild variant="cta" size="xl">
+              <Link to="/pagina-web-merida-venezuela">
+                <Globe className="w-5 h-5" />
+                Creamos su Página Web en Mérida
+              </Link>
             </Button>
           </div>
 
