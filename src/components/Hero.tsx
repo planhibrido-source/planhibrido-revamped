@@ -31,8 +31,8 @@ const CountUp = ({ end }: { end: number }) => {
 };
 
 export const Hero = () => {
-  const handleWhatsAppClick = () => {
-    window.open("https://wa.me/584140770120", "_blank");
+  const handleCallClick = () => {
+    window.location.href = "tel:+584140770120";
   };
 
   return (
