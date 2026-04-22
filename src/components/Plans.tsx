@@ -235,7 +235,7 @@ export const Plans = () => {
                         {idx === 0 && fIdx === plan.features.length - 1 ? (
                           <>
                             {feature.split("Página web")[0]}
-                            <a href="/diseno-pagina-web" className="text-primary underline hover:text-primary/80 font-medium">Página web</a>
+                            <a href="/pagina-web-merida-venezuela" className="text-primary underline hover:text-primary/80 font-medium">Página web</a>
                             {feature.split("Página web")[1]}
                           </>
                         ) : feature}
