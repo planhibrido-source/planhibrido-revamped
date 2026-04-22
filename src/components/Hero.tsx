@@ -84,11 +84,11 @@ export const Hero = () => {
             <Button 
               variant="hero" 
               size="xl"
-              onClick={handleWhatsAppClick}
+              onClick={handleCallClick}
               className="group"
             >
               <Phone className="w-5 h-5 group-hover:rotate-12 transition-transform" />
-              +58 414-0770120
+              0414-07.70.120
             </Button>
             
             <Button 
