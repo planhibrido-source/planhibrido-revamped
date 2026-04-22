@@ -87,7 +87,7 @@ export const Hero = () => {
 
           {/* Subheading */}
           <p className="text-xl sm:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            Generamos notoriedad de lo Tangible 🌍 a lo Virtual 💻📱🔄
+            Generamos notoriedad de lo Real 🌍 a lo Virtual 💻📱🔄
           </p>
 
           <p className="text-lg text-white/80 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "0.3s" }}>
