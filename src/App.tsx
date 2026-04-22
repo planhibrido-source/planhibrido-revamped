@@ -30,7 +30,7 @@ const App = () => (
           <ScrollToTop />
           <Routes>
             <Route path="/" element={<Index />} />
-            <Route path="/diseno-pagina-web" element={<DisenoPaginaWeb />} />
+            <Route path="/pagina-web-merida-venezuela" element={<DisenoPaginaWeb />} />
             <Route path="/precios" element={<Precios />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
