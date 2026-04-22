@@ -1,9 +1,9 @@
 import { Card } from "@/components/ui/card";
 import { MapPinned, Camera, Star, Globe, Link2, Image, Video, Search } from "lucide-react";
 import { Link } from "react-router-dom";
-import verificationImg from "@/assets/service-verification.png";
-import optimizationImg from "@/assets/service-optimization.jpg";
-import photo360Img from "@/assets/service-360-photo.jpg";
+const verificationImg = "https://lh3.googleusercontent.com/pw/AP1GczP-fhja4q7OzMYExBK_0E4CbQCGfFfHZo6z7nl0iwYbT8Plr0U1HCA0MrhR3t0h5qLu3rYzFS1axEBOxaUy-uO7MA5y6hTAUgJgOnPNW_fxow7BZ6I=w2400";
+const optimizationImg = "https://lh3.googleusercontent.com/pw/AP1GczOmz6RRq5oEN1WfKoaKsNhMidK0mvzgb_2GUAk0DNy0c1szUTy2dwcYP0rc-AUY7IGBrDiGfz_PqRsD2LYCCor69l-kTuL_gZ6q4k2AE6Duk6vaFPM=w2400";
+const photo360Img = "https://lh3.googleusercontent.com/pw/AP1GczMpW1OBl_4rbQOHeyG4JfUGWIE_TdcFX9U11sFCduhk_yYj1CIuH2kaSmYvIzsnhRcoDRRKtezEBYjmGDZ-fnxg0efzXBXxJpPaeSwvCYIlov8FVAg=w2400";
 
 export const Services = () => {
   const basicServices = [

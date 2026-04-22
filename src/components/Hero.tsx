@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Phone, MapPin, TrendingUp, MessageCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-google-maps.jpg";
+
+const LOGO_URL = "https://lh3.googleusercontent.com/pw/AP1GczMtpaJa0fgA0IZ8ZVA7zBDgSxnr1HwUvEznOpknSNFjEpXn4gTOiD4v7DCAGzyoj82N6RM2iYI3R5Sc916PLN_h8bpLBBRDfByO3VQ11Iy_WdktL6Q=w1920-h1080";
 import { useState, useEffect } from "react";
 
 const CountUp = ({ end }: { end: number }) => {
@@ -59,6 +61,16 @@ export const Hero = () => {
           <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white px-4 py-2 rounded-full border border-white/20 animate-fade-in">
             <MapPin className="w-4 h-4" />
             <span className="text-sm font-medium">Mérida, Venezuela</span>
+          </div>
+
+          {/* Logo */}
+          <div className="flex justify-center animate-fade-in" style={{ animationDelay: "0.05s" }}>
+            <img
+              src={LOGO_URL}
+              alt="Logo PLN Mérida"
+              className="w-40 sm:w-52 lg:w-64 h-auto object-contain drop-shadow-2xl"
+              loading="eager"
+            />
           </div>
 
           {/* Main Heading */}

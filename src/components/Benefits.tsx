@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Target, TrendingUp, Users, Shield } from "lucide-react";
-import growthImg from "@/assets/benefit-growth.jpg";
-import visibilityImg from "@/assets/benefit-visibility.jpg";
+const visibilityImg = "https://lh3.googleusercontent.com/pw/AP1GczP8iXX0x9npsBxjed5M6wh0OIM3rYniGXg7OlrTIFR2GATSGtmFCIfv5tLnlPr0zIM9RpjaNA20eqG9Fa7oMQZ4MW7_IyBosvGOt1oB2GtgJMXAq9o=w2400";
+const growthImg = "https://lh3.googleusercontent.com/pw/AP1GczOmSKADm7WBAcrW30SkVtx-fIX_4DHL2QfZjH0eYoKoT_VshtQ2Hz7HFQtlRVzGD84QUGy8mAYJqrU5YPKvd1Yfr4Rm9iEKNypU0hiGcIjvVZEnDwQ=w2400";
 
 export const Benefits = () => {
   const benefits = [
