@@ -46,7 +46,7 @@ export const Hero = () => {
           alt="Google Maps para negocios locales" 
           className="w-full h-full object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-[#3b2412]/90 via-[#8b6a3d]/80 to-[#d9b77a]/85" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#f5e6c8]/85 via-[#d9b77a]/85 to-[#8b6a3d]/90" />
       </div>
       
       {/* Animated Background Shapes */}
