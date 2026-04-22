@@ -9,7 +9,7 @@ import { CTA } from "@/components/CTA";
 import { AboutUs } from "@/components/AboutUs";
 import { Footer } from "@/components/Footer";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
-import exampleAngel from "@/assets/example-angel.jpg";
+const exampleAngel = "https://lh3.googleusercontent.com/pw/AP1GczMv-KzcTAEGZZ20cAcOUek9MUT3cYcACcHg-VAC637C9WTm-hx_d53McTOQMKjmpes9rftvSfKwhY1aAnXeIt8vetQRBjNGASRMosOerr-eNuI74gU=w2400";
 
 const Index = () => {
   return (
