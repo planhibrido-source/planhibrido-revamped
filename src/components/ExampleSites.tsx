@@ -15,15 +15,15 @@ export const ExampleSites = () => {
       name: "Industria Du Prince",
       url: "https://www.industriaduprince.com/",
       description: "Fabricantes de Lencería Hotelera"
+    },
+    {
+      name: "Trolemoto",
+      url: "https://www.trolemoto.com/",
+      description: "Tienda de Repuestos de Motos en Mérida"
     }
   ];
 
   const sitesWithoutDomain = [
-    {
-      name: "Trolemoto",
-      url: "https://sites.google.com/view/trolemoto-la-16-ca/repuestos-motos-merida",
-      description: "Repuestos para motos"
-    },
     {
       name: "Rapifrenos La 16",
       url: "https://sites.google.com/view/rapifrenosla16",
