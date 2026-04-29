@@ -321,10 +321,10 @@ const DisenoPaginaWeb = () => {
                   <p className="text-xs font-vt323 text-[#3B2F1E] text-center">
                     Ideal para comercios con pocos productos, solo servicios o con solo una categoría.
                   </p>
-                  <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="flex items-center justify-end gap-1 hover:scale-105 transition-transform pt-2 whitespace-nowrap">
+                  <Link to="/precios" className="flex items-center justify-end gap-1 hover:scale-105 transition-transform pt-2 whitespace-nowrap">
                     <span className="font-pirata text-base text-[#3B2F1E]">Comencemos por WhatsApp</span>
                     <img src={whatsappSeal} alt="Consultar por WhatsApp" className="w-[5rem] h-[5rem] object-contain" />
-                  </a>
+                  </Link>
                 </div>
               </div>
               {/* Card 2 */}
@@ -338,10 +338,10 @@ const DisenoPaginaWeb = () => {
                   <p className="text-xs font-vt323 text-[#3B2F1E] text-center">
                     Ideal para comercios con inventario extenso o con más de dos categorías. Incluye optimización SEO avanzada.
                   </p>
-                  <a href="https://wa.me/584140770120" target="_blank" rel="noopener noreferrer" className="flex items-center justify-end gap-1 hover:scale-105 transition-transform pt-2 whitespace-nowrap">
+                  <Link to="/precios" className="flex items-center justify-end gap-1 hover:scale-105 transition-transform pt-2 whitespace-nowrap">
                     <span className="font-pirata text-base text-[#3B2F1E]">Comencemos por WhatsApp</span>
                     <img src={whatsappGold} alt="Consultar por WhatsApp" className="w-[5rem] h-[5rem] object-contain" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
