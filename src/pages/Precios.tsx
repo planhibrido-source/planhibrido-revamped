@@ -7,7 +7,7 @@ import { MatrixMedievalBg } from "@/components/MatrixMedievalBg";
 import { Footer } from "@/components/Footer";
 import { FloatingWhatsApp } from "@/components/FloatingWhatsApp";
 import { useCart } from "@/contexts/CartContext";
-import parchmentCard from "@/assets/parchment-scroll-services.png";
+import parchmentCard from "@/assets/parchment-scroll.png";
 
 type Service = {
   servicio: string;
