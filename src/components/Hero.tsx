@@ -130,9 +130,9 @@ export const Hero = () => {
           </div>
 
           <div className="flex justify-center animate-fade-in" style={{ animationDelay: "0.45s" }}>
-            <Button asChild size="xl" className="bg-blue-600 hover:bg-blue-700 text-white border-0 shadow-lg hover:shadow-xl hover:scale-105 transition-all">
+            <Button asChild size="xl" className="bg-blue-600 hover:bg-blue-700 text-white border-0 shadow-lg hover:shadow-xl hover:scale-105 transition-all whitespace-nowrap text-sm sm:text-base">
               <Link to="/pagina-web-merida-venezuela">
-                <Globe className="w-5 h-5" />
+                <Globe className="w-5 h-5 flex-shrink-0" />
                 Creamos su Página Web en Mérida
               </Link>
             </Button>
