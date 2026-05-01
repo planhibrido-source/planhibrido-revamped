@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, TrendingUp, MessageCircle, Globe } from "lucide-react";
 import { Link } from "react-router-dom";
-import heroImage from "@/assets/hero-google-maps.jpg";
+import heroImage from "@/assets/portada-2.png";
 
 const LOGO_URL = "https://lh3.googleusercontent.com/pw/AP1GczMtpaJa0fgA0IZ8ZVA7zBDgSxnr1HwUvEznOpknSNFjEpXn4gTOiD4v7DCAGzyoj82N6RM2iYI3R5Sc916PLN_h8bpLBBRDfByO3VQ11Iy_WdktL6Q=w1920-h1080";
 import { useState, useEffect } from "react";
