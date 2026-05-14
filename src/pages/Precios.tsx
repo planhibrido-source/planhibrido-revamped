@@ -170,12 +170,7 @@ const Precios = () => {
               {services.map((s, idx) => (
                 <article
                   key={idx}
-                  className="relative rounded-xl overflow-hidden shadow-xl mb-8 break-inside-avoid"
-                  style={{
-                    backgroundImage: `url(${parchmentCard})`,
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                  }}
+                  className="relative rounded-xl overflow-hidden shadow-xl mb-8 break-inside-avoid bg-gradient-to-br from-[#f5e6c8] via-[#d9b77a] to-[#8b6a3d]"
                 >
                   <div className="p-6 sm:p-8 backdrop-blur-[1px]">
                     <h2 className="font-pirata text-3xl sm:text-4xl text-[#1C4378] mb-4 leading-tight">
