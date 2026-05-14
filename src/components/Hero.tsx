@@ -124,7 +124,7 @@ export const Hero = () => {
             <Button 
               variant="outline" 
               size="xl"
-              className="bg-white/40 backdrop-blur-sm text-red-600 border-white/30 hover:bg-white/60"
+              className="bg-white/40 backdrop-blur-sm text-black border-white/30 hover:bg-white/60"
               onClick={() => document.getElementById('planes')?.scrollIntoView({ behavior: 'smooth' })}
             >
               <TrendingUp className="w-5 h-5 text-green-600" />
