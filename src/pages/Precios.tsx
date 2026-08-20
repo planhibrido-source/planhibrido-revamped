@@ -182,7 +182,7 @@ const Precios = () => {
 
                     {s.solicitarVisita && s.solicitarVisita.trim() && (
                       <a
-                        href={`https://wa.me/584124373887?text=${encodeURIComponent(
+                        href={`https://wa.me/584247228020?text=${encodeURIComponent(
                           `Hola, deseo solicitar una visita o asesoría gratis sobre el servicio: ${s.servicio}`
                         )}`}
                         target="_blank"

@@ -25,7 +25,7 @@ export const CartHeader = () => {
       )
       .join("%0A");
     const message = `Hola,%20me%20interesa%20realizar%20el%20siguiente%20pedido:%0A%0A${lines}%0A%0A¿Podrían%20darme%20más%20información?`;
-    window.open(`https://wa.me/584140770120?text=${message}`, "_blank");
+    window.open(`https://wa.me/584247228020?text=${message}`, "_blank");
   };
 
   return (
