@@ -28,6 +28,11 @@ export const ExampleSites = () => {
       name: "Rapifrenos La 16",
       url: "https://sites.google.com/view/rapifrenosla16",
       description: "Servicio de frenos automotriz"
+    },
+    {
+      name: "Floristería San Benito",
+      url: "https://sites.google.com/view/floristeria-san-benito/floristeria-en-merida",
+      description: "Floristería en Mérida"
     }
   ];
 
