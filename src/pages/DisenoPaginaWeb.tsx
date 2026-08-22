@@ -342,7 +342,7 @@ const DisenoPaginaWeb = () => {
                   <p className="text-xs font-vt323 text-[#3B2F1E] text-center">
                     Ideal para comercios con inventario extenso o con más de dos categorías. Incluye optimización SEO avanzada.
                   </p>
-                  <Link to="/precios" className="flex items-center justify-end gap-1 hover:scale-105 transition-transform pt-2 whitespace-nowrap">
+                  <Link to="/precios" className="flex items-center justify-end gap-1 hover:scale-105 transition-transform pt-2 whitespace-nowrap mt-auto">
                     <span className="font-pirata text-base text-[#3B2F1E]">Comencemos por WhatsApp</span>
                     <img src={whatsappGold} alt="Consultar por WhatsApp" className="w-[5rem] h-[5rem] object-contain" />
                   </Link>
