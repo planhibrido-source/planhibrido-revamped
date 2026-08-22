@@ -90,7 +90,7 @@ export const Services = () => {
           <div className="relative overflow-hidden rounded-2xl shadow-lg group">
             <img 
               src={verificationImg} 
-              alt="Verificación de negocio en Google" 
+              alt="Recolectamos sus datos en persona, si lo prefiere" 
               className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
@@ -100,7 +100,7 @@ export const Services = () => {
           <div className="relative overflow-hidden rounded-2xl shadow-lg group">
             <img 
               src={optimizationImg} 
-              alt="Optimización de perfil" 
+              alt="Creamos su página web con dominio .COM.VE" 
               className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
@@ -114,7 +114,7 @@ export const Services = () => {
               className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
-              <p className="text-white font-semibold text-lg">Fotos Comerciales</p>
+              <p className="text-white font-semibold text-lg">Fotos y Vídeos Comerciales</p>
             </div>
           </div>
         </div>
