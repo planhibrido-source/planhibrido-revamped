@@ -111,7 +111,7 @@ const DisenoPaginaWeb = () => {
                     href="https://forms.gle/F9ZdA4YqWj1c9NnA6" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 bg-black/70 backdrop-blur-sm rounded-full px-4 py-2 text-white hover:scale-105 transition-transform animate-[twinkle-colors_8s_ease-in-out_infinite] shadow-lg"
+                    className="flex items-center gap-2 bg-black/85 backdrop-blur-sm rounded-full px-4 py-2 text-white hover:scale-105 transition-transform animate-[twinkle-colors_8s_ease-in-out_infinite] shadow-xl border border-white/20"
                   >
                     <div className="w-2 h-2 rounded-full" style={{ backgroundColor: 'currentColor' }} />
                     <span className="font-bold uppercase">Obtener Asesoría Gratuita</span>
