@@ -189,7 +189,7 @@ export const Plans = () => {
         <div className="text-center mb-16 space-y-4">
           <MatrixTitle text="Planes de Digitalización" />
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Diseñados para ajustarse a locales comerciales que no aparecen en Google Maps, tanto como para los que ya aparecen pero quieren aumentar su visibilidad
+            Diseñados para ajustarse a locales comerciales que no aparecen en Google Maps, tanto como para los que ya aparecen pero quieren más y nuevos clientes, por lo que les ofrecemos dominios .COM y .COM.VE en nuestros planes
           </p>
         </div>
 
