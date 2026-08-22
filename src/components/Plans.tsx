@@ -143,7 +143,7 @@ export const Plans = () => {
   const plans = [
     {
       name: "Plan Básico: Una Página Web + Catálogo General",
-      price: "$60 Anuales/$6 Mensuales: Con Dominio Web",
+      price: "$60 Anuales/$6 Mensuales: Con Dominio Web .COM",
       discountPrice: "$40 de Pago Único: Sin Dominio Web",
       ideal: "Ideal para comercios con pocos productos, solo servicios o con menos de 3 categorías",
       features: [
@@ -162,7 +162,7 @@ export const Plans = () => {
     },
     {
       name: "Plan Especial: Hasta 10 Páginas Web + Catálogo especifico",
-      price: "$120 Anuales/$12 Mensuales: Con Dominio Web",
+      price: "$120 Anuales/$12 Mensuales: Con Dominio Web .COM o .COM.VE",
       discountPrice: "$100 de Pago Único: Sin Dominio Web",
       ideal: "Ideal para comercios con inventario extenso o con más de 3 categorías",
       features: [
