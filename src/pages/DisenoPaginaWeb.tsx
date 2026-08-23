@@ -24,7 +24,7 @@ import sealCall from "@/assets/seal-call.png";
 import wallBg from "@/assets/wall-bg-new.jpg";
 import whatsappDoor from "@/assets/whatsapp-door.png";
 import googleDoor from "@/assets/google-door.png";
-import sealBlue from "@/assets/seal-blue.png";
+
 import tablasImg from "@/assets/tablas.jpg";
 
 const DisenoPaginaWeb = () => {
@@ -310,8 +310,7 @@ const DisenoPaginaWeb = () => {
                 {process.map((p, idx) => (
                   <div key={idx} className="p-4 rounded-xl transition-all duration-300 hover:shadow-lg" style={{ backgroundColor: 'rgba(212, 197, 160, 0.7)' }}>
                     <div className="flex gap-4 items-start">
-                      <div className="relative w-[4.2rem] h-[4.2rem] flex-shrink-0 flex items-center justify-center">
-                        <img src={sealBlue} alt="" className="absolute inset-0 w-full h-full object-contain" />
+                      <div className="relative w-[4.2rem] h-[4.2rem] flex-shrink-0 flex items-center justify-center rounded-full bg-[#1C4378] shadow-lg border-2 border-[#4A90E2]">
                         <span className="relative font-pirata text-xl font-bold text-yellow-300 animate-[pulse_3s_ease-in-out_infinite]">{p.step}</span>
                       </div>
                       <div>
