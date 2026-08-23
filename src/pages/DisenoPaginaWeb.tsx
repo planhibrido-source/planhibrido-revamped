@@ -327,7 +327,7 @@ const DisenoPaginaWeb = () => {
               {/* Card 1 */}
               <div className="relative hover:scale-[1.02] transition-transform duration-300">
                 <img src={parchmentCard} alt="" className="w-full h-auto block" />
-                <div className="absolute inset-0 flex flex-col items-center justify-center px-8 py-12 space-y-3">
+                <div className="absolute inset-0 flex flex-col items-center justify-start px-8 pt-14 pb-12 space-y-3">
                   <h3 className="text-[2.025rem] font-pirata text-[#1C4378] text-center">Una Página Web</h3>
                   <Link to="/precios" className="text-xl font-bold text-black hover:scale-105 transition-transform">$60 Anuales / $6 Mensuales</Link>
                   <p className="text-lg font-vt323 text-[#3B2F1E] italic">Con Dominio Web incluido</p>
@@ -346,7 +346,7 @@ const DisenoPaginaWeb = () => {
               {/* Card 2 */}
               <div className="relative hover:scale-[1.02] transition-transform duration-300">
                 <img src={parchmentCard} alt="" className="w-full h-auto block" />
-                <div className="absolute inset-0 flex flex-col items-center justify-center px-8 py-12 space-y-3">
+                <div className="absolute inset-0 flex flex-col items-center justify-start px-8 pt-14 pb-12 space-y-3">
                   <h3 className="text-[2.025rem] font-pirata text-[#1C4378] text-center">Hasta 10 Páginas Web Relacionadas</h3>
                   <Link to="/precios" className="text-xl font-bold text-black hover:scale-105 transition-transform">$120 Anuales / $12 Mensuales</Link>
                   <p className="text-lg font-vt323 text-[#3B2F1E] italic">Con Dominio Web incluido</p>
