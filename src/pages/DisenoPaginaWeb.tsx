@@ -175,7 +175,7 @@ const DisenoPaginaWeb = () => {
         </section>
 
         {/* ¿Por qué una página web? */}
-        <section className="pt-[24%] sm:pt-[20%] pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+        <section className="pt-4 sm:pt-8 pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
           {/* Mobile parchment background */}
           <div 
             className="absolute inset-0 md:hidden" 
