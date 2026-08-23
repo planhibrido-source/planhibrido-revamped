@@ -174,56 +174,38 @@ const DisenoPaginaWeb = () => {
         </section>
 
         {/* ¿Por qué una página web? */}
-        <section className="pt-4 sm:pt-8 pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-          {/* Mobile parchment background */}
-          <div 
-            className="absolute inset-0 md:hidden" 
-            style={{ 
-              backgroundImage: `url(${parchmentScrollServices})`, 
-              backgroundSize: "100% 100%", 
-              backgroundPosition: "center", 
-              backgroundRepeat: "no-repeat" 
-            }} 
-          />
-          {/* Desktop parchment background */}
-          <div 
-            className="absolute inset-0 hidden md:block" 
-            style={{ 
-              backgroundImage: `url(${parchmentScrollDesktop})`, 
-              backgroundSize: "contain", 
-              backgroundPosition: "center", 
-              backgroundRepeat: "no-repeat" 
-            }} 
-          />
-          <div className="container mx-auto max-w-5xl relative z-10">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {features.map((f, idx) => (
-                <Card key={idx} className="p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-border/50 backdrop-blur-sm" style={{ backgroundColor: "hsl(39 40% 93% / 0.7)", borderColor: "hsl(30 30% 70% / 0.4)" }}>
-                  <div className="space-y-4">
-                    <div className="flex items-center gap-3">
-                      <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
-                        <f.icon className="w-6 h-6 text-primary" />
+        <section className="py-12 sm:py-20 px-4 sm:px-6 lg:px-8">
+          <div className="container mx-auto max-w-5xl">
+            <div className="bg-[#f5e6c8] rounded-3xl p-6 sm:p-10 shadow-lg border border-[#d9b77a]/40">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {features.map((f, idx) => (
+                  <Card key={idx} className="p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 border-border/50 bg-white/60 backdrop-blur-sm">
+                    <div className="space-y-4">
+                      <div className="flex items-center gap-3">
+                        <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                          <f.icon className="w-6 h-6 text-primary" />
+                        </div>
+                        <h3 className="font-pirata text-2xl text-black">{f.title}</h3>
                       </div>
-                      <h3 className="font-pirata text-2xl text-black">{f.title}</h3>
+                      <p className="text-lg font-vt323 text-foreground">{f.desc}</p>
                     </div>
-                    <p className="text-lg font-vt323 text-foreground">{f.desc}</p>
-                  </div>
-                </Card>
-              ))}
-            </div>
-            <div className="text-center mt-12 space-y-4">
-               <h2 className="text-3xl sm:text-4xl font-pirata text-[#1C4378]">
-                ¿Por qué su negocio necesita una página web en Mérida?
-                </h2>
-              <p className="text-[1.0625rem] font-vt323 text-foreground max-w-3xl mx-auto">
-                Una página web es su vitrina digital las 24 horas del día. Permite que clientes potenciales 
-                conozcan sus productos y servicios, lo contacten fácilmente y confíen en su negocio antes de 
-                visitarlo bien sea en el Centro, en Las Americas, en la Humboldt, en la Milagrosa, en la 
-                Avenida Universidad, en la Avenida 16, en la Avenida Urdaneta, en las Tapias, en la Pedregosa, 
-                en la Hechicera, en los Proceres, en los Chorros, en Santa Juana, en los Curos, en la Mata, en 
-                Zumba, en la Avenida Andres Bello o en Belenzate quienes busquen información relacionada a su
-                negocio lo encuentran con mayor facilidad en toda Mérida, Venezuela.
-              </p>
+                  </Card>
+                ))}
+              </div>
+              <div className="text-center mt-12 space-y-4">
+                 <h2 className="text-3xl sm:text-4xl font-pirata text-[#1C4378]">
+                  ¿Por qué su negocio necesita una página web en Mérida?
+                  </h2>
+                <p className="text-[1.0625rem] font-vt323 text-foreground max-w-3xl mx-auto">
+                  Una página web es su vitrina digital las 24 horas del día. Permite que clientes potenciales 
+                  conozcan sus productos y servicios, lo contacten fácilmente y confíen en su negocio antes de 
+                  visitarlo bien sea en el Centro, en Las Americas, en la Humboldt, en la Milagrosa, en la 
+                  Avenida Universidad, en la Avenida 16, en la Avenida Urdaneta, en las Tapias, en la Pedregosa, 
+                  en la Hechicera, en los Proceres, en los Chorros, en Santa Juana, en los Curos, en la Mata, en 
+                  Zumba, en la Avenida Andres Bello o en Belenzate quienes busquen información relacionada a su
+                  negocio lo encuentran con mayor facilidad en toda Mérida, Venezuela.
+                </p>
+              </div>
             </div>
           </div>
         </section>
