@@ -24,8 +24,6 @@ import wallBg from "@/assets/wall-bg-new.jpg";
 import whatsappDoor from "@/assets/whatsapp-door.png";
 import googleDoor from "@/assets/google-door.png";
 import sealBlue from "@/assets/seal-blue.png";
-import serviciosBasicos from "@/assets/servicios-basicos.png";
-import serviciosAvanzados from "@/assets/servicios-avanzados.png";
 import tablasImg from "@/assets/tablas.jpg";
 
 const DisenoPaginaWeb = () => {
