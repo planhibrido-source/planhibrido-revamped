@@ -13,7 +13,6 @@ import parchmentBg from "@/assets/parchment-bg.png";
 import benefitsBg from "@/assets/benefits-bg.jpg";
 import parchmentScroll from "@/assets/parchment-scroll.png";
 import parchmentScrollDesktop from "@/assets/parchment-scroll-desktop.png";
-import parchmentScrollServices from "@/assets/parchment-scroll-services.png";
 import waxSealCheck from "@/assets/wax-seal-check.png";
 import parchmentPricing from "@/assets/parchment-pricing.png";
 import parchmentCard from "@/assets/blank-scroll.jpg";
