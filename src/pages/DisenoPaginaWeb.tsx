@@ -337,11 +337,11 @@ const DisenoPaginaWeb = () => {
                   <p className="text-xs font-vt323 text-[#3B2F1E] text-center">
                     Ideal para comercios con pocos productos, solo servicios o con solo una categoría.
                   </p>
-                  <Link to="/precios" className="flex items-center justify-end gap-1 hover:scale-105 transition-transform pt-2 whitespace-nowrap mt-auto">
-                    <span className="font-pirata text-base text-[#3B2F1E]">Comencemos por WhatsApp</span>
-                    <img src={whatsappSeal} alt="Consultar por WhatsApp" className="w-[5rem] h-[5rem] object-contain" />
-                  </Link>
                 </div>
+                <Link to="/precios" className="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center justify-end gap-1 hover:scale-105 transition-transform pt-2 whitespace-nowrap">
+                  <span className="font-pirata text-base text-[#3B2F1E]">Comencemos por WhatsApp</span>
+                  <img src={whatsappSeal} alt="Consultar por WhatsApp" className="w-[5rem] h-[5rem] object-contain" />
+                </Link>
               </div>
               {/* Card 2 */}
               <div className="relative hover:scale-[1.02] transition-transform duration-300">
