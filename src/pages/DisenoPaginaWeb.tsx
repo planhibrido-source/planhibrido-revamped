@@ -13,6 +13,7 @@ import parchmentBg from "@/assets/parchment-bg.png";
 import benefitsBg from "@/assets/benefits-bg.jpg";
 import parchmentScroll from "@/assets/parchment-scroll.png";
 import parchmentScrollDesktop from "@/assets/parchment-scroll-desktop.png";
+import parchmentScrollServices from "@/assets/parchment-scroll-services.png";
 import waxSealCheck from "@/assets/wax-seal-check.png";
 import parchmentPricing from "@/assets/parchment-pricing.png";
 import parchmentCard from "@/assets/blank-scroll.jpg";
@@ -175,8 +176,26 @@ const DisenoPaginaWeb = () => {
 
         {/* ¿Por qué una página web? */}
         <section className="pt-[24%] sm:pt-[20%] pb-20 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
-          {/* Parchment background image */}
-          <div className="absolute inset-0" style={{ backgroundImage: `url(${parchmentCard})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat" }} />
+          {/* Mobile parchment background */}
+          <div 
+            className="absolute inset-0 md:hidden" 
+            style={{ 
+              backgroundImage: `url(${parchmentScrollServices})`, 
+              backgroundSize: "100% 100%", 
+              backgroundPosition: "center", 
+              backgroundRepeat: "no-repeat" 
+            }} 
+          />
+          {/* Desktop parchment background */}
+          <div 
+            className="absolute inset-0 hidden md:block" 
+            style={{ 
+              backgroundImage: `url(${parchmentScrollDesktop})`, 
+              backgroundSize: "contain", 
+              backgroundPosition: "center", 
+              backgroundRepeat: "no-repeat" 
+            }} 
+          />
           <div className="container mx-auto max-w-5xl relative z-10">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {features.map((f, idx) => (
